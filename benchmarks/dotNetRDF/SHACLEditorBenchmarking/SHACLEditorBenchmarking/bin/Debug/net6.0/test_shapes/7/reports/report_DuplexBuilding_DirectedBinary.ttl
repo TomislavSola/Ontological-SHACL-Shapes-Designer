@@ -1,0 +1,2205 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+_:autos1 a sh:ValidationReport;
+         sh:conforms false;
+         sh:result [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53ebc8> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f220> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f2f4> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f31b> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f378> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f379> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f37a> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f37b> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc985003> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc98500b> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc98501e> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc985031> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc9850b2> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc985144> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc98514e> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc985156> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc98515e> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc985166> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc98516e> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc985170> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc985748> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_64b7f7d3-8cfc-4277-ba33-8de2e6533926> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_64b7f7d3-8cfc-4277-ba33-8de2e6533fec> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_6b61ce71-1a7a-473c-8f87-4262e0bdb41a> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_6b61ce71-1a7a-473c-8f87-4262e0bdb448> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_6b61ce71-1a7a-473c-8f87-4262e0bdc223> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_6b61ce71-1a7a-473c-8f87-4262e0bdc24f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_6b61ce71-1a7a-473c-8f87-4262e0bdc370> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_6b61ce71-1a7a-473c-8f87-4262e0bdc3d4> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_7606d7eb-508f-40ce-a522-9b526ddc7201> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_7606d7eb-508f-40ce-a522-9b526ddc728b> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_982f59b0-f2e1-485f-8ce1-c9f6117b8873> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_982f59b0-f2e1-485f-8ce1-c9f6117b9655> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_982f59b0-f2e1-485f-8ce1-c9f6117b96c4> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_982f59b0-f2e1-485f-8ce1-c9f6117b97df> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#footing_2e3c415a-d885-4964-a589-bb0941bdd08b> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#footing_2e3c415a-d885-4964-a589-bb0941bdd097> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#footing_2e3c415a-d885-4964-a589-bb0941bdd0a3> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#footing_2e3c415a-d885-4964-a589-bb0941bdd167> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#footing_2e3c415a-d885-4964-a589-bb0941bdd16f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#footing_2e3c415a-d885-4964-a589-bb0941bdd177> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#footing_2e3c415a-d885-4964-a589-bb0941bdd17f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#member_5f1efada-bcd8-41b6-aff4-ad3fb24b7679> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#member_aee7272c-8ef2-4af0-b3f4-1509a4c67b98> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#member_d776d4d4-ad53-498c-9675-a4d357bd81ef> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#member_f26519b1-a697-4f79-9628-ca1443a95258> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#railing_3ab8ee1d-07ad-41b9-8f24-a55884e7e651> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#railing_3ab8ee1d-07ad-41b9-8f24-a55884e7e655> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#railing_81be7c96-ce56-447e-9d93-021422f830c5> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#railing_81be7c96-ce56-447e-9d93-021422f83119> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#roof_2da40d62-4698-436c-a2c3-95c49bb70eef> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_09a873b2-0e03-4eb2-b9f1-da270188dc92> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_6b61ce71-1a7a-473c-8f87-4262e0bdbd1e> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_6b61ce71-1a7a-473c-8f87-4262e0bdbd56> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_9808fd7f-dc48-478e-9217-628e833d410f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_9808fd7f-dc48-478e-9217-628e833d49bd> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b700f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b70a9> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7160> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b720f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7236> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b72d9> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7300> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7361> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7a31> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7a99> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7b5b> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7b78> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7ca4> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7ef5> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#stair_3ab8ee1d-07ad-41b9-8f24-a55884e7e601> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#stair_81be7c96-ce56-447e-9d93-021422f83127> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#stairflight_06e324b6-962d-4317-b253-85e1df8c71f8> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#stairflight_ca457005-aa0d-4679-92c1-5067d702c9f3> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_27ece05c-f06c-4dd2-9ccd-945e52597b0a> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_27ece05c-f06c-4dd2-9ccd-945e52597fa3> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2c391822-07f8-4a22-86a8-a1e57412d365> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2c391822-07f8-4a22-86a8-a1e57412d386> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2c391822-07f8-4a22-86a8-a1e57412d8c1> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2c391822-07f8-4a22-86a8-a1e57412dcef> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2c391822-07f8-4a22-86a8-a1e57412df9e> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2da40d62-4698-436c-a2c3-95c49bb70c3c> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2da40d62-4698-436c-a2c3-95c49bb70ca4> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2da40d62-4698-436c-a2c3-95c49bb70cfa> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2da40d62-4698-436c-a2c3-95c49bb70d41> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_64b7f7d3-8cfc-4277-ba33-8de2e65338fa> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_64b7f7d3-8cfc-4277-ba33-8de2e6533a28> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_64b7f7d3-8cfc-4277-ba33-8de2e6533ae9> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_64b7f7d3-8cfc-4277-ba33-8de2e6533e77> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d4004> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d4065> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d40ce> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d4200> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d4257> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d4385> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d43b5> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d441c> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d44b8> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d46d1> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d46ec> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d471d> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d4938> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5239> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5246> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5275> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5330> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5393> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d548e> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d54e7> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5512> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d55b5> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5611> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5659> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d568d> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d56c9> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d574f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d7938> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d795d> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d7af9> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d7be7> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d7d12> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d7d42> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d7df1> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_4ec82fcb-9118-4408-a3ae-37969a37298d> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_4ec82fcb-9118-4408-a3ae-37969a372f02> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdb1c2> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdb2de> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdb57b> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdb6d5> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdc056> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdc09f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdc11a> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdc858> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdcaa4> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdcc4c> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdccc1> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdcfa0> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d84448e3> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d844491c> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444a9a> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444af9> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444b93> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444cb4> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444cde> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444d36> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444e01> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444fe8> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53ebc8> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f220> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f2f4> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f31b> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f378> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f379> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f37a> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f37b> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc985003> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc98500b> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc98501e> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc985031> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc9850b2> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc985144> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc98514e> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc985156> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc98515e> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc985166> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc98516e> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc985170> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#covering_e586c31c-dfb6-463e-aee7-a2dffc985748> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_64b7f7d3-8cfc-4277-ba33-8de2e6533926> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_64b7f7d3-8cfc-4277-ba33-8de2e6533fec> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_6b61ce71-1a7a-473c-8f87-4262e0bdb41a> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_6b61ce71-1a7a-473c-8f87-4262e0bdb448> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_6b61ce71-1a7a-473c-8f87-4262e0bdc223> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_6b61ce71-1a7a-473c-8f87-4262e0bdc24f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_6b61ce71-1a7a-473c-8f87-4262e0bdc370> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_6b61ce71-1a7a-473c-8f87-4262e0bdc3d4> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_7606d7eb-508f-40ce-a522-9b526ddc7201> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_7606d7eb-508f-40ce-a522-9b526ddc728b> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_982f59b0-f2e1-485f-8ce1-c9f6117b8873> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_982f59b0-f2e1-485f-8ce1-c9f6117b9655> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_982f59b0-f2e1-485f-8ce1-c9f6117b96c4> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#door_982f59b0-f2e1-485f-8ce1-c9f6117b97df> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#footing_2e3c415a-d885-4964-a589-bb0941bdd08b> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#footing_2e3c415a-d885-4964-a589-bb0941bdd097> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#footing_2e3c415a-d885-4964-a589-bb0941bdd0a3> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#footing_2e3c415a-d885-4964-a589-bb0941bdd167> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#footing_2e3c415a-d885-4964-a589-bb0941bdd16f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#footing_2e3c415a-d885-4964-a589-bb0941bdd177> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#footing_2e3c415a-d885-4964-a589-bb0941bdd17f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#member_5f1efada-bcd8-41b6-aff4-ad3fb24b7679> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#member_aee7272c-8ef2-4af0-b3f4-1509a4c67b98> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#member_d776d4d4-ad53-498c-9675-a4d357bd81ef> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#member_f26519b1-a697-4f79-9628-ca1443a95258> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#railing_3ab8ee1d-07ad-41b9-8f24-a55884e7e651> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#railing_3ab8ee1d-07ad-41b9-8f24-a55884e7e655> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#railing_81be7c96-ce56-447e-9d93-021422f830c5> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#railing_81be7c96-ce56-447e-9d93-021422f83119> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#roof_2da40d62-4698-436c-a2c3-95c49bb70eef> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_09a873b2-0e03-4eb2-b9f1-da270188dc92> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_6b61ce71-1a7a-473c-8f87-4262e0bdbd1e> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_6b61ce71-1a7a-473c-8f87-4262e0bdbd56> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_9808fd7f-dc48-478e-9217-628e833d410f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_9808fd7f-dc48-478e-9217-628e833d49bd> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b700f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b70a9> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7160> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b720f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7236> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b72d9> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7300> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7361> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7a31> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7a99> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7b5b> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7b78> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7ca4> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#slab_982f59b0-f2e1-485f-8ce1-c9f6117b7ef5> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#stair_3ab8ee1d-07ad-41b9-8f24-a55884e7e601> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#stair_81be7c96-ce56-447e-9d93-021422f83127> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#stairflight_06e324b6-962d-4317-b253-85e1df8c71f8> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#stairflight_ca457005-aa0d-4679-92c1-5067d702c9f3> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_27ece05c-f06c-4dd2-9ccd-945e52597b0a> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_27ece05c-f06c-4dd2-9ccd-945e52597fa3> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2c391822-07f8-4a22-86a8-a1e57412d365> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2c391822-07f8-4a22-86a8-a1e57412d386> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2c391822-07f8-4a22-86a8-a1e57412d8c1> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2c391822-07f8-4a22-86a8-a1e57412dcef> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2c391822-07f8-4a22-86a8-a1e57412df9e> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2da40d62-4698-436c-a2c3-95c49bb70c3c> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2da40d62-4698-436c-a2c3-95c49bb70ca4> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2da40d62-4698-436c-a2c3-95c49bb70cfa> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_2da40d62-4698-436c-a2c3-95c49bb70d41> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_64b7f7d3-8cfc-4277-ba33-8de2e65338fa> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_64b7f7d3-8cfc-4277-ba33-8de2e6533a28> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_64b7f7d3-8cfc-4277-ba33-8de2e6533ae9> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_64b7f7d3-8cfc-4277-ba33-8de2e6533e77> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d4004> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d4065> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d40ce> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d4200> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d4257> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d4385> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d43b5> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d441c> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d44b8> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d46d1> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d46ec> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d471d> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d4938> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5239> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5246> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5275> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5330> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5393> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d548e> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d54e7> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5512> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d55b5> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5611> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d5659> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d568d> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d56c9> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d574f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d7938> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d795d> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d7af9> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d7be7> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d7d12> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d7d42> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#wall_9808fd7f-dc48-478e-9217-628e833d7df1> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_4ec82fcb-9118-4408-a3ae-37969a37298d> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_4ec82fcb-9118-4408-a3ae-37969a372f02> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdb1c2> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdb2de> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdb57b> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdb6d5> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdc056> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdc09f> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdc11a> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdc858> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdcaa4> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdcc4c> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdccc1> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6b61ce71-1a7a-473c-8f87-4262e0bdcfa0> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d84448e3> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d844491c> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444a9a> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444af9> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444b93> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444cb4> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444cde> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444d36> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444e01> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#window_6f010293-ddb7-4fe4-8ffd-c144d8444fe8> ; 
+                    sh:resultPath <https://w3id.org/bot#hostsElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 10 value(s)." ; 
+                    sh:sourceShape _:autos4 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/bot#hasSimple3DModel>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:HasValueConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value must be https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#wall_9808fd7f-dc48-478e-9217-628e833d7938." ; 
+                    sh:sourceShape _:autos4 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/bot#hasSimple3DModel>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 10 value(s)." ; 
+                    sh:sourceShape _:autos5 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/bot#hasElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Number of value nodes matching the shape _:autos156534 must be at least 4." ; 
+                    sh:sourceShape _:autos5 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/bot#hasElement>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:ClosedConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value node must not have properties other than those defined by this shape." ; 
+                    sh:sourceShape _:autos6 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath rdf:type ; 
+                    sh:value <https://w3id.org/bot#Building>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:ClosedConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value node must not have properties other than those defined by this shape." ; 
+                    sh:sourceShape _:autos6 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/bot#hasStorey> ; 
+                    sh:value <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#storey_7b7032cc-b822-417b-9aea-6429f95f6ab3>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:ClosedConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value node must not have properties other than those defined by this shape." ; 
+                    sh:sourceShape _:autos6 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/bot#hasStorey> ; 
+                    sh:value <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#storey_7b7032cc-b822-417b-9aea-6429f95f770e>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:ClosedConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value node must not have properties other than those defined by this shape." ; 
+                    sh:sourceShape _:autos6 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/bot#hasStorey> ; 
+                    sh:value <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#storey_7b7032cc-b822-417b-9aea-6429f95d6512>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:ClosedConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value node must not have properties other than those defined by this shape." ; 
+                    sh:sourceShape _:autos6 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/bot#hasStorey> ; 
+                    sh:value <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#storey_7b7032cc-b822-417b-9aea-6429f95d6693>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:ClosedConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value node must not have properties other than those defined by this shape." ; 
+                    sh:sourceShape _:autos6 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/props#categoryCode_simple> ; 
+                    sh:value "11-16 21 11"],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:ClosedConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value node must not have properties other than those defined by this shape." ; 
+                    sh:sourceShape _:autos6 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/props#categoryDescription_simple> ; 
+                    sh:value "Duplex"],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:ClosedConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value node must not have properties other than those defined by this shape." ; 
+                    sh:sourceShape _:autos6 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/props#clientName_simple> ; 
+                    sh:value "Owner"],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:ClosedConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value node must not have properties other than those defined by this shape." ; 
+                    sh:sourceShape _:autos6 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/props#globalIdIfcRoot_attribute_simple> ; 
+                    sh:value "1xS3BCk291UvhgP2a6eflK"],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:ClosedConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value node must not have properties other than those defined by this shape." ; 
+                    sh:sourceShape _:autos6 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/props#numberOfStoreys_simple> ; 
+                    sh:value 4 ],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:ClosedConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value node must not have properties other than those defined by this shape." ; 
+                    sh:sourceShape _:autos6 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/props#projectAddress_simple> ; 
+                    sh:value "Enter address here"],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:ClosedConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value node must not have properties other than those defined by this shape." ; 
+                    sh:sourceShape _:autos6 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/props#projectIssueDate_simple> ; 
+                    sh:value "Issue Date"],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:ClosedConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value node must not have properties other than those defined by this shape." ; 
+                    sh:sourceShape _:autos6 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/props#projectName_simple> ; 
+                    sh:value "Duplex Apartment"],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:ClosedConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value node must not have properties other than those defined by this shape." ; 
+                    sh:sourceShape _:autos6 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/73e88d7c-4c15-44c3-8d13-8718bae0b8ff#building_7b7032cc-b822-417b-9aea-642906a29bd4> ; 
+                    sh:resultPath <https://w3id.org/props#projectNumber_simple> ; 
+                    sh:value "0001"].

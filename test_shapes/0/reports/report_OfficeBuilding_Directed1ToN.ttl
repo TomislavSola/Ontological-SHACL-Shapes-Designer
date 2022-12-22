@@ -1,0 +1,250 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba8f9> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba8f9->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_a9636182-0fb7-45a8-849e-a2e5ac780d1b> ;
+            sh:resultMessage "Less than 5 values on inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d1b->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba8fc> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba8fc->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_a9636182-0fb7-45a8-849e-a2e5ac780d33> ;
+            sh:resultMessage "Less than 5 values on inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d33->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba8f0> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba8f0->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba845> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba845->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba912> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba912->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_a9636182-0fb7-45a8-849e-a2e5ac780d27> ;
+            sh:resultMessage "Less than 5 values on inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d27->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba86f> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba86f->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba85f> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba85f->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_a9636182-0fb7-45a8-849e-a2e5ac780d3d> ;
+            sh:resultMessage "Less than 5 values on inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d3d->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_a9636182-0fb7-45a8-849e-a2e5ac780d18> ;
+            sh:resultMessage "Less than 5 values on inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d18->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba8e2> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba8e2->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_a9636182-0fb7-45a8-849e-a2e5ac780d05> ;
+            sh:resultMessage "Less than 5 values on inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d05->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_a9636182-0fb7-45a8-849e-a2e5ac780d3a> ;
+            sh:resultMessage "Less than 5 values on inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d3a->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba907> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba907->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba853> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba853->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441b97f8> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441b97f8->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba90d> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba90d->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba8ff> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba8ff->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_a9636182-0fb7-45a8-849e-a2e5ac780d0c> ;
+            sh:resultMessage "Less than 5 values on inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d0c->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba85c> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba85c->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_a9636182-0fb7-45a8-849e-a2e5ac780d09> ;
+            sh:resultMessage "Less than 5 values on inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d09->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba859> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba859->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba90a> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba90a->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba8f6> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba8f6->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_a9636182-0fb7-45a8-849e-a2e5ac780d02> ;
+            sh:resultMessage "Less than 5 values on inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d02->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba92f> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba92f->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_7dbced0e-75c5-49e5-96fe-c17e419a519e> ;
+            sh:resultMessage "Less than 5 values on inst:space_7dbced0e-75c5-49e5-96fe-c17e419a519e->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_a9636182-0fb7-45a8-849e-a2e5ac780d36> ;
+            sh:resultMessage "Less than 5 values on inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d36->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba842> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba842->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba8f3> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba8f3->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_a9636182-0fb7-45a8-849e-a2e5ac780d30> ;
+            sh:resultMessage "Less than 5 values on inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d30->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#space_c9089c8f-7a55-4109-80bd-c449441ba856> ;
+            sh:resultMessage "Less than 5 values on inst:space_c9089c8f-7a55-4109-80bd-c449441ba856->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ne90b8ca2de5a41969c0c2a7fa41657c0b2 ] .
+
+_:ne90b8ca2de5a41969c0c2a7fa41657c0b2 a sh:PropertyShape ;
+    sh:maxCount 5 ;
+    sh:minCount 5 ;
+    sh:path bot:hasElement .
+

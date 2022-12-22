@@ -1,0 +1,81 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+_:autos1 a sh:ValidationReport;
+         sh:conforms false;
+         sh:result [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MaxCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There must be no more than 1 values." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ; 
+                    sh:resultPath <https://w3id.org/bot#hasStorey>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:NodeConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value must conform to the specified node shape." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ; 
+                    sh:resultPath <https://w3id.org/bot#hasStorey> ; 
+                    sh:value <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#storey_810ac2c2-d772-48c9-864f-ab607f359228>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:NodeConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value must conform to the specified node shape." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ; 
+                    sh:resultPath <https://w3id.org/bot#hasStorey> ; 
+                    sh:value <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#storey_810ac2c2-d772-48c9-864f-ab607f359168>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:NodeConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value must conform to the specified node shape." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ; 
+                    sh:resultPath <https://w3id.org/bot#hasStorey> ; 
+                    sh:value <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#storey_810ac2c2-d772-48c9-864f-ab607f34c6a1>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:NodeConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Value must conform to the specified node shape." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ; 
+                    sh:resultPath <https://w3id.org/bot#hasStorey> ; 
+                    sh:value <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#storey_810ac2c2-d772-48c9-864f-ab607f30474f>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "Number of value nodes matching the shape _:autos3415 must be at least 1." ; 
+                    sh:sourceShape _:autos2 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ; 
+                    sh:resultPath <https://w3id.org/bot#hasStorey>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#storey_810ac2c2-d772-48c9-864f-ab607f30474f> ; 
+                    sh:resultPath <https://w3id.org/bot#hasSpace>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#storey_810ac2c2-d772-48c9-864f-ab607f34c6a1> ; 
+                    sh:resultPath <https://w3id.org/bot#hasSpace>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MaxCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There must be no more than 1 values." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#storey_810ac2c2-d772-48c9-864f-ab607f359168> ; 
+                    sh:resultPath <https://w3id.org/bot#hasSpace>],
+                   [a sh:ValidationResult ; 
+                    sh:sourceConstraintComponent sh:MinCountConstraintComponent ; 
+                    sh:resultSeverity sh:Violation ; 
+                    sh:resultMessage "There should be at least 1 value(s)." ; 
+                    sh:sourceShape _:autos3 ; 
+                    sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#storey_810ac2c2-d772-48c9-864f-ab607f359228> ; 
+                    sh:resultPath <https://w3id.org/bot#hasSpace>].

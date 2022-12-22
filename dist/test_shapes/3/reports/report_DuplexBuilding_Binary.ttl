@@ -1,0 +1,113 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95d6512> ;
+            sh:resultMessage "More than 1 values on inst:storey_7b7032cc-b822-417b-9aea-6429f95d6512->bot:hasSpace" ;
+            sh:resultPath bot:hasSpace ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxCountConstraintComponent ;
+            sh:sourceShape _:nae8f0008c254421fb184f1323759bd97b4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95f6ab3> ;
+            sh:resultMessage "Less than 1 values on inst:storey_7b7032cc-b822-417b-9aea-6429f95f6ab3->bot:hasSpace" ;
+            sh:resultPath bot:hasSpace ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nae8f0008c254421fb184f1323759bd97b4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value does not conform to Shape [ rdf:type sh:NodeShape ; sh:nodeKind sh:BlankNodeOrIRI ; sh:property [ rdf:type sh:PropertyShape ; sh:maxCount Literal(\"1\", datatype=xsd:integer) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path bot:hasSpace ] ; sh:targetClass bot:Storey ]" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:nae8f0008c254421fb184f1323759bd97b2 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95d6512> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95f770e> ;
+            sh:resultMessage "Less than 1 values on inst:storey_7b7032cc-b822-417b-9aea-6429f95f770e->bot:hasSpace" ;
+            sh:resultPath bot:hasSpace ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nae8f0008c254421fb184f1323759bd97b4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "More than 1 values on inst:building_7b7032cc-b822-417b-9aea-642906a29bd4->bot:hasStorey" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxCountConstraintComponent ;
+            sh:sourceShape _:nae8f0008c254421fb184f1323759bd97b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape _:nae8f0008c254421fb184f1323759bd97b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value does not conform to Shape [ rdf:type sh:NodeShape ; sh:nodeKind sh:BlankNodeOrIRI ; sh:property [ rdf:type sh:PropertyShape ; sh:maxCount Literal(\"1\", datatype=xsd:integer) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path bot:hasSpace ] ; sh:targetClass bot:Storey ]" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:nae8f0008c254421fb184f1323759bd97b2 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95f6ab3> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95d6693> ;
+            sh:resultMessage "More than 1 values on inst:storey_7b7032cc-b822-417b-9aea-6429f95d6693->bot:hasSpace" ;
+            sh:resultPath bot:hasSpace ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxCountConstraintComponent ;
+            sh:sourceShape _:nae8f0008c254421fb184f1323759bd97b4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value does not conform to Shape [ rdf:type sh:NodeShape ; sh:nodeKind sh:BlankNodeOrIRI ; sh:property [ rdf:type sh:PropertyShape ; sh:maxCount Literal(\"1\", datatype=xsd:integer) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path bot:hasSpace ] ; sh:targetClass bot:Storey ]" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:nae8f0008c254421fb184f1323759bd97b2 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95d6693> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value does not conform to Shape [ rdf:type sh:NodeShape ; sh:nodeKind sh:BlankNodeOrIRI ; sh:property [ rdf:type sh:PropertyShape ; sh:maxCount Literal(\"1\", datatype=xsd:integer) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path bot:hasSpace ] ; sh:targetClass bot:Storey ]" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:nae8f0008c254421fb184f1323759bd97b2 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95f770e> ] .
+
+_:N1196f9ae719f4ebc8a496053e9b88869 a sh:PropertyShape ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path bot:hasSpace .
+
+_:N7d09f66f29dc45e88716eb80087d5085 a sh:PropertyShape ;
+    sh:class bot:Element ;
+    sh:maxCount 5 ;
+    sh:minCount 5 ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:path bot:hasElement .
+
+_:Nef61f7779b664b2980dc998d7ee9ff8a a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property _:N1196f9ae719f4ebc8a496053e9b88869 ;
+    sh:targetClass bot:Storey .
+
+_:nae8f0008c254421fb184f1323759bd97b4 a sh:PropertyShape ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path bot:hasSpace .
+
+_:nae8f0008c254421fb184f1323759bd97b2 a sh:PropertyShape ;
+    sh:class bot:Storey ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:node _:Nef61f7779b664b2980dc998d7ee9ff8a ;
+    sh:path bot:hasStorey ;
+    sh:qualifiedMaxCount 1 ;
+    sh:qualifiedMinCount 1 ;
+    sh:qualifiedValueShape _:N7d09f66f29dc45e88716eb80087d5085 ;
+    sh:qualifiedValueShapesDisjoint true .
+

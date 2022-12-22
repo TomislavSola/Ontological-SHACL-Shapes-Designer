@@ -1,0 +1,29 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property [ a sh:PropertyShape ;
+            sh:class bot:Storey ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:node [ a sh:NodeShape ;
+                    sh:nodeKind sh:BlankNodeOrIRI ;
+                    sh:property [ a sh:PropertyShape ;
+                            sh:maxCount 1 ;
+                            sh:minCount 1 ;
+                            sh:path bot:hasSpace ] ;
+                    sh:targetClass bot:Storey ] ;
+            sh:path bot:hasStorey ;
+            sh:qualifiedMaxCount 1 ;
+            sh:qualifiedMinCount 1 ;
+            sh:qualifiedValueShape [ a sh:PropertyShape ;
+                    sh:class bot:Element ;
+                    sh:maxCount 5 ;
+                    sh:minCount 5 ;
+                    sh:nodeKind sh:BlankNodeOrIRI ;
+                    sh:path bot:hasElement ] ;
+            sh:qualifiedValueShapesDisjoint true ] ;
+    sh:targetClass bot:Building .
+

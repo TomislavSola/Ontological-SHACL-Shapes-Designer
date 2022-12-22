@@ -1,0 +1,64 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix cto: <https://w3id.org/cto#> .
+@prefix inst: <https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( bot:hasBuilding cto:isSubjectOfTask ) ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property [ a sh:PropertyShape ;
+            sh:datatype xsd:long ;
+            sh:hasValue inst:wall_9808fd7f-dc48-478e-9217-628e833d7938 ;
+            sh:in ( inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b8873 inst:wall_9808fd7f-dc48-478e-9217-628e833d7d12 ) ;
+            sh:maxCount 10 ;
+            sh:maxExclusive 1000 ;
+            sh:maxInclusive 1000 ;
+            sh:minCount 10 ;
+            sh:minExclusive 1000 ;
+            sh:minInclusive 1000 ;
+            sh:path bot:hasSimple3DModel ],
+        [ a sh:PropertyShape ;
+            sh:class bot:Element ;
+            sh:disjoint bot:adjacentZone ;
+            sh:equals bot:containsZone ;
+            sh:lessThan bot:has3DModel ;
+            sh:lessThanOrEquals bot:hasBuilding ;
+            sh:maxCount 10 ;
+            sh:minCount 10 ;
+            sh:node [ a sh:NodeShape ;
+                    sh:nodeKind sh:BlankNodeOrIRI ;
+                    sh:property [ a sh:PropertyShape ;
+                            sh:minCount 1 ;
+                            sh:path bot:hostsElement ] ;
+                    sh:targetClass bot:Element ] ;
+            sh:or ( [ a sh:PropertyShape ;
+                        sh:minCount 1 ;
+                        sh:path bot:hasSubElement ] [ a sh:NodeShape ;
+                        sh:nodeKind sh:BlankNodeOrIRI ;
+                        sh:property [ a sh:PropertyShape ;
+                                sh:minCount 1 ;
+                                sh:path bot:hostsElement ] ;
+                        sh:targetClass bot:Element ] [ a sh:PropertyShape ;
+                        sh:class cto:InstallmentTask ;
+                        sh:path cto:isSubjectOfTask ] ) ;
+            sh:path bot:hasElement ;
+            sh:qualifiedMaxCount 4 ;
+            sh:qualifiedMinCount 4 ;
+            sh:qualifiedValueShape [ a sh:NodeShape ;
+                    sh:nodeKind sh:BlankNodeOrIRI ;
+                    sh:property [ a sh:PropertyShape ;
+                            sh:datatype xsd:anyURI ;
+                            sh:flags "i" ;
+                            sh:languageIn ( "sq" "ar-BH" ) ;
+                            sh:maxLength 100 ;
+                            sh:minLength 50 ;
+                            sh:path bot:hasSimple3DModel ;
+                            sh:pattern "elem" ;
+                            sh:uniqueLang true ] ;
+                    sh:targetClass bot:Element ] ;
+            sh:qualifiedValueShapesDisjoint true ] ;
+    sh:targetClass bot:Building .
+

@@ -1,0 +1,105 @@
+------------BENCHMARK RESULTS FOR THE APACHE JENA PROCESSOR------------
+
+------------total average execution time: 0,418 seconds------------
+
+------------total number of violations found: 49846----------------
+
+------------------FOR MORE DETAILS SEE BELOW-----------------------
+
+
+Dataset: ApartmentBuilding_Binary, shape: 0. Elapsed Time: 0,001 seconds. Number of violations: 2
+Dataset: ApartmentBuilding_Binary, shape: 1. Elapsed Time: 0,005 seconds. Number of violations: 93
+Dataset: ApartmentBuilding_Binary, shape: 2. Elapsed Time: 0,007 seconds. Number of violations: 186
+Dataset: ApartmentBuilding_Binary, shape: 3. Elapsed Time: 0,001 seconds. Number of violations: 10
+Dataset: ApartmentBuilding_Binary, shape: 4. Elapsed Time: 0,004 seconds. Number of violations: 257
+Dataset: ApartmentBuilding_Binary, shape: 5. Elapsed Time: 0,001 seconds. Number of violations: 33
+Dataset: ApartmentBuilding_Binary, shape: 6. Elapsed Time: 0,006 seconds. Number of violations: 461
+Dataset: ApartmentBuilding_Binary, shape: 7. Elapsed Time: 0,003 seconds. Number of violations: 207
+Dataset: ApartmentBuilding_Directed1ToN, shape: 0. Elapsed Time: 0 seconds. Number of violations: 2
+Dataset: ApartmentBuilding_Directed1ToN, shape: 1. Elapsed Time: 0,001 seconds. Number of violations: 93
+Dataset: ApartmentBuilding_Directed1ToN, shape: 2. Elapsed Time: 0,002 seconds. Number of violations: 123
+Dataset: ApartmentBuilding_Directed1ToN, shape: 3. Elapsed Time: 0 seconds. Number of violations: 10
+Dataset: ApartmentBuilding_Directed1ToN, shape: 4. Elapsed Time: 0,005 seconds. Number of violations: 257
+Dataset: ApartmentBuilding_Directed1ToN, shape: 5. Elapsed Time: 0,001 seconds. Number of violations: 33
+Dataset: ApartmentBuilding_Directed1ToN, shape: 6. Elapsed Time: 0,007 seconds. Number of violations: 461
+Dataset: ApartmentBuilding_Directed1ToN, shape: 7. Elapsed Time: 0,002 seconds. Number of violations: 207
+Dataset: ApartmentBuilding_DirectedBinary, shape: 0. Elapsed Time: 0 seconds. Number of violations: 2
+Dataset: ApartmentBuilding_DirectedBinary, shape: 1. Elapsed Time: 0,001 seconds. Number of violations: 93
+Dataset: ApartmentBuilding_DirectedBinary, shape: 2. Elapsed Time: 0,003 seconds. Number of violations: 186
+Dataset: ApartmentBuilding_DirectedBinary, shape: 3. Elapsed Time: 0 seconds. Number of violations: 10
+Dataset: ApartmentBuilding_DirectedBinary, shape: 4. Elapsed Time: 0,002 seconds. Number of violations: 257
+Dataset: ApartmentBuilding_DirectedBinary, shape: 5. Elapsed Time: 0 seconds. Number of violations: 33
+Dataset: ApartmentBuilding_DirectedBinary, shape: 6. Elapsed Time: 0,003 seconds. Number of violations: 461
+Dataset: ApartmentBuilding_DirectedBinary, shape: 7. Elapsed Time: 0,002 seconds. Number of violations: 207
+Dataset: DuplexBuilding_Binary, shape: 0. Elapsed Time: 0 seconds. Number of violations: 18
+Dataset: DuplexBuilding_Binary, shape: 1. Elapsed Time: 0,001 seconds. Number of violations: 147
+Dataset: DuplexBuilding_Binary, shape: 2. Elapsed Time: 0,008 seconds. Number of violations: 438
+Dataset: DuplexBuilding_Binary, shape: 3. Elapsed Time: 0 seconds. Number of violations: 10
+Dataset: DuplexBuilding_Binary, shape: 4. Elapsed Time: 0,01 seconds. Number of violations: 967
+Dataset: DuplexBuilding_Binary, shape: 5. Elapsed Time: 0 seconds. Number of violations: 32
+Dataset: DuplexBuilding_Binary, shape: 6. Elapsed Time: 0,009 seconds. Number of violations: 1271
+Dataset: DuplexBuilding_Binary, shape: 7. Elapsed Time: 0,002 seconds. Number of violations: 312
+Dataset: DuplexBuilding_Directed1ToN, shape: 0. Elapsed Time: 0 seconds. Number of violations: 18
+Dataset: DuplexBuilding_Directed1ToN, shape: 1. Elapsed Time: 0,001 seconds. Number of violations: 147
+Dataset: DuplexBuilding_Directed1ToN, shape: 2. Elapsed Time: 0,005 seconds. Number of violations: 450
+Dataset: DuplexBuilding_Directed1ToN, shape: 3. Elapsed Time: 0 seconds. Number of violations: 10
+Dataset: DuplexBuilding_Directed1ToN, shape: 4. Elapsed Time: 0,007 seconds. Number of violations: 967
+Dataset: DuplexBuilding_Directed1ToN, shape: 5. Elapsed Time: 0 seconds. Number of violations: 29
+Dataset: DuplexBuilding_Directed1ToN, shape: 6. Elapsed Time: 0,01 seconds. Number of violations: 1271
+Dataset: DuplexBuilding_Directed1ToN, shape: 7. Elapsed Time: 0,002 seconds. Number of violations: 312
+Dataset: DuplexBuilding_DirectedBinary, shape: 0. Elapsed Time: 0 seconds. Number of violations: 18
+Dataset: DuplexBuilding_DirectedBinary, shape: 1. Elapsed Time: 0,001 seconds. Number of violations: 147
+Dataset: DuplexBuilding_DirectedBinary, shape: 2. Elapsed Time: 0,005 seconds. Number of violations: 438
+Dataset: DuplexBuilding_DirectedBinary, shape: 3. Elapsed Time: 0 seconds. Number of violations: 10
+Dataset: DuplexBuilding_DirectedBinary, shape: 4. Elapsed Time: 0,009 seconds. Number of violations: 967
+Dataset: DuplexBuilding_DirectedBinary, shape: 5. Elapsed Time: 0 seconds. Number of violations: 32
+Dataset: DuplexBuilding_DirectedBinary, shape: 6. Elapsed Time: 0,009 seconds. Number of violations: 1271
+Dataset: DuplexBuilding_DirectedBinary, shape: 7. Elapsed Time: 0,002 seconds. Number of violations: 312
+Dataset: Garage_Binary, shape: 0. Elapsed Time: 0 seconds. Number of violations: 0
+Dataset: Garage_Binary, shape: 1. Elapsed Time: 0 seconds. Number of violations: 9
+Dataset: Garage_Binary, shape: 2. Elapsed Time: 0 seconds. Number of violations: 18
+Dataset: Garage_Binary, shape: 3. Elapsed Time: 0 seconds. Number of violations: 8
+Dataset: Garage_Binary, shape: 4. Elapsed Time: 0 seconds. Number of violations: 18
+Dataset: Garage_Binary, shape: 5. Elapsed Time: 0 seconds. Number of violations: 21
+Dataset: Garage_Binary, shape: 6. Elapsed Time: 0 seconds. Number of violations: 36
+Dataset: Garage_Binary, shape: 7. Elapsed Time: 0 seconds. Number of violations: 29
+Dataset: Garage_Directed1ToN, shape: 0. Elapsed Time: 0 seconds. Number of violations: 0
+Dataset: Garage_Directed1ToN, shape: 1. Elapsed Time: 0 seconds. Number of violations: 9
+Dataset: Garage_Directed1ToN, shape: 2. Elapsed Time: 0 seconds. Number of violations: 24
+Dataset: Garage_Directed1ToN, shape: 3. Elapsed Time: 0 seconds. Number of violations: 8
+Dataset: Garage_Directed1ToN, shape: 4. Elapsed Time: 0 seconds. Number of violations: 18
+Dataset: Garage_Directed1ToN, shape: 5. Elapsed Time: 0 seconds. Number of violations: 21
+Dataset: Garage_Directed1ToN, shape: 6. Elapsed Time: 0 seconds. Number of violations: 36
+Dataset: Garage_Directed1ToN, shape: 7. Elapsed Time: 0 seconds. Number of violations: 29
+Dataset: Garage_DirectedBinary, shape: 0. Elapsed Time: 0 seconds. Number of violations: 0
+Dataset: Garage_DirectedBinary, shape: 1. Elapsed Time: 0 seconds. Number of violations: 9
+Dataset: Garage_DirectedBinary, shape: 2. Elapsed Time: 0 seconds. Number of violations: 18
+Dataset: Garage_DirectedBinary, shape: 3. Elapsed Time: 0 seconds. Number of violations: 8
+Dataset: Garage_DirectedBinary, shape: 4. Elapsed Time: 0 seconds. Number of violations: 18
+Dataset: Garage_DirectedBinary, shape: 5. Elapsed Time: 0 seconds. Number of violations: 21
+Dataset: Garage_DirectedBinary, shape: 6. Elapsed Time: 0 seconds. Number of violations: 36
+Dataset: Garage_DirectedBinary, shape: 7. Elapsed Time: 0 seconds. Number of violations: 29
+Dataset: OfficeBuilding_Binary, shape: 0. Elapsed Time: 0 seconds. Number of violations: 34
+Dataset: OfficeBuilding_Binary, shape: 1. Elapsed Time: 0,007 seconds. Number of violations: 832
+Dataset: OfficeBuilding_Binary, shape: 2. Elapsed Time: 0,021 seconds. Number of violations: 1918
+Dataset: OfficeBuilding_Binary, shape: 3. Elapsed Time: 0 seconds. Number of violations: 10
+Dataset: OfficeBuilding_Binary, shape: 4. Elapsed Time: 0,027 seconds. Number of violations: 3056
+Dataset: OfficeBuilding_Binary, shape: 5. Elapsed Time: 0,001 seconds. Number of violations: 48
+Dataset: OfficeBuilding_Binary, shape: 6. Elapsed Time: 0,033 seconds. Number of violations: 4733
+Dataset: OfficeBuilding_Binary, shape: 7. Elapsed Time: 0,012 seconds. Number of violations: 1698
+Dataset: OfficeBuilding_Directed1ToN, shape: 0. Elapsed Time: 0 seconds. Number of violations: 34
+Dataset: OfficeBuilding_Directed1ToN, shape: 1. Elapsed Time: 0,006 seconds. Number of violations: 832
+Dataset: OfficeBuilding_Directed1ToN, shape: 2. Elapsed Time: 0,013 seconds. Number of violations: 1076
+Dataset: OfficeBuilding_Directed1ToN, shape: 3. Elapsed Time: 0 seconds. Number of violations: 10
+Dataset: OfficeBuilding_Directed1ToN, shape: 4. Elapsed Time: 0,022 seconds. Number of violations: 3056
+Dataset: OfficeBuilding_Directed1ToN, shape: 5. Elapsed Time: 0,001 seconds. Number of violations: 48
+Dataset: OfficeBuilding_Directed1ToN, shape: 6. Elapsed Time: 0,033 seconds. Number of violations: 4733
+Dataset: OfficeBuilding_Directed1ToN, shape: 7. Elapsed Time: 0,011 seconds. Number of violations: 1698
+Dataset: OfficeBuilding_DirectedBinary, shape: 0. Elapsed Time: 0 seconds. Number of violations: 34
+Dataset: OfficeBuilding_DirectedBinary, shape: 1. Elapsed Time: 0,006 seconds. Number of violations: 832
+Dataset: OfficeBuilding_DirectedBinary, shape: 2. Elapsed Time: 0,02 seconds. Number of violations: 1918
+Dataset: OfficeBuilding_DirectedBinary, shape: 3. Elapsed Time: 0 seconds. Number of violations: 10
+Dataset: OfficeBuilding_DirectedBinary, shape: 4. Elapsed Time: 0,022 seconds. Number of violations: 3056
+Dataset: OfficeBuilding_DirectedBinary, shape: 5. Elapsed Time: 0,001 seconds. Number of violations: 48
+Dataset: OfficeBuilding_DirectedBinary, shape: 6. Elapsed Time: 0,032 seconds. Number of violations: 4733
+Dataset: OfficeBuilding_DirectedBinary, shape: 7. Elapsed Time: 0,01 seconds. Number of violations: 1698

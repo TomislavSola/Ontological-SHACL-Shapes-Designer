@@ -1,0 +1,4 @@
+SELECT ?c
+WHERE {
+    ?c a owl:Class .
+}

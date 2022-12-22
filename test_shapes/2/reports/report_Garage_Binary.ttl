@@ -1,0 +1,158 @@
+@prefix ls: <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-41304ca4-7e84-4da5-88cc-01d425dd94a4> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-e46ecd7f-873d-4672-b137-55908a7d9da4> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-eefbcd9c-28a1-4f4a-a5a4-9b9359eb29b8> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-7e9a4e9e-2971-4520-8e2b-119e992f0822> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-c5867e12-4c88-44e2-a527-ec508a5f0826> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-9ee1c2f7-99f9-4f2a-b226-6d798dea91a5> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-8705470d-5f0b-4d8c-88ea-58c92e813232> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-4dfe940f-e40a-45c3-a841-efd401477a2e> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-34b13dbc-2631-4113-9088-fdb764c909fb> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-88269815-6db3-4176-9988-70b65ea29a66> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-3cad641b-1b77-41a1-9dd4-4b0070ba987d> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-22ec0200-7e13-4b1f-a30f-90addcc45793> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-dfbed018-0dc1-4656-ba5b-e26506c05902> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-37add029-fede-4405-a961-15bc3b74f4ff> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-aa01dcca-dc7e-43c7-858a-25c4f4947b00> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-8f54bcda-5b14-49c0-a4d2-9725ac394397> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-a8222e78-0168-4243-9b88-1bfeb26c75a6> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-37e1407b-b975-41ef-a4aa-6aeacbb36f26> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-24eb102a-466f-49ba-b065-e1fb7f602c76> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-6dcd3603-d257-43c3-996d-5f88023a102b> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-be5f106d-ea73-4a4d-9545-4f4179833da8> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-d7337a93-a656-4148-a7d2-7bdadcda11ec> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-3640d443-e887-446f-b528-5ebe58bd31bf> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-d67d63c8-11c1-4c56-a028-725fc60cd760> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-e3a65af1-8d44-4a57-8872-41a81f875723> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-774e0990-5e62-4f3f-9c0b-d4322795846a> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-adaebee6-b714-4572-aac2-937963d7aebd> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-c79d90aa-a92f-4c82-906d-646b949686f6> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-ea1f8965-284c-4411-876b-cc2959463258> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-289e60fa-7880-4093-aff4-3c86f1b98075> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-c5b53659-cc80-42d0-8d3d-21ea1c809c41> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-69e657bd-ce52-4369-86d0-32f3948f04ea> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-6b8b2379-272b-4a8c-9f63-12fe4b0dea63> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-3607fd98-b67c-4bed-a85e-0d199d627db0> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#LinkElement-c6a58eff-90dc-46a1-879e-6dd9b3e3c706> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:n6bf63790e52f47c9b3f3098b819bd4b7b4 ;
+            sh:value <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-ec32cc5f-ad45-41cb-ae08-7d23db2e47fa> ] .
+
+_:n6bf63790e52f47c9b3f3098b819bd4b7b4 a sh:PropertyShape ;
+    sh:class ls:Identifier ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:path ls:hasIdentifier .
+

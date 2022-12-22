@@ -1,0 +1,665 @@
+@prefix cto: <https://w3id.org/cto#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388aeb> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388aeb->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388ae6> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388ae6->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388a8d> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388a8d->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388aef> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388aef->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#slab_f9fa4621-9fe2-4ac7-a34e-dfa206388add> ;
+            sh:resultMessage "Less than 1 values on inst:slab_f9fa4621-9fe2-4ac7-a34e-dfa206388add->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388ea3> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388ea3->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388ae0> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388ae0->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388ac5> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388ac5->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388aea> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388aea->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f5fc> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f5fc->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388afb> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388afb->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a80> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a80->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388a37> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388a37->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388ae1> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388ae1->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388a3b> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388a3b->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f5cc> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f5cc->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388f89> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388f89->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388aa1> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388aa1->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388acb> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388acb->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a87> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a87->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa20638f461> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa20638f461->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f560> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f560->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388a35> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388a35->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388a31> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388a31->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388c83> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388c83->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f23b> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f23b->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388aa5> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388aa5->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388ae4> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388ae4->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a85> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a85->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388ac0> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388ac0->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388eff> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388eff->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388af1> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388af1->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa20638f47d> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa20638f47d->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#door_f9fa4621-9fe2-4ac7-a34e-dfa20638f1ed> ;
+            sh:resultMessage "Less than 1 values on inst:door_f9fa4621-9fe2-4ac7-a34e-dfa20638f1ed->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388ac6> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388ac6->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f501> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f501->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388af5> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388af5->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388c57> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388c57->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388ae5> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388ae5->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a84> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a84->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa20638f479> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa20638f479->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388ac7> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388ac7->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#slab_580340a8-02ef-4e86-ab7f-0c548af08e5c> ;
+            sh:resultMessage "Less than 1 values on inst:slab_580340a8-02ef-4e86-ab7f-0c548af08e5c->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388ae3> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388ae3->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#slab_f9fa4621-9fe2-4ac7-a34e-dfa20638f29b> ;
+            sh:resultMessage "Less than 1 values on inst:slab_f9fa4621-9fe2-4ac7-a34e-dfa20638f29b->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa20638f467> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa20638f467->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388f2a> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388f2a->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#slab_f9fa4621-9fe2-4ac7-a34e-dfa20638f2ed> ;
+            sh:resultMessage "Less than 1 values on inst:slab_f9fa4621-9fe2-4ac7-a34e-dfa20638f2ed->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388aa7> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388aa7->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#door_f9fa4621-9fe2-4ac7-a34e-dfa206388aa9> ;
+            sh:resultMessage "Less than 1 values on inst:door_f9fa4621-9fe2-4ac7-a34e-dfa206388aa9->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#slab_f9fa4621-9fe2-4ac7-a34e-dfa206388a97> ;
+            sh:resultMessage "Less than 1 values on inst:slab_f9fa4621-9fe2-4ac7-a34e-dfa206388a97->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388aae> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388aae->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388aaa> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388aaa->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa20638f463> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa20638f463->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#door_f9fa4621-9fe2-4ac7-a34e-dfa206388aa8> ;
+            sh:resultMessage "Less than 1 values on inst:door_f9fa4621-9fe2-4ac7-a34e-dfa206388aa8->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a81> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a81->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388aaf> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388aaf->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#door_f9fa4621-9fe2-4ac7-a34e-dfa206388ae8> ;
+            sh:resultMessage "Less than 1 values on inst:door_f9fa4621-9fe2-4ac7-a34e-dfa206388ae8->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388aa6> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388aa6->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#slab_f9fa4621-9fe2-4ac7-a34e-dfa206388ad7> ;
+            sh:resultMessage "Less than 1 values on inst:slab_f9fa4621-9fe2-4ac7-a34e-dfa206388ad7->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388ac4> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388ac4->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388a33> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388a33->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388aa0> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388aa0->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f13b> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f13b->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388ac9> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388ac9->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388aa4> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388aa4->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388f6c> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388f6c->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a86> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a86->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388acf> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388acf->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f4a6> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f4a6->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a8a> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a8a->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a8b> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388a8b->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388af7> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388af7->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#slab_f9fa4621-9fe2-4ac7-a34e-dfa206388a9d> ;
+            sh:resultMessage "Less than 1 values on inst:slab_f9fa4621-9fe2-4ac7-a34e-dfa206388a9d->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388ac1> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388ac1->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa20638f465> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa20638f465->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388a89> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388a89->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388ae7> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388ae7->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388aa3> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388aa3->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388aca> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388aca->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388a8f> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388a8f->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa206388aee> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa206388aee->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388fbc> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388fbc->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388af3> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388af3->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#door_f9fa4621-9fe2-4ac7-a34e-dfa206388ae9> ;
+            sh:resultMessage "Less than 1 values on inst:door_f9fa4621-9fe2-4ac7-a34e-dfa206388ae9->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#door_f9fa4621-9fe2-4ac7-a34e-dfa20638f1b0> ;
+            sh:resultMessage "Less than 1 values on inst:door_f9fa4621-9fe2-4ac7-a34e-dfa20638f1b0->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388aab> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388aab->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f248> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f248->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#window_f9fa4621-9fe2-4ac7-a34e-dfa206388fd6> ;
+            sh:resultMessage "Less than 1 values on inst:window_f9fa4621-9fe2-4ac7-a34e-dfa206388fd6->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa20638f47b> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa20638f47b->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa206388acd> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa206388acd->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#column_f9fa4621-9fe2-4ac7-a34e-dfa20638f46b> ;
+            sh:resultMessage "Less than 1 values on inst:column_f9fa4621-9fe2-4ac7-a34e-dfa20638f46b->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f1de> ;
+            sh:resultMessage "Less than 1 values on inst:wall_f9fa4621-9fe2-4ac7-a34e-dfa20638f1de->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n0f096c45f6d94d8cb1cd61d89093c501b2 ] .
+
+_:n0f096c45f6d94d8cb1cd61d89093c501b2 a sh:PropertyShape ;
+    sh:class cto:Task ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:path cto:isSubjectOfTask .
+

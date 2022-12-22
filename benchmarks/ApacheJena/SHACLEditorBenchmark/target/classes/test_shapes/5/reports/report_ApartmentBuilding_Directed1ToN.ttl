@@ -1,0 +1,322 @@
+@prefix :         <https://icdd.vm.rub.de/data/2_ApartmentBuilding_Directed1ToN-202236928/index#> .
+@prefix IFC4-PSD: <https://www.linkedbuildingdata.net/IFC4-PSD#> .
+@prefix beo:      <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix bot:      <https://w3id.org/bot#> .
+@prefix ct:       <https://standards.iso.org/iso/21597/-1/ed-1/en/Container#> .
+@prefix cto:      <https://w3id.org/cto#> .
+@prefix els:      <https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset#> .
+@prefix exdc:     <https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument#> .
+@prefix furn:     <http://pi.pauwel.be/voc/furniture#> .
+@prefix geo:      <http://www.opengis.net/ont/geosparql#> .
+@prefix idx:      <https://icdd.vm.rub.de/data/2_ApartmentBuilding_Directed1ToN-202236928/index#> .
+@prefix ifc:      <https://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#> .
+@prefix inst:     <https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#> .
+@prefix lbd:      <https://linkebuildingdata.org/LBD#> .
+@prefix ls:       <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#> .
+@prefix lse:      <https://icdd.vm.rub.de/ontology/icdd/LinksetSparqlExtension#> .
+@prefix mep:      <http://pi.pauwel.be/voc/distributionelement#> .
+@prefix msproj:   <http://schemas.microsoft.com/project#> .
+@prefix ns0:      <https://icdd.vm.rub.de/data/2_ApartmentBuilding_Directed1ToN-202236928/index/ls/linkset-20220610-102207#> .
+@prefix ns1:      <https://icdd.vm.rub.de/data/2_ApartmentBuilding_Directed1ToN-202236928/index/cto/inst#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix props:    <https://w3id.org/props#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:       <http://www.w3.org/ns/shacl#> .
+@prefix smls:     <https://w3id.org/def/smls-owl#> .
+@prefix unit:     <http://qudt.org/vocab/unit/> .
+@prefix xml:      <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+[ rdf:type     sh:ValidationReport ;
+  sh:conforms  false ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f359228> ;
+                 sh:resultMessage              "minCount[1]: Invalid cardinality: expected min 1: Got count = 0" ;
+                 sh:resultPath                 bot:hasSpace ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f30474f> ;
+                 sh:resultMessage              "minCount[1]: Invalid cardinality: expected min 1: Got count = 0" ;
+                 sh:resultPath                 cto:isSubjectOfTask ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b1
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Equals[<https://w3id.org/bot#containsZone>]: not equal: value node <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f34c6a1> is not in []" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:EqualsConstraintComponent ;
+                 sh:sourceShape                _:b2 ;
+                 sh:value                      <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f34c6a1>
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Closed[https://w3id.org/bot#hasStorey][https://w3id.org/bot#has3DModel, https://w3id.org/bot#hasSimple3DModel] Property = <https://w3id.org/props#projektname_simple> : Object = \"Haus\"" ;
+                 sh:resultPath                 props:projektname_simple ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                _:b3 ;
+                 sh:value                      "Haus"
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Node[_:b3] at focusNode <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f34c6a1>" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                _:b2 ;
+                 sh:value                      <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f34c6a1>
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "QualifiedValueShape[3,3,true]: Min = 3 but got 0 validations" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:QualifiedMinCountConstraintComponent ;
+                 sh:sourceShape                _:b2
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f34c6a1> ;
+                 sh:resultMessage              "minCount[1]: Invalid cardinality: expected min 1: Got count = 0" ;
+                 sh:resultPath                 cto:isSubjectOfTask ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b1
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Node[_:b3] at focusNode <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f359228>" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                _:b2 ;
+                 sh:value                      <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f359228>
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Closed[https://w3id.org/bot#hasStorey][https://w3id.org/bot#has3DModel, https://w3id.org/bot#hasSimple3DModel] Property = rdf:type : Object = <https://w3id.org/bot#Building>" ;
+                 sh:resultPath                 rdf:type ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                _:b3 ;
+                 sh:value                      bot:Building
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Closed[https://w3id.org/bot#hasStorey][https://w3id.org/bot#has3DModel, https://w3id.org/bot#hasSimple3DModel] Property = <https://w3id.org/props#verfasserStrasse_simple> : Object = \"Strasse\"" ;
+                 sh:resultPath                 props:verfasserStrasse_simple ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                _:b3 ;
+                 sh:value                      "Strasse"
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Equals[<https://w3id.org/bot#containsZone>]: not equal: value node <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f359168> is not in []" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:EqualsConstraintComponent ;
+                 sh:sourceShape                _:b2 ;
+                 sh:value                      <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f359168>
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Closed[https://w3id.org/bot#hasStorey][https://w3id.org/bot#has3DModel, https://w3id.org/bot#hasSimple3DModel] Property = <https://w3id.org/props#verfasserTelefax_simple> : Object = \"Telefax\"" ;
+                 sh:resultPath                 props:verfasserTelefax_simple ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                _:b3 ;
+                 sh:value                      "Telefax"
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Closed[https://w3id.org/bot#hasStorey][https://w3id.org/bot#has3DModel, https://w3id.org/bot#hasSimple3DModel] Property = <https://w3id.org/props#numberOfStoreys_simple> : Object = 4" ;
+                 sh:resultPath                 props:numberOfStoreys_simple ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                _:b3 ;
+                 sh:value                      4
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f359228> ;
+                 sh:resultMessage              "minCount[1]: Invalid cardinality: expected min 1: Got count = 0" ;
+                 sh:resultPath                 cto:isSubjectOfTask ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b1
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Closed[https://w3id.org/bot#hasStorey][https://w3id.org/bot#has3DModel, https://w3id.org/bot#hasSimple3DModel] Property = <https://w3id.org/props#kategorie_simple> : Object = \"Projektinformationen\"" ;
+                 sh:resultPath                 props:kategorie_simple ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                _:b3 ;
+                 sh:value                      "Projektinformationen"
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Closed[https://w3id.org/bot#hasStorey][https://w3id.org/bot#has3DModel, https://w3id.org/bot#hasSimple3DModel] Property = <https://w3id.org/props#verfasserTelefon_simple> : Object = \"Telefon\"" ;
+                 sh:resultPath                 props:verfasserTelefon_simple ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                _:b3 ;
+                 sh:value                      "Telefon"
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f359168> ;
+                 sh:resultMessage              "minCount[1]: Invalid cardinality: expected min 1: Got count = 0" ;
+                 sh:resultPath                 cto:isSubjectOfTask ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b1
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "HasValueConstraint[https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#storey_7b7032cc-b822-417b-9aea-6429f95d6512] : No value <https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#storey_7b7032cc-b822-417b-9aea-6429f95d6512> in [https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f359228, https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f34c6a1, https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f359168, https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f30474f]" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:HasValueConstraintComponent ;
+                 sh:sourceShape                _:b2
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "InConstraint[https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#storey_7b7032cc-b822-417b-9aea-6429f95f6ab3, https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#storey_7b7032cc-b822-417b-9aea-6429f95f770e] : RDF term <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f34c6a1> not in expected values" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:InConstraintComponent ;
+                 sh:sourceShape                _:b2 ;
+                 sh:value                      <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f34c6a1>
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "InConstraint[https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#storey_7b7032cc-b822-417b-9aea-6429f95f6ab3, https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#storey_7b7032cc-b822-417b-9aea-6429f95f770e] : RDF term <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f359228> not in expected values" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:InConstraintComponent ;
+                 sh:sourceShape                _:b2 ;
+                 sh:value                      <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f359228>
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "InConstraint[https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#storey_7b7032cc-b822-417b-9aea-6429f95f6ab3, https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#storey_7b7032cc-b822-417b-9aea-6429f95f770e] : RDF term <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f359168> not in expected values" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:InConstraintComponent ;
+                 sh:sourceShape                _:b2 ;
+                 sh:value                      <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f359168>
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "InConstraint[https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#storey_7b7032cc-b822-417b-9aea-6429f95f6ab3, https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#storey_7b7032cc-b822-417b-9aea-6429f95f770e] : RDF term <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f30474f> not in expected values" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:InConstraintComponent ;
+                 sh:sourceShape                _:b2 ;
+                 sh:value                      <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f30474f>
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Closed[https://w3id.org/bot#hasStorey][https://w3id.org/bot#has3DModel, https://w3id.org/bot#hasSimple3DModel] Property = <https://w3id.org/props#globalIdIfcRoot_attribute_simple> : Object = \"212iB2rt98oOPFgs20oWvR\"" ;
+                 sh:resultPath                 props:globalIdIfcRoot_attribute_simple ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                _:b3 ;
+                 sh:value                      "212iB2rt98oOPFgs20oWvR"
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Node[_:b3] at focusNode <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f30474f>" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                _:b2 ;
+                 sh:value                      <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f30474f>
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Equals[<https://w3id.org/bot#containsZone>]: not equal: value node <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f359228> is not in []" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:EqualsConstraintComponent ;
+                 sh:sourceShape                _:b2 ;
+                 sh:value                      <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f359228>
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Closed[https://w3id.org/bot#hasStorey][https://w3id.org/bot#has3DModel, https://w3id.org/bot#hasSimple3DModel] Property = <https://w3id.org/props#verfasserFirma_simple> : Object = \"Firma 2\"" ;
+                 sh:resultPath                 props:verfasserFirma_simple ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                _:b3 ;
+                 sh:value                      "Firma 2"
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Equals[<https://w3id.org/bot#containsZone>]: not equal: value node <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f30474f> is not in []" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:EqualsConstraintComponent ;
+                 sh:sourceShape                _:b2 ;
+                 sh:value                      <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f30474f>
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Closed[https://w3id.org/bot#hasStorey][https://w3id.org/bot#has3DModel, https://w3id.org/bot#hasSimple3DModel] Property = <https://w3id.org/props#verfasserEMail_simple> : Object = \"E-Mail\"" ;
+                 sh:resultPath                 props:verfasserEMail_simple ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                _:b3 ;
+                 sh:value                      "E-Mail"
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Closed[https://w3id.org/bot#hasStorey][https://w3id.org/bot#has3DModel, https://w3id.org/bot#hasSimple3DModel] Property = <https://w3id.org/props#kundenname_simple> : Object = \"Bauherr\"" ;
+                 sh:resultPath                 props:kundenname_simple ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                _:b3 ;
+                 sh:value                      "Bauherr"
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Closed[https://w3id.org/bot#hasStorey][https://w3id.org/bot#has3DModel, https://w3id.org/bot#hasSimple3DModel] Property = <https://w3id.org/props#verfasserPLZOrt_simple> : Object = \"PLZ Ort\"" ;
+                 sh:resultPath                 props:verfasserPLZOrt_simple ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                _:b3 ;
+                 sh:value                      "PLZ Ort"
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f30474f> ;
+                 sh:resultMessage              "minCount[1]: Invalid cardinality: expected min 1: Got count = 0" ;
+                 sh:resultPath                 bot:hasSpace ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#building_810ac2c2-d772-48c9-864f-ab6080ca0e5b> ;
+                 sh:resultMessage              "Closed[https://w3id.org/bot#hasStorey][https://w3id.org/bot#has3DModel, https://w3id.org/bot#hasSimple3DModel] Property = <https://w3id.org/props#projektausgabedatum_simple> : Object = \"Projekt Datum\"" ;
+                 sh:resultPath                 props:projektausgabedatum_simple ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent ;
+                 sh:sourceShape                _:b3 ;
+                 sh:value                      "Projekt Datum"
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  <https://icdd.vm.rub.de/convert/ifc/f741e392-fd62-4661-8471-aa67ec9b5e94#storey_810ac2c2-d772-48c9-864f-ab607f34c6a1> ;
+                 sh:resultMessage              "minCount[1]: Invalid cardinality: expected min 1: Got count = 0" ;
+                 sh:resultPath                 bot:hasSpace ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ]
+] .

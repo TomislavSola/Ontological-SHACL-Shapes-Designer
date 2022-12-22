@@ -1,0 +1,8 @@
+ SELECT DISTINCT ?class
+WHERE {
+    { ?p rdfs:domain ?class }
+    UNION
+    { ?p rdfs:domain ?superclass .
+      ?class rdfs:subClassOf+ ?superclass .
+    }
+ }

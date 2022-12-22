@@ -1,0 +1,1502 @@
+@prefix ls: <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-59924533-b3f9-4381-9739-1b604eb6002c> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-14edd617-7f4d-42b2-b182-7e3de6b5756e> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-be2a7102-c45e-4bc2-a0ba-da394e1af67b> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-33f26dcc-0491-4a6f-a0e3-3c3cdb2b1cf9> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-2fa93b8f-d961-450b-8621-84a90db31591> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-1e33ac40-1684-47d5-824c-5f33d6d1b1b6> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-ea76b5e1-1bd0-4b3b-8cc9-0afa3d04377c> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-eff765ff-9adc-49bc-baff-e05c40262b76> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-f2c99ab7-48c6-4831-b518-e5e9588b898d> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-0d2e2de3-e576-46d9-b65e-2f49f062d2af> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-771b6ee5-5a86-4e00-a54b-94d87ab67aa1> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-cbfcd7a8-fc30-480a-a767-4f66cfd623ad> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-ea66a0f5-569d-43f0-bd1e-931524e04d44> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-c9e2047f-48d4-4a79-b78c-e1c7678afe62> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-83775fa2-11a6-4ec2-984c-a2c875ea89da> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-c719eb89-eb12-4afc-98f6-93d767d9fc1b> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-75752bea-96b2-45dd-89da-21807628efd4> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-296d406f-abf6-4c20-8f9f-291a8d4c9f0b> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-5ec92e41-5d92-4022-9aeb-287c7154789e> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-62a62beb-2b6f-4bf4-ac1e-cd9e0df032f1> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-b32ba767-e9d3-422d-a770-82dcb1bc128f> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-0b0b8711-13fc-4f75-8f20-bf990706055b> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-767a731d-3c2f-4757-bd09-f935b5d0bcf9> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-b35905b4-10d3-4e38-982f-f8b7a8be4d77> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-9f6d0e83-f57e-4de4-8533-70e10e8faae5> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-f68336a8-7d46-4bcc-aedf-6f9d3a26b6a5> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-67636d1b-a279-48e8-b43c-b085c936ef8b> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-7d66dfc5-dc07-4225-bce4-d4926e244e4d> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-e645cfcd-9f59-4e5f-b65e-479a8c2bdc3a> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-645d8f02-f704-401a-b646-f6e2185c78fd> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-cd4ce569-d5ee-4e9e-8e53-3a4e41703596> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-f9d39530-9cfe-48c2-821c-11fb756234fc> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-29b06af3-f6af-4d25-9269-30101b9217ea> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-ac215459-d7b8-46a3-acba-be43bb63b86c> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-a0321306-5719-4ec5-94ca-bc65da2104c1> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-a7824149-e19f-423c-a040-f6f191b216bc> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-78306771-3475-4398-b8e6-4f44cb2668f8> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-2d7e089b-39d9-4f84-bb5f-62fee7024e00> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-a76ab765-2b99-451b-ac0c-198cf3b76bec> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-8c85b743-d69f-4d87-84bd-cafc504b331d> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-ae110126-fbec-41e8-ab8b-035b7d903794> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-afc44b33-1fa6-4a48-ae56-d8bce081ae7a> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-d5b5b5ef-6244-4577-a81a-be8685fe8001> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-05930aff-99f1-4f25-b0de-2586a2204c0c> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-baaee0bf-d7c5-416e-84e0-5daa29f2763e> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-5918d90a-9f58-4de2-ab0d-916c6b864461> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-b2a62c5e-5363-4ca1-b939-ae676b679fb9> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-5d06de50-602e-4b81-af6f-4812834bf99e> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-3ddd9222-d635-45e4-803f-29bd16c81b22> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-d0d76741-4082-43bf-8f27-04f6b86707d2> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-765b05ff-e2b0-4034-bb6f-f683a0a6b938> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-e7c1ff7a-3d3e-4b7c-b5f4-40ba341ff815> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-cd7476d9-c925-4a02-85ca-4ad269af91d7> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-d985c6d6-5365-42dd-bb22-a9c4030de5a8> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-e5fd5805-9f52-4a3b-b4e9-aa56aefdf63c> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-6248c241-afc6-4404-abac-3ddf84329146> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-b9791783-5789-4954-8d69-ecece955e05d> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-6bb87f96-bebb-45a9-a9fa-2394a17969ca> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-e825a609-40d1-4b92-bba1-90a7f26edd9d> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-0f444664-3802-4247-9ffe-7df580bab5ad> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-6df742dd-d9b7-4baf-944b-ef5b96ff207e> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-33cdd71b-756b-41bf-b582-67a095f04e32> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-b71db22f-b5d4-46be-8043-ddf4834642bb> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-56562014-a462-4055-8160-a0c48392eceb> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-da6c89df-37f8-4595-a8e7-3f48d1041ced> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-6b01122b-023f-4444-8f5e-4c5237b27345> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-f43e2dc5-ee80-43b6-9829-e826aa5a8fc2> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-5fdc9a83-6f41-4916-ab7f-3534bb042d7d> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-7fd66da2-a0af-4d75-a87b-7077b709a060> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-9e2ac179-1a35-45b2-b97f-cbe9064e9866> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-f77a8f99-726e-4128-aceb-e1c3c42b11aa> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-2b48fb1b-2709-4a99-b396-c2bd7a28911d> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-e828b4c4-05c1-46e6-ae8d-9aa1da730a0a> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-f3f09aa0-4b14-4bf5-935c-7fb4548859c0> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-37405919-f0f2-4b50-90fc-72907374f0b2> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-9bd7e009-36bc-488e-9b11-118837e112ed> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-0b5267f2-88f6-4d94-b93f-3dab262325f0> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-75f74e77-8504-4fb7-b413-98fd36316d2d> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-774875b2-18af-4843-835f-ab55c98aad2c> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-d064693f-2742-4904-9bb2-4666c5048a48> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-cdc64c98-8436-4b02-90b3-afdbfdd06c9d> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-ef6031d1-a7ed-4c1f-bbba-50684210b3d1> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-2fcb1769-9f14-49a0-8905-a45957300a83> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-7391e4d7-ce94-4af4-8da3-bea26be3b067> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-84466a3d-9cb6-469b-844a-0ce86cac0754> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-a1b645c9-d210-4b92-8f96-a989664d1eee> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-edde3336-2861-4e2f-a2e2-1ad700f5c2b3> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-c1c0d480-c814-448d-b420-fafe7b4a0988> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-ea8265f0-a477-47a2-8284-1d93aa2d93db> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-f98990a5-0162-4d04-847e-903f98f97f1a> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-c0391e7e-64dc-42c8-95da-8bbe504637fa> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-9fdec5e3-800e-4f93-a183-e413e921a142> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-0a991b78-0e9f-4699-9c0f-2644ab0ac657> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-a301e438-1940-4242-8044-51268d05a4d0> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-66fdc95e-4ab5-4705-aaa7-b52e574252ff> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-aadb5849-aefa-46c3-844e-b12456fc5a78> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-ed099436-7979-4f63-9291-4ac229282094> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-ae242f87-c125-436c-b24f-c7f894ff2a4d> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-60048d92-5945-46fc-9573-b55929dd88ed> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-b6f70f08-9672-48b7-8492-a5be487d68a7> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-58a2b3c5-f87a-49f6-909b-ea2706b43a5e> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-e8ffae71-f216-4dcd-a2a2-6283b4ba90cf> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-b62d032c-86c3-412b-8a72-7fcf9525e643> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-d3658611-3e11-4ff4-b0f4-9af1d8202b55> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-f8db29d1-84fb-45ae-bfe7-d381eb2384ed> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-af54a19e-4640-417a-a85d-1874d266e515> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-6de49ca0-f658-4d99-8b7a-cc4b763c59df> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-f953510f-ac6e-48d3-90b9-6c4aba7af17a> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-784c8278-147f-4608-9496-f7a79a50b75a> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-a416b4ee-eac7-45ec-882d-a9feca4e4703> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-3b300cd5-b0ec-4fd1-8124-dc0a122d57c4> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-b05f5d50-08c1-4f41-85e0-9539c64b81e7> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-e776be0e-528c-42e9-b0b8-6bdfbf733775> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-e58486e7-99c3-44b1-8f80-40ecb7051d4e> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-fd20c898-9e02-4e5d-ba94-5661bfbdcfdb> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-763b13e3-eee3-45b8-90a7-d49e2fbed5a7> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-b4ff95d1-7f4a-4dfa-afd3-521182a2ce2b> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-0d04280c-e9c6-419a-a5a1-680aad83db40> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-9e8d0b7d-668d-4121-81ab-c110eefd6a80> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-d6c6985a-3cbf-4df9-aa87-9f58372328c8> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-a5e8be97-10ae-419b-9de8-9d753dce5955> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-302eea0d-4896-401d-a725-665f1fb8de6c> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-ce23b068-251e-4967-817e-92b36d77de96> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-a5157b9b-c6f3-45c6-a62a-5fec1bd11571> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-047f0c86-fa43-4bba-9a1c-f3b6e6ea2ff9> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-ea8728af-8c7b-4506-80ce-1e08cd04ab5b> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-8d5f56f5-010f-44a3-882a-9803cc1aa2c8> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-6efffacf-beae-4dfd-a2bb-9c77d03ed66b> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-d73349cf-dfa9-4159-a004-57547a7e0992> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-7a8649b7-be05-4852-b5a2-058361caa79f> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-20215645-9aeb-4c7a-87dc-37953b8cdaec> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-d3e8f984-a9a0-483a-a32c-fd0beef90f5d> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-25753f61-d088-4467-b40c-f6435e1463f4> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-48fccc7e-c696-4ae0-bb83-81d84b55ef28> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-798109c9-2652-439d-8f95-792a57430cc5> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-a9949e27-e84f-4853-b22c-9d378c89fd54> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-dafef62d-b179-4f13-9e4a-a431eb3f5386> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-16d2a7e3-3787-4b31-bb5a-365c1f244fff> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-4bcc0760-c1e1-4e26-8265-2576761d2e57> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-e7019206-26dd-467e-bf56-54f8ef9061ed> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-9190b5f4-2425-4408-9fcf-b692e066468c> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-d15868cd-58c5-48a4-89b7-5656512c6ebf> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-670ee399-945c-40ca-91df-a05a5f818624> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-c6ccd463-4a9a-45f2-a5fb-127a707acfb3> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-7f5ce43c-6a9c-4cc8-aba8-afa81e0a26a9> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-c8b93dec-8485-4976-aef8-c53960adaaf1> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-7fea682a-0a06-48e9-bde9-01147471aad3> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-37bf4a81-4ab6-4c1f-be07-50c789ee6226> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-350d549d-28be-4ed4-b72b-ce905d4cc064> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-b05c4081-a55a-402a-8dc8-14fc2b6ab822> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-377f243a-ebec-473f-ab38-dd013067dbb7> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-36221396-97a7-472f-ae98-95357b1cd9d1> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-7c9e564d-6209-4ecb-bbfb-a54418fea9e2> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-6f9ba5c0-31ca-40a1-9770-dd76b4f4d354> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-8de01f13-399f-4820-8175-936ceacebecf> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-8aa510ed-d824-4d6d-b5e1-77c1de1d906e> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-bc27f18f-06a8-4b4b-89ef-f74b955ffa45> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-59a46f52-0681-486a-a7a3-1b5ad6b7fe11> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-e21d9fb0-33b4-41b1-9b28-ee3d3d1b3a23> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-fa3e31ac-75b8-4013-9f4f-ad10eb1712dd> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-d1146e76-d431-415d-a477-4ecfa351108b> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-b659c220-b3bc-49a6-9ccc-0635023051fe> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-f4d1b611-2c00-4e59-a410-81bbea88cc06> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-c2707f81-9c61-4c85-9f81-1d3c8644e11a> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-37d792c8-dbdf-4506-8d6d-bc328d807870> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-9883fa5b-edd5-4fa2-8920-6b87932a9dd5> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-f01f333d-cee6-418f-b2eb-ad9603f5e1d5> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-d1f4ae4b-6832-4176-b6bb-6277c42654c8> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-d247ffa5-94e3-4c6f-b8dc-07bce0fa75f8> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-e81ff742-633f-4698-8582-283a1863ef6d> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-e6fabc72-7a66-49a2-af48-dbe637517020> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-1447cf2d-1d5b-407d-97e7-8ebab5b47c93> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-1de158a1-cfef-4e44-8ffe-b1e98fb4a7ee> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-fe3a5ecb-96ad-4a51-9739-6310a6e21d94> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-8822b528-76d9-485e-9770-21f731b251e3> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-fd228a0b-01eb-43f6-a772-95b8175a4cd8> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-344d29b2-4a5b-4041-a801-b7e274bc913f> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-854e348e-d7f3-4e0e-b82f-ae08755a108e> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-e125528e-55f6-4d7d-bead-5cd60220281a> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-0ed53f7b-2013-42fe-8c52-23f095286dcd> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-cb30e344-9d78-4aa5-a800-9a78814ad6eb> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-d3d7bc24-f1ba-4318-95d9-feffc6c6ab35> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-a6eb797f-26ef-40f3-b5fb-2ce8b2ea157e> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-19ed4626-d3b9-402c-b204-c8f785ae71bc> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-2e30148e-74cc-4472-9b3e-fbb2ed039db4> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-63dea79d-34af-43bb-ae11-8a26589bb0d1> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-6d4318c1-ff02-4fcb-9077-ae324f3662ac> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-e9902794-f3db-45e1-b295-2209f68374cb> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-3063a2be-228e-4728-a766-f3da196295a5> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-83ee3e3f-1e01-435d-8ad3-3336b52c6952> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-895ba6c5-148f-4936-ba6a-71f8cb9be276> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-5f4cb52c-f198-444f-8d41-96c565d83a65> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-3f0af75d-f91a-4df8-840d-b4af34942812> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-eedbae99-7db3-45f5-aec9-648811e2bccc> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-c9dfe44c-f166-4589-8670-f51a469b5b43> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-d9bd16b6-9327-4525-b2bc-2e61fc94d993> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-e6566e9c-bf01-4456-b10c-b70b2582732f> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-926fe88c-7e4f-4a0b-99c1-e0774a9b1b82> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-87ec58d6-781d-44b9-b364-2c685702d3f1> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-2ffab417-beca-44bd-b69e-99d98ecb5ef6> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-c8f74690-aa42-4595-ba8b-188eff2f3679> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-988d1dd3-4683-498b-aec4-e799b306e9cc> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-74507163-8155-4f10-b618-b4c9628934eb> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-b44e5c68-4b7a-4ad7-8381-c439ae04409e> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-1192a052-a537-4fa9-90f9-9b957aa70b1a> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-c94b2632-41c1-4ebe-8778-dd09a726d172> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-972aa556-b216-403b-80ed-b4f9b859d91f> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-0b8adef9-a40a-4ce5-abd5-9fbe78216cb4> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-23ded6fa-e6d6-4f98-8716-5f8e0c0d2600> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-d15730e2-3ff0-46d8-b9cd-7040a3e4b26e> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-1450c913-ce5c-4d36-b4cc-1ebb9d96f2d3> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-757d69b1-a742-44b5-8c98-c4b48dfb1817> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-b303a0fd-f443-473a-b889-256b68275004> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-be616947-7f28-40ba-b49d-e2d6655aac5c> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-ee49e3be-1d5d-4222-836d-eab4cb04a29e> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-6b675393-0682-4ce9-97b4-3767ead1b254> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-4f15eb2f-5d03-4553-84d2-28c93225bc18> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-5ac98fa4-47de-4b58-9bb3-1d23d1724953> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-1f0e0712-4a49-4caf-8058-687078f3067b> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-55eefdfc-4eb2-49ce-ac9a-13c893202ea7> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-e88f7537-9a45-479b-9ada-f583b9a22dc4> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-c38ac5ef-bf73-4014-8ca8-d9c83e339f0f> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-5a1514ec-3625-484b-bb2d-60df4ea40ccd> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-0d0f983c-d33f-4f73-a705-c8989bf4011e> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-f304df22-e6d3-4119-ba0a-e6468a465497> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-394e11ff-099f-492d-92cc-6721bf5c9630> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-9ef94897-3e29-4cb7-a0ae-e4dcd9f6ff1d> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-8e631dbc-9a95-43aa-b97a-dfec47f80616> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-4bac0b9e-5909-484e-8830-0ffa7fb86771> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-6a6dc219-72f2-4999-854f-63311defeb98> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-a863df11-bae0-4c9b-9674-2aba88aa212f> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-a8d3efb1-8e57-449e-80e2-a9246fe9ae22> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-fe839c5c-e263-416d-b54d-23e5340383f3> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-8b482a82-b578-49cd-ab09-2cc988344b56> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-6e61906e-85ad-4aa8-93c4-fe27625ed675> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-beb7a848-3479-4c78-9dc0-ea8f73145c24> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-1d4845c6-5554-4372-8383-7b0d99a46f04> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-d90ebbe4-3f92-46ad-b07d-4925e2155497> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-52f117ce-e70a-40ca-be68-50cd4cd0ee43> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-85018f1a-3f1d-4bf1-80bc-37c7b939e953> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-92a688cc-ee38-48d4-a5f0-efc3f6c226f9> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-f710e5dc-e1c4-4414-9a13-ed857e33cc11> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-4a5f742e-e747-4c87-b0c1-9255a6a0a6c0> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-83fa3785-c67b-4d4b-bcbf-cb832c375a9a> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-5295dfec-4125-442b-8227-2a196f808962> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-3d9dd987-9119-4b0a-a54c-bd169b14f995> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-21daa35a-fab2-4012-905b-fef76b5edc67> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-06051b60-d07f-4eca-af88-463e9b5963e2> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-2f7d94b4-6f83-4c04-ae7c-4ae952f34368> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-945bbcca-5b66-4fd0-93fd-7c5d9560c588> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-0082f1c2-a072-4032-b59e-5a174dd18368> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-242120b7-05fa-4ec2-b985-b26cbc927e6b> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-12abd160-5580-406e-8a82-f54ed161092a> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-6f787f94-3302-4a75-93a4-e417624eb430> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-28d321fc-3bfb-4b53-9ec7-6343ce8baf11> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-15235fd4-21b8-4e9c-a43b-1c5d8f9437c7> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-a3f1a4de-dcd5-4ea6-a1a4-991896ae08c4> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-3e7076cd-bf4e-45c3-8e7e-0bb52ee68d63> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-cbb8e78e-9525-4730-93c6-5979ada26aed> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-a466048b-b266-4697-9110-a4c98e3ac982> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-ac58ad86-cb15-4af8-a0be-b4612fc1da3e> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-723d8d05-a167-44c3-a088-b81f1350df98> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-635b7039-81b8-44f5-af05-f0afb71071a4> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-d3cd621b-7889-4dc8-b027-5c2419327682> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-0c0a5a16-174c-4f5e-bf72-b0c96a8cf70b> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-b70d99d2-0c70-430f-9ff9-0975aa4642ff> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-2cd7c99d-ec00-4c1a-9b9a-89fb43f7e589> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-a7e25c6d-7e4c-4de8-921e-b1a042382d28> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-052fcef7-c83f-4fe7-9fab-fe2a82bedf73> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-abeda5e6-cf49-4a8c-913e-3a116d1708f5> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-7363369a-97e6-44c7-97f7-00a730cc00c5> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-f446e03d-85ac-4fa8-b982-600170a86f73> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-cae6e2d3-5fe6-489f-9069-d172e7cc3093> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-e78c2d71-13cc-4bba-ac31-350c83b8b39f> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-a880f031-c789-4234-a286-2c61da13b47f> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-4a8c6a64-c6ce-4ee2-ac74-125480e06009> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-27424ddc-0fd4-4fe9-a3f7-49be5787661c> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-14e41a68-feff-4bac-86b4-6b9a769d9bc3> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-57beaf0d-797e-4ad9-96b4-35da867fbc7e> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-f31ae9f5-faa6-4de3-bf9c-4729cd18c4b2> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-1b656feb-2ddd-40cd-bded-557f627f91d7> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-2cf1bddb-e6e1-450e-93cd-228035d97d7e> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-9bd9ee23-dda9-4fca-a8e9-d7d5c47ffa4b> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-f4f2424f-c9cf-4487-af4f-12a5ef0bdeac> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-2b72ab1b-daa5-4493-9f4c-2360747d3575> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-483f1420-f662-4064-b600-79ec04a2d069> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-3a1d0729-a0e8-46f2-99de-702d7b58c0d0> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-c00aa63d-851c-4721-b8e3-b09906b6c0cb> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-11d48d42-9ba3-4b77-8c8d-9b8ed11c51a4> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-6de18ddd-14f7-4b3f-a89e-54c6a08259ab> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-cf1d1f48-6463-4ca1-ad69-08485ef0518a> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-deef5e1b-36be-4d4d-a931-22f0b5b62db1> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-da06305a-5812-42a4-b651-8493f111f9cf> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-31e8a431-e284-424b-b3bf-7266c5c611b7> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-f2f72ee0-b1fa-40ad-b35d-9f7de97130fb> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-8180001f-ddec-4649-b292-32fc5521016f> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-ba139368-2ea7-4711-934a-e1f2e8dfc1c8> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-75f08515-218e-43d1-b6d2-1562480dc9fd> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-bcf3a254-c167-4329-844d-c9739d203f27> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-11e060e7-728f-4388-9a2b-79c79f0d42e0> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-152cc17b-2f17-46e8-8510-ed04ef5235ac> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-2c428758-486d-4116-9b4f-33a8dd9163fa> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-7bfe08d5-18dc-4881-a5e4-b3cd3799c3f8> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-2683f53f-514d-43dc-875a-4695ff4fb217> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-921290a8-f5b7-482d-aa22-0f661c501eb6> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-e4c22577-fe37-4e5c-b48f-a8543a41208f> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-fb7e3294-5ea8-48c9-a12c-eacd3f8231b2> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-37af51e0-53f9-440b-9c4c-0b71c9572c00> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-6fce9181-a653-4293-84b5-b68edc286e23> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-82659f6d-0e6a-4c12-aa02-8b3c3c925683> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-72cf12c1-453e-4e0a-b97b-69ea7a3380fb> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-73dae606-c8fe-4145-b411-2dc0d6924129> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-44867bf3-e0b6-4e80-a1c5-3cbe1b407eac> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-b8c8cc48-147f-4066-aa77-03495ef770a1> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-54a84002-ac52-4aff-bf9c-f73a5313595c> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-d004f602-c725-48e3-bbcb-3829f578b2eb> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-e2caf006-f55b-4d37-b671-243e73beaec6> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-4c74ab34-9845-4b13-8d95-5ce9c520d920> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-7f640b1e-175d-4592-bd52-edf90c49258d> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-6c0a7ec2-dc3d-44ee-ad9d-8a06f6b68b7d> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-20f37553-2595-4981-8a4f-e67a0b57174a> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-838ad321-f0e1-4d03-83f9-571d4697c471> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-d55311b1-d371-4b95-8333-c531621f89bd> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-1deb7ba5-7f4f-4c78-8d05-d4b20fe39e7a> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-e60ee728-f0af-4d38-a979-093940852761> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-498cfb85-8d54-4b12-b22f-c2857fdf996f> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-2c4cfbd7-ffd9-4799-ada0-f898c272b0df> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-c2547707-0bb2-44fc-9e6a-7d77a4adcfc0> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-2e29498e-14d1-4777-b99e-98fd83df44a7> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-09b5895c-a131-47ca-8e0c-93162b253b74> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-95b144db-6726-455e-8480-29a35c5a255e> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-1ba91bc7-99de-4273-b0c7-05796c93abde> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-f8b5c7fd-cdf1-40d4-8b1a-9474c97c95a9> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-2194d357-b311-4daf-a52c-8efc5463ab38> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-687fe5e9-be5a-43a7-8df5-d46b09eef5fd> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-03b19cf1-141b-444b-99dc-740b07ec1642> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-b994fceb-dd29-48f1-ad22-88cc7e917a3c> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-9b098127-77e7-46b9-9f46-1b5f35632cc8> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-32fac0de-1118-4c76-b355-fca04b7f9a89> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-30d5b16c-612a-46ca-9ddc-409880f02007> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-66cdc68d-f5d4-4d10-b64c-e7c28a8bf637> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-70ae6dab-71ff-40bb-b25d-d0c13b0211ea> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-0ee04454-80a1-4c54-b4ed-138316d8c60d> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-c9185a65-7c69-483d-a141-d49e86f58a9d> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-62915f36-3cba-48b0-90ab-e301c7035cc2> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-eea67e1e-df25-4502-9830-8e4853048d81> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-090f8432-0456-4b81-b595-2bedd6d4796f> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-0690317a-dd41-4d33-bbab-ee0b0790f54f> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-d35aa406-53e0-452c-9987-90e52ee02283> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-331469ce-68d6-495f-806c-995a2a3f6d85> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-b625e1dc-8471-45f0-94f4-e257316e3cd7> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-1c671e31-ee96-40b7-ae04-7d5203806608> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-018537f0-9dd5-43a4-9930-6cfd218b75b6> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-6cbd7ebb-db10-45d1-aef2-3f091ad7a370> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-d488aef0-c5c6-47cd-8177-06fe64340bf1> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-e0d5a5c4-0928-4018-a96b-9fa57e4aa0f6> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-fc3d1b33-5e8d-45c0-9cab-8f27adc0532f> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-62ac1915-f0b7-4acb-b102-4a2e7c6ce81a> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-dd15f65a-969b-4d7c-850e-25c5edcf46ea> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-eb158444-f0cb-4edb-b84e-9eda257f0f44> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-ce0ec93d-fbfd-4501-9d74-d553b5e9f1e7> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-41c73676-0ab4-4ac8-9677-6f56dde2cc65> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-155bc5e7-1397-4dad-87fd-0c35d2abd6be> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-0a8319d6-a5a6-4adb-afb6-d2261371829d> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-6e362f69-12a7-45ce-a666-8e32df220285> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-f1881dfd-19a8-41d3-802e-e3fa4b8edf59> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-427d3344-baf3-42a3-bb1a-24f4a4baf4e3> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-41551b9e-4658-4360-8d9e-6dc0ab764641> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-48117cf2-7d3b-4cfb-a582-a4980e5e2bc2> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-706c5561-ea74-4a6b-a7a9-979d1681abe9> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#LinkElement-02e4b9d3-5d8f-4a97-b0c1-d669b936db68> ;
+            sh:resultMessage "Value does not have class ls:Identifier" ;
+            sh:resultPath ls:hasIdentifier ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape _:nfd880f671c474f8facb8db33c71359f3b4 ;
+            sh:value <https://icdd.vm.rub.de/data/2_ApartmentBuilding_DirectedBinary-202236245/index/ls/linkset-20220609-230038#StringBasedIdentifier-b63e99bd-e607-4f3b-8c3a-88ca41c2b906> ] .
+
+_:nfd880f671c474f8facb8db33c71359f3b4 a sh:PropertyShape ;
+    sh:class ls:Identifier ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:path ls:hasIdentifier .
+

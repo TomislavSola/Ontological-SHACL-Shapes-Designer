@@ -1,0 +1,356 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix cto: <https://w3id.org/cto#> .
+@prefix inst: <https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4->bot:hasStorey does not contain a value in the set: ['inst:storey_7b7032cc-b822-417b-9aea-6429f95d6512']" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value does not conform to Shape [ rdf:type sh:NodeShape ; sh:nodeKind sh:BlankNodeOrIRI ; sh:property [ rdf:type sh:PropertyShape ; sh:class bot:Space ; sh:maxCount Literal(\"3\", datatype=xsd:integer) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:nodeKind sh:BlankNodeOrIRI ; sh:path bot:hasSpace ] ; sh:targetClass bot:Storey ]" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb4 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95f6ab3> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value does not conform to Shape [ rdf:type sh:NodeShape ; sh:nodeKind sh:BlankNodeOrIRI ; sh:property [ rdf:type sh:PropertyShape ; sh:class bot:Space ; sh:maxCount Literal(\"3\", datatype=xsd:integer) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:nodeKind sh:BlankNodeOrIRI ; sh:path bot:hasSpace ] ; sh:targetClass bot:Storey ]" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb4 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95f770e> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"Duplex\")" ;
+            sh:resultPath <https://w3id.org/props#categoryDescription_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb1 ;
+            sh:value "Duplex" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"Issue Date\")" ;
+            sh:resultPath <https://w3id.org/props#projectIssueDate_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb1 ;
+            sh:value "Issue Date" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value inst:storey_7b7032cc-b822-417b-9aea-6429f95d6693 not in list ['inst:storey_7b7032cc-b822-417b-9aea-6429f95f6ab3', 'inst:storey_7b7032cc-b822-417b-9aea-6429f95f770e']" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:InConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb4 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95d6693> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value of inst:building_7b7032cc-b822-417b-9aea-642906a29bd4->bot:containsZone != inst:storey_7b7032cc-b822-417b-9aea-6429f95d6512" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:EqualsConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb4 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95d6512> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95f6ab3> ;
+            sh:resultMessage "Less than 1 values on inst:storey_7b7032cc-b822-417b-9aea-6429f95f6ab3->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb10 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value of inst:building_7b7032cc-b822-417b-9aea-642906a29bd4->bot:containsZone != inst:storey_7b7032cc-b822-417b-9aea-6429f95f6ab3" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:EqualsConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb4 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95f6ab3> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"4\", datatype=xsd:integer)" ;
+            sh:resultPath <https://w3id.org/props#numberOfStoreys_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb1 ;
+            sh:value 4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95d6512> ;
+            sh:resultMessage "More than 3 values on inst:storey_7b7032cc-b822-417b-9aea-6429f95d6512->bot:hasSpace" ;
+            sh:resultPath bot:hasSpace ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxCountConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb8 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value does not conform to Shape [ rdf:type sh:NodeShape ; sh:nodeKind sh:BlankNodeOrIRI ; sh:property [ rdf:type sh:PropertyShape ; sh:class bot:Space ; sh:maxCount Literal(\"3\", datatype=xsd:integer) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:nodeKind sh:BlankNodeOrIRI ; sh:path bot:hasSpace ] ; sh:targetClass bot:Storey ]" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb4 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95d6512> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95f770e> ;
+            sh:resultMessage "Less than 1 values on inst:storey_7b7032cc-b822-417b-9aea-6429f95f770e->bot:hasSpace" ;
+            sh:resultPath bot:hasSpace ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb8 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95d6512> ;
+            sh:resultMessage "Less than 1 values on inst:storey_7b7032cc-b822-417b-9aea-6429f95d6512->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb10 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value inst:storey_7b7032cc-b822-417b-9aea-6429f95f770e not in list ['inst:storey_7b7032cc-b822-417b-9aea-6429f95f6ab3', 'inst:storey_7b7032cc-b822-417b-9aea-6429f95f770e']" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:InConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb4 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95f770e> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value inst:storey_7b7032cc-b822-417b-9aea-6429f95f6ab3 not in list ['inst:storey_7b7032cc-b822-417b-9aea-6429f95f6ab3', 'inst:storey_7b7032cc-b822-417b-9aea-6429f95f770e']" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:InConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb4 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95f6ab3> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"11-16 21 11\")" ;
+            sh:resultPath <https://w3id.org/props#categoryCode_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb1 ;
+            sh:value "11-16 21 11" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"1xS3BCk291UvhgP2a6eflK\")" ;
+            sh:resultPath <https://w3id.org/props#globalIdIfcRoot_attribute_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb1 ;
+            sh:value "1xS3BCk291UvhgP2a6eflK" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95d6693> ;
+            sh:resultMessage "Less than 1 values on inst:storey_7b7032cc-b822-417b-9aea-6429f95d6693->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb10 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95f6ab3> ;
+            sh:resultMessage "Less than 1 values on inst:storey_7b7032cc-b822-417b-9aea-6429f95f6ab3->bot:hasSpace" ;
+            sh:resultPath bot:hasSpace ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb8 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: bot:Building" ;
+            sh:resultPath rdf:type ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb1 ;
+            sh:value bot:Building ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value of inst:building_7b7032cc-b822-417b-9aea-642906a29bd4->bot:containsZone != inst:storey_7b7032cc-b822-417b-9aea-6429f95d6693" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:EqualsConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb4 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95d6693> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value does not conform to Shape [ rdf:type sh:NodeShape ; sh:nodeKind sh:BlankNodeOrIRI ; sh:property [ rdf:type sh:PropertyShape ; sh:class bot:Space ; sh:maxCount Literal(\"3\", datatype=xsd:integer) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:nodeKind sh:BlankNodeOrIRI ; sh:path bot:hasSpace ] ; sh:targetClass bot:Storey ]" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb4 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95d6693> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95f770e> ;
+            sh:resultMessage "Less than 1 values on inst:storey_7b7032cc-b822-417b-9aea-6429f95f770e->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb10 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"Owner\")" ;
+            sh:resultPath <https://w3id.org/props#clientName_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb1 ;
+            sh:value "Owner" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95d6693> ;
+            sh:resultMessage "More than 3 values on inst:storey_7b7032cc-b822-417b-9aea-6429f95d6693->bot:hasSpace" ;
+            sh:resultPath bot:hasSpace ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxCountConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb8 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"Enter address here\")" ;
+            sh:resultPath <https://w3id.org/props#projectAddress_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb1 ;
+            sh:value "Enter address here" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"0001\")" ;
+            sh:resultPath <https://w3id.org/props#projectNumber_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb1 ;
+            sh:value "0001" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value inst:storey_7b7032cc-b822-417b-9aea-6429f95d6512 not in list ['inst:storey_7b7032cc-b822-417b-9aea-6429f95f6ab3', 'inst:storey_7b7032cc-b822-417b-9aea-6429f95f770e']" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:InConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb4 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95d6512> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"Duplex Apartment\")" ;
+            sh:resultPath <https://w3id.org/props#projectName_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb1 ;
+            sh:value "Duplex Apartment" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#building_7b7032cc-b822-417b-9aea-642906a29bd4> ;
+            sh:resultMessage "Value of inst:building_7b7032cc-b822-417b-9aea-642906a29bd4->bot:containsZone != inst:storey_7b7032cc-b822-417b-9aea-6429f95f770e" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:EqualsConstraintComponent ;
+            sh:sourceShape _:ndc8c049b1d924201bbae4fcf001c92ebb4 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/2e398e79-43cb-4623-980d-2867b42f0aa2#storey_7b7032cc-b822-417b-9aea-6429f95f770e> ] .
+
+_:N0f8ade5821734431acd0fb6b04eb7589 a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property [ a sh:PropertyShape ;
+            sh:class bot:Space ;
+            sh:maxCount 3 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:path bot:hasSpace ] ;
+    sh:targetClass bot:Storey .
+
+_:N1d323952858e435b9fe053797b663d6b a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property [ a sh:PropertyShape ;
+            sh:class bot:Space ;
+            sh:maxCount 3 ;
+            sh:minCount 1 ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:path bot:hasSpace ] ;
+    sh:targetClass bot:Storey .
+
+_:N2eda355b407941c3bda906c547e76477 rdf:first inst:storey_7b7032cc-b822-417b-9aea-6429f95f6ab3 ;
+    rdf:rest ( inst:storey_7b7032cc-b822-417b-9aea-6429f95f770e ) .
+
+_:N453ceea48ba44fb191cb13b9d6606715 rdf:first inst:storey_7b7032cc-b822-417b-9aea-6429f95f6ab3 ;
+    rdf:rest ( inst:storey_7b7032cc-b822-417b-9aea-6429f95f770e ) .
+
+_:N46586ecb5f7a4f4eafe84cc045e51a33 a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property [ a sh:PropertyShape ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:path cto:isSubjectOfTask ] ;
+    sh:targetClass bot:Storey .
+
+_:N66d1eee60efc47aead68b868a8aed5f0 a sh:PropertyShape ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path cto:isSubjectOfTask .
+
+_:N874deb5a3d844686abc2eb440d0723fd rdf:first bot:hasSimple3DModel ;
+    rdf:rest () .
+
+_:Na292c018de3a48c2ad828ad7e27e1f2a rdf:first bot:has3DModel ;
+    rdf:rest _:N874deb5a3d844686abc2eb440d0723fd .
+
+_:Nb1c9b6f75fd341f69dddc7e49fc0d806 a sh:PropertyShape ;
+    sh:class bot:Storey ;
+    sh:disjoint bot:hasSpace ;
+    sh:equals bot:containsZone ;
+    sh:hasValue inst:storey_7b7032cc-b822-417b-9aea-6429f95d6512 ;
+    sh:in _:N453ceea48ba44fb191cb13b9d6606715 ;
+    sh:lessThan bot:hasSpace ;
+    sh:lessThanOrEquals bot:hasElement ;
+    sh:minCount 1 ;
+    sh:node _:N1d323952858e435b9fe053797b663d6b ;
+    sh:path bot:hasStorey ;
+    sh:qualifiedMaxCount 3 ;
+    sh:qualifiedMinCount 3 ;
+    sh:qualifiedValueShape _:N46586ecb5f7a4f4eafe84cc045e51a33 ;
+    sh:qualifiedValueShapesDisjoint true .
+
+_:Nf1a76bb411bc4325b4776b2cd73ff5e5 a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property _:N66d1eee60efc47aead68b868a8aed5f0 ;
+    sh:targetClass bot:Storey .
+
+_:ndc8c049b1d924201bbae4fcf001c92ebb10 a sh:PropertyShape ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path cto:isSubjectOfTask .
+
+_:ndc8c049b1d924201bbae4fcf001c92ebb8 a sh:PropertyShape ;
+    sh:class bot:Space ;
+    sh:maxCount 3 ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:path bot:hasSpace .
+
+_:ndc8c049b1d924201bbae4fcf001c92ebb1 a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties _:Na292c018de3a48c2ad828ad7e27e1f2a ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property _:Nb1c9b6f75fd341f69dddc7e49fc0d806 ;
+    sh:targetClass bot:Building .
+
+_:ndc8c049b1d924201bbae4fcf001c92ebb4 a sh:PropertyShape ;
+    sh:class bot:Storey ;
+    sh:disjoint bot:hasSpace ;
+    sh:equals bot:containsZone ;
+    sh:hasValue inst:storey_7b7032cc-b822-417b-9aea-6429f95d6512 ;
+    sh:in _:N2eda355b407941c3bda906c547e76477 ;
+    sh:lessThan bot:hasSpace ;
+    sh:lessThanOrEquals bot:hasElement ;
+    sh:minCount 1 ;
+    sh:node _:N0f8ade5821734431acd0fb6b04eb7589 ;
+    sh:path bot:hasStorey ;
+    sh:qualifiedMaxCount 3 ;
+    sh:qualifiedMinCount 3 ;
+    sh:qualifiedValueShape _:Nf1a76bb411bc4325b4776b2cd73ff5e5 ;
+    sh:qualifiedValueShapesDisjoint true .
+

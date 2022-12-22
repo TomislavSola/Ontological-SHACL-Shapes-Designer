@@ -1,0 +1,252 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns0: <http://purl.org/vocab/vann/> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dc:description a owl:AnnotationProperty .
+<http://purl.org/vocab/vann/preferredNamespaceUri> a owl:AnnotationProperty .
+dc:rights a owl:AnnotationProperty .
+dc:issued a owl:AnnotationProperty .
+dc:title a owl:AnnotationProperty .
+<http://purl.org/vocab/vann/preferredNamespacePrefix> a owl:AnnotationProperty .
+dc:creator a owl:AnnotationProperty .
+dc:contributor a owl:AnnotationProperty .
+dc:modified a owl:AnnotationProperty .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset>
+  a <http://purl.org/vocommons/voaf#Vocabulary>, owl:Ontology ;
+  dc:creator [
+    a foaf:Organization ;
+    foaf:website "http://www.iso.org" ;
+    foaf:Email "copyright@iso.org" ;
+    foaf:Fax "+41 22 749 09 47" ;
+    foaf:Phone "+41 22 749 01 11" ;
+    foaf:address "ISO copyright office CP 401, Ch. de Blandonnet 8, CH-1214 Vernier, Geneva" ;
+    foaf:name "ISO"
+  ] ;
+  owl:versionInfo "v1.0" ;
+  dc:modified "2020-01-01"^^xsd:date ;
+  ns0:preferredNamespacePrefix "ls" ;
+  ns0:preferredNamespaceUri <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset> ;
+  dc:issued "2020-01-01"^^xsd:date ;
+  dc:description "ISO 21597 Part 1 gives a specification for a container that stores documents, along with a means of linking otherwise disconnected data within those documents. This linkset ontology is an RDF(S)/OWL file providing the object classes and properties that shall be used to specify between documents in a container."@en-GB ;
+  owl:imports <https://standards.iso.org/iso/21597/-1/ed-1/en/Container> ;
+  dc:title "The ISO 21597 ICDD Part 1 Linkset ontology."@en-GB ;
+  dc11:rights """© ISO 2020. All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester. 
+ISO copyright office
+ CP 401, Ch. de Blandonnet 8, CH-1214 Vernier, Geneva
+ Phone: +41 22 749 01 11
+ Fax: +41 22 749 09 47
+ Email: copyright@iso.org
+ Website: www.iso.org
+ Published in Switzerland"""@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#QueryBasedIdentifier>
+  a owl:Class ;
+  rdfs:subClassOf <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>, [
+    a owl:Restriction ;
+    owl:onProperty <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#queryExpression> ;
+    owl:cardinality "1"^^xsd:nonNegativeInteger
+  ], [
+    a owl:Restriction ;
+    owl:onProperty <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#queryLanguage> ;
+    owl:cardinality "1"^^xsd:nonNegativeInteger
+  ] ;
+  rdfs:comment "the query resulting in an identifier"@en-GB ;
+  rdfs:label "Query based identifier"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>
+  a owl:Class ;
+  owl:disjointUnionOf (
+   <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#QueryBasedIdentifier>
+   <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#StringBasedIdentifier>
+   <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#URIBasedIdentifier>
+ ) ;
+  rdfs:subClassOf owl:Thing ;
+  rdfs:comment "An abstract class for identification of an element within a document; in cases where an identifier may be computed, this shall be managed by the implementer since no method is specified in this standard"@en-GB ;
+  rdfs:label "Identifier"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#queryExpression>
+  a owl:FunctionalProperty, owl:DatatypeProperty ;
+  rdfs:range xsd:string ;
+  rdfs:domain <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#QueryBasedIdentifier> ;
+  rdfs:comment "the query resulting into an identifier"@en-GB ;
+  rdfs:label "query expression"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#queryLanguage>
+  a owl:FunctionalProperty, owl:DatatypeProperty ;
+  rdfs:range xsd:string ;
+  rdfs:domain <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#QueryBasedIdentifier> ;
+  rdfs:comment "a query lanugage specification"@en-GB ;
+  rdfs:label "query language"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#DirectedLink>
+  a owl:Class ;
+  rdfs:subClassOf <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Link>, [
+    a owl:Restriction ;
+    owl:onProperty <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasToLinkElement> ;
+    owl:minCardinality "1"^^xsd:nonNegativeInteger
+  ], [
+    a owl:Restriction ;
+    owl:onProperty <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasFromLinkElement> ;
+    owl:minCardinality "1"^^xsd:nonNegativeInteger
+  ] ;
+  rdfs:comment "An ls:Link that uses the subproperties ls:hasFromLinkElement and ls:hasToLinkElement to denote a direction of this link"@en-GB ;
+  rdfs:label "Directed link"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Link>
+  a owl:Class ;
+  rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasLinkElement> ;
+    owl:minCardinality "2"^^xsd:nonNegativeInteger
+  ] ;
+  rdfs:comment "A grouping of 1 or more instances of  ls:LinkElement"@en-GB ;
+  rdfs:label "Link"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasToLinkElement>
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasLinkElement> ;
+  rdfs:range <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#LinkElement> ;
+  rdfs:domain <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#DirectedLink> ;
+  rdfs:comment "a relation from an ls:Link to an ls:LinkElement. It is a sub property of ls:hasLinkElement"@en-GB ;
+  rdfs:label "has to link element"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasFromLinkElement>
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasLinkElement> ;
+  rdfs:range <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#LinkElement> ;
+  rdfs:domain <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#DirectedLink> ;
+  rdfs:comment "a relation from an ls:Link to an ls:LinkElement. It is a sub property of ls:hasLinkElement"@en-GB ;
+  rdfs:label "has from link element"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#StringBasedIdentifier>
+  a owl:Class ;
+  rdfs:subClassOf <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>, [
+    a owl:Restriction ;
+    owl:onProperty <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#identifier> ;
+    owl:cardinality "1"^^xsd:nonNegativeInteger
+  ], [
+    a owl:Restriction ;
+    owl:onProperty <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#identifierField> ;
+    owl:maxCardinality "1"^^xsd:nonNegativeInteger
+  ] ;
+  rdfs:comment "identification of an element within a document via a String ID"@en-GB ;
+  rdfs:label "String based identifier"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#URIBasedIdentifier>
+  a owl:Class ;
+  rdfs:subClassOf <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> ;
+  rdfs:comment "URI-based identifier for a document, or element within a document, that is located on the web"@en-GB ;
+  rdfs:label "URI based identifier"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#LinkElement>
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing, [
+    a owl:Restriction ;
+    owl:onProperty <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasIdentifier> ;
+    owl:onClass <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> ;
+    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
+  ], [
+    a owl:Restriction ;
+    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+    owl:onProperty <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasDocument> ;
+    owl:onClass <https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Document>
+  ] ;
+  rdfs:comment "A class for referencing to a document or to an element in a document"@en-GB ;
+  rdfs:label "Link element"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasIdentifier>
+  a owl:ObjectProperty ;
+  rdfs:range <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> ;
+  rdfs:domain <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#LinkElement> ;
+  rdfs:comment "a relation from ls:LinkElement to an ls:Identifier"@en-GB ;
+  rdfs:label "has identifier"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasDocument>
+  a owl:ObjectProperty ;
+  rdfs:range <https://standards.iso.org/iso/21597/-1/ed-1/en/Container#Document> ;
+  rdfs:domain <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#LinkElement> ;
+  rdfs:comment "a reference from a ls:LinkElement to a ct:Document"@en-GB ;
+  rdfs:label "has document"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#DirectedBinaryLink>
+  a owl:Class ;
+  rdfs:subClassOf <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#DirectedLink>, <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#BinaryLink>, [
+    a owl:Restriction ;
+    owl:onProperty <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasFromLinkElement> ;
+    owl:cardinality "1"^^xsd:nonNegativeInteger
+  ], [
+    a owl:Restriction ;
+    owl:onProperty <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasToLinkElement> ;
+    owl:cardinality "1"^^xsd:nonNegativeInteger
+  ] ;
+  rdfs:comment "a subtype of a binary link (that has exactly 2 LinkElements) that uses the subproperties ls:hasFromLinkElement and ls:hasToLinkElement to denote a direction of this link"@en-GB ;
+  rdfs:label "Directed binary link"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#BinaryLink>
+  a owl:Class ;
+  owl:equivalentClass [
+    a owl:Class ;
+    owl:intersectionOf (
+     <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Link>
+     _:genid19
+   )
+  ] ;
+  rdfs:subClassOf <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Link>, [
+    a owl:Restriction ;
+    owl:onProperty <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasLinkElement> ;
+    owl:cardinality "2"^^xsd:nonNegativeInteger
+  ] ;
+  rdfs:comment "An ls:Link comprising exactly 2 individuals of class ls:LinkElement"@en-GB ;
+  rdfs:label "Binary link"@en-GB .
+
+foaf:Organization a owl:Class .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasLinkElement>
+  a owl:ObjectProperty ;
+  rdfs:range <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#LinkElement> ;
+  rdfs:domain <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Link> ;
+  rdfs:comment "a relation from an ls:Link to an ls:LinkElement"@en-GB ;
+  rdfs:label "has link element"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Directed1toNLink>
+  a owl:Class ;
+  rdfs:subClassOf <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#DirectedLink>, [
+    a owl:Restriction ;
+    owl:onProperty <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasFromLinkElement> ;
+    owl:cardinality "1"^^xsd:nonNegativeInteger
+  ] ;
+  rdfs:comment "an ls:Directed1toNLink is a subtype of ls:DirectedLink mandating exactly 1 ls:hasFromLinkElement"@en-GB ;
+  rdfs:label "Directed1to NLink"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#identifier>
+  a owl:FunctionalProperty, owl:DatatypeProperty ;
+  rdfs:range xsd:string ;
+  rdfs:domain <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#StringBasedIdentifier> ;
+  rdfs:comment "a datatype String property containing the actual ID string"@en-GB ;
+  rdfs:label "identifier"@en-GB .
+
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#identifierField>
+  a owl:FunctionalProperty, owl:DatatypeProperty ;
+  rdfs:range xsd:string ;
+  rdfs:domain <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#StringBasedIdentifier> ;
+  rdfs:comment "a String datatype for defining the field(s) where the identifier can be found; in cases where the identifier is composed of multiple fields, the implementer shall choose the syntax rules"@en-GB ;
+  rdfs:label "identifier field"@en-GB .
+
+<http://purl.org/vocommons/voaf#Vocabulary> a owl:Class .
+foaf:address a owl:DatatypeProperty .
+foaf:website a owl:DatatypeProperty .
+foaf:name a owl:DatatypeProperty .
+<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#uri>
+  a owl:FunctionalProperty, owl:DatatypeProperty ;
+  rdfs:range xsd:anyURI ;
+  rdfs:domain <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#URIBasedIdentifier> ;
+  rdfs:comment "an URI for referring to a document"@en-GB ;
+  rdfs:label "uri"@en-GB .
+
+_:genid19
+  a owl:Restriction ;
+  owl:onProperty <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#hasLinkElement> ;
+  owl:cardinality "2"^^xsd:nonNegativeInteger .

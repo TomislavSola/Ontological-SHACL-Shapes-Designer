@@ -1,0 +1,20 @@
+SELECT DISTINCT ?p
+WHERE {
+    { ?p rdfs:domain ?class }
+    UNION
+    { ?p schema:domainIncludes ?class }
+    UNION
+    { ?p schema1:domainIncludes ?class }
+    UNION
+    { ?p rdfs:domain ?superclass .
+      ?class rdfs:subClassOf+ ?superclass .
+    }
+    UNION
+    { ?p schema:domainIncludes ?superclass .
+      ?class rdfs:subClassOf+ ?superclass .
+    }
+    UNION
+    { ?p schema1:domainIncludes ?superclass .
+      ?class rdfs:subClassOf+ ?superclass .
+    }
+ }

@@ -1,0 +1,96 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#storey_9d90071a-8d5a-46c0-9506-caf8e6dbc1dc> ;
+            sh:resultMessage "Less than 1 values on inst:storey_9d90071a-8d5a-46c0-9506-caf8e6dbc1dc->bot:hasSpace" ;
+            sh:resultPath bot:hasSpace ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nd7f04eed19e44f5c93767590e959ca39b4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#building_9d90071a-8d5a-46c0-9506-caf819245d02> ;
+            sh:resultMessage "Value does not conform to Shape [ rdf:type sh:NodeShape ; sh:nodeKind sh:BlankNodeOrIRI ; sh:property [ rdf:type sh:PropertyShape ; sh:maxCount Literal(\"1\", datatype=xsd:integer) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path bot:hasSpace ] ; sh:targetClass bot:Storey ]" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:nd7f04eed19e44f5c93767590e959ca39b2 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#storey_9d90071a-8d5a-46c0-9506-caf8e6dbc231> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#building_9d90071a-8d5a-46c0-9506-caf819245d02> ;
+            sh:resultMessage "Value does not conform to Shape [ rdf:type sh:NodeShape ; sh:nodeKind sh:BlankNodeOrIRI ; sh:property [ rdf:type sh:PropertyShape ; sh:maxCount Literal(\"1\", datatype=xsd:integer) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path bot:hasSpace ] ; sh:targetClass bot:Storey ]" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:nd7f04eed19e44f5c93767590e959ca39b2 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#storey_9d90071a-8d5a-46c0-9506-caf8e6dbc1dc> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#storey_9d90071a-8d5a-46c0-9506-caf8e6dbc231> ;
+            sh:resultMessage "Less than 1 values on inst:storey_9d90071a-8d5a-46c0-9506-caf8e6dbc231->bot:hasSpace" ;
+            sh:resultPath bot:hasSpace ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nd7f04eed19e44f5c93767590e959ca39b4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#storey_9d90071a-8d5a-46c0-9506-caf8e6dbc171> ;
+            sh:resultMessage "Less than 1 values on inst:storey_9d90071a-8d5a-46c0-9506-caf8e6dbc171->bot:hasSpace" ;
+            sh:resultPath bot:hasSpace ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nd7f04eed19e44f5c93767590e959ca39b4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#building_9d90071a-8d5a-46c0-9506-caf819245d02> ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape _:nd7f04eed19e44f5c93767590e959ca39b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#building_9d90071a-8d5a-46c0-9506-caf819245d02> ;
+            sh:resultMessage "Value does not conform to Shape [ rdf:type sh:NodeShape ; sh:nodeKind sh:BlankNodeOrIRI ; sh:property [ rdf:type sh:PropertyShape ; sh:maxCount Literal(\"1\", datatype=xsd:integer) ; sh:minCount Literal(\"1\", datatype=xsd:integer) ; sh:path bot:hasSpace ] ; sh:targetClass bot:Storey ]" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:NodeConstraintComponent ;
+            sh:sourceShape _:nd7f04eed19e44f5c93767590e959ca39b2 ;
+            sh:value <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#storey_9d90071a-8d5a-46c0-9506-caf8e6dbc171> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#building_9d90071a-8d5a-46c0-9506-caf819245d02> ;
+            sh:resultMessage "More than 1 values on inst:building_9d90071a-8d5a-46c0-9506-caf819245d02->bot:hasStorey" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MaxCountConstraintComponent ;
+            sh:sourceShape _:nd7f04eed19e44f5c93767590e959ca39b2 ] .
+
+_:N6c8c1faa928940bf974915464d867df9 a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property [ a sh:PropertyShape ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:path bot:hasSpace ] ;
+    sh:targetClass bot:Storey .
+
+_:Nbcc5339a87b54f028eae3b128669d8f3 a sh:PropertyShape ;
+    sh:class bot:Element ;
+    sh:maxCount 5 ;
+    sh:minCount 5 ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:path bot:hasElement .
+
+_:nd7f04eed19e44f5c93767590e959ca39b4 a sh:PropertyShape ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path bot:hasSpace .
+
+_:nd7f04eed19e44f5c93767590e959ca39b2 a sh:PropertyShape ;
+    sh:class bot:Storey ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:node _:N6c8c1faa928940bf974915464d867df9 ;
+    sh:path bot:hasStorey ;
+    sh:qualifiedMaxCount 1 ;
+    sh:qualifiedMinCount 1 ;
+    sh:qualifiedValueShape _:Nbcc5339a87b54f028eae3b128669d8f3 ;
+    sh:qualifiedValueShapesDisjoint true .
+

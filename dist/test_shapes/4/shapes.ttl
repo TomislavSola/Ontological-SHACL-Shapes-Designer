@@ -1,0 +1,38 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix inst: <https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( bot:has3DModel bot:hasSimple3DModel bot:containsZone bot:adjacentZone bot:intersectsZone ) ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property [ a sh:PropertyShape ;
+            sh:class bot:Element ;
+            sh:hasValue inst:space_0b74b3fa-1a92-405e-9ac9-d59067be1d78 ;
+            sh:in ( inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7b5b inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc24f ) ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:node [ a sh:NodeShape ;
+                    sh:nodeKind sh:BlankNodeOrIRI ;
+                    sh:property [ a sh:PropertyShape ;
+                            sh:maxCount 1 ;
+                            sh:minCount 1 ;
+                            sh:path bot:has3DModel ] ;
+                    sh:targetClass bot:Element ] ;
+            sh:path bot:hasElement ;
+            sh:qualifiedMaxCount 3 ;
+            sh:qualifiedMinCount 3 ;
+            sh:qualifiedValueShape [ a sh:NodeShape ;
+                    sh:nodeKind sh:BlankNodeOrIRI ;
+                    sh:property [ a sh:PropertyShape ;
+                            sh:class bot:Element ;
+                            sh:maxCount 1 ;
+                            sh:minCount 1 ;
+                            sh:nodeKind sh:BlankNodeOrIRI ;
+                            sh:path bot:hasSubElement ] ;
+                    sh:targetClass bot:Element ] ;
+            sh:qualifiedValueShapesDisjoint true ] ;
+    sh:targetClass bot:Space .
+

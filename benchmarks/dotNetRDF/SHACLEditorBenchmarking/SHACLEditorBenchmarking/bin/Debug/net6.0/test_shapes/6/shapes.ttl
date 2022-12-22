@@ -1,0 +1,53 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix cto: <https://w3id.org/cto#> .
+@prefix inst: <https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( bot:has3DModel bot:intersectsZone bot:hasBuilding ) ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property [ a sh:PropertyShape ;
+            sh:and ( [ a sh:NodeShape ;
+                        sh:nodeKind sh:BlankNodeOrIRI ;
+                        sh:property [ a sh:PropertyShape ;
+                                sh:minCount 1 ;
+                                sh:path bot:hostsElement ] ;
+                        sh:targetClass bot:Element ] [ a sh:NodeShape ;
+                        sh:nodeKind sh:BlankNodeOrIRI ;
+                        sh:property [ a sh:PropertyShape ;
+                                sh:minCount 1 ;
+                                sh:path bot:has3DModel ] ;
+                        sh:targetClass bot:Element ] ) ;
+            sh:class bot:Element ;
+            sh:disjoint bot:hasBuilding ;
+            sh:equals bot:containsZone ;
+            sh:hasValue inst:wall_9808fd7f-dc48-478e-9217-628e833d7938 ;
+            sh:in ( inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b8873 inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7236 ) ;
+            sh:lessThan bot:hasSpace ;
+            sh:lessThanOrEquals cto:isSubjectOfTask ;
+            sh:maxCount 10 ;
+            sh:minCount 10 ;
+            sh:node [ a sh:NodeShape ;
+                    sh:nodeKind sh:BlankNodeOrIRI ;
+                    sh:property [ a sh:PropertyShape ;
+                            sh:minCount 1 ;
+                            sh:path bot:hasSimple3DModel ] ;
+                    sh:targetClass bot:Element ] ;
+            sh:path bot:hasElement ;
+            sh:qualifiedMaxCount 3 ;
+            sh:qualifiedMinCount 1 ;
+            sh:qualifiedValueShape [ a sh:NodeShape ;
+                    sh:nodeKind sh:BlankNodeOrIRI ;
+                    sh:property [ a sh:PropertyShape ;
+                            sh:class cto:Task ;
+                            sh:minCount 1 ;
+                            sh:nodeKind sh:BlankNodeOrIRI ;
+                            sh:path cto:isSubjectOfTask ] ;
+                    sh:targetClass bot:Element ] ;
+            sh:qualifiedValueShapesDisjoint true ;
+            sh:severity sh:Violation ] ;
+    sh:targetClass bot:Space .
+

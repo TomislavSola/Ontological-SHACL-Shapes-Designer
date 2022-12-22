@@ -1,0 +1,278 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix cto: <https://w3id.org/cto#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#wall_a2bf5e3e-e854-48de-ae2a-4430db175eb7> ;
+            sh:resultMessage "Less than 1 values on inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175eb7->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b17 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffac13> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffac13->bot:hasSimple3DModel" ;
+            sh:resultPath bot:hasSimple3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b15 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_a2bf5e3e-e854-48de-ae2a-4430db17405f> ;
+            sh:resultMessage "Less than 1 values on inst:slab_a2bf5e3e-e854-48de-ae2a-4430db17405f->bot:hasSimple3DModel" ;
+            sh:resultPath bot:hasSimple3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b15 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffac13> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffac13->bot:has3DModel" ;
+            sh:resultPath bot:has3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffadff> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffadff->bot:hasSimple3DModel" ;
+            sh:resultPath bot:hasSimple3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b15 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffada4> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffada4->bot:hasSimple3DModel" ;
+            sh:resultPath bot:hasSimple3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b15 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_33cea67b-0280-42d4-823c-9bb379bc8014> ;
+            sh:resultMessage "Less than 1 values on inst:slab_33cea67b-0280-42d4-823c-9bb379bc8014->bot:has3DModel" ;
+            sh:resultPath bot:has3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#wall_a2bf5e3e-e854-48de-ae2a-4430db175e59> ;
+            sh:resultMessage "Less than 1 values on inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175e59->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b17 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffada4> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffada4->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b17 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#wall_a2bf5e3e-e854-48de-ae2a-4430db175e59> ;
+            sh:resultMessage "Less than 1 values on inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175e59->bot:hasSimple3DModel" ;
+            sh:resultPath bot:hasSimple3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b15 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_33cea67b-0280-42d4-823c-9bb379bc8014> ;
+            sh:resultMessage "Less than 1 values on inst:slab_33cea67b-0280-42d4-823c-9bb379bc8014->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b7 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_33cea67b-0280-42d4-823c-9bb379bc8014> ;
+            sh:resultMessage "Less than 1 values on inst:slab_33cea67b-0280-42d4-823c-9bb379bc8014->bot:hasSimple3DModel" ;
+            sh:resultPath bot:hasSimple3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b15 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffad8a> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffad8a->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b17 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffac13> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffac13->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b17 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffadff> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffadff->bot:has3DModel" ;
+            sh:resultPath bot:has3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffadff> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffadff->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b7 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#wall_a2bf5e3e-e854-48de-ae2a-4430db175eb7> ;
+            sh:resultMessage "Less than 1 values on inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175eb7->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b7 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffada4> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffada4->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b7 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffad8a> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffad8a->bot:hasSimple3DModel" ;
+            sh:resultPath bot:hasSimple3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b15 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#wall_a2bf5e3e-e854-48de-ae2a-4430db175f33> ;
+            sh:resultMessage "Less than 1 values on inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175f33->bot:has3DModel" ;
+            sh:resultPath bot:has3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffad8a> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffad8a->bot:has3DModel" ;
+            sh:resultPath bot:has3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_a2bf5e3e-e854-48de-ae2a-4430db17405f> ;
+            sh:resultMessage "Less than 1 values on inst:slab_a2bf5e3e-e854-48de-ae2a-4430db17405f->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b17 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_33cea67b-0280-42d4-823c-9bb379bc8014> ;
+            sh:resultMessage "Less than 1 values on inst:slab_33cea67b-0280-42d4-823c-9bb379bc8014->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b17 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffac13> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffac13->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b7 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#wall_a2bf5e3e-e854-48de-ae2a-4430db175e59> ;
+            sh:resultMessage "Less than 1 values on inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175e59->bot:has3DModel" ;
+            sh:resultPath bot:has3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffad8a> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffad8a->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b7 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffada4> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffada4->bot:has3DModel" ;
+            sh:resultPath bot:has3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#wall_a2bf5e3e-e854-48de-ae2a-4430db175eb7> ;
+            sh:resultMessage "Less than 1 values on inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175eb7->bot:has3DModel" ;
+            sh:resultPath bot:has3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#wall_a2bf5e3e-e854-48de-ae2a-4430db175e59> ;
+            sh:resultMessage "Less than 1 values on inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175e59->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b7 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#wall_a2bf5e3e-e854-48de-ae2a-4430db175f33> ;
+            sh:resultMessage "Less than 1 values on inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175f33->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b7 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#wall_a2bf5e3e-e854-48de-ae2a-4430db175f33> ;
+            sh:resultMessage "Less than 1 values on inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175f33->bot:hasSimple3DModel" ;
+            sh:resultPath bot:hasSimple3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b15 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_a2bf5e3e-e854-48de-ae2a-4430db17405f> ;
+            sh:resultMessage "Less than 1 values on inst:slab_a2bf5e3e-e854-48de-ae2a-4430db17405f->bot:has3DModel" ;
+            sh:resultPath bot:has3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#wall_a2bf5e3e-e854-48de-ae2a-4430db175f33> ;
+            sh:resultMessage "Less than 1 values on inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175f33->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b17 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#wall_a2bf5e3e-e854-48de-ae2a-4430db175eb7> ;
+            sh:resultMessage "Less than 1 values on inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175eb7->bot:hasSimple3DModel" ;
+            sh:resultPath bot:hasSimple3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b15 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_75e193fd-81b2-42ea-a574-86959bffadff> ;
+            sh:resultMessage "Less than 1 values on inst:slab_75e193fd-81b2-42ea-a574-86959bffadff->cto:isSubjectOfTask" ;
+            sh:resultPath cto:isSubjectOfTask ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b17 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#slab_a2bf5e3e-e854-48de-ae2a-4430db17405f> ;
+            sh:resultMessage "Less than 1 values on inst:slab_a2bf5e3e-e854-48de-ae2a-4430db17405f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:nb9c3b93831f24793b257c2956783b984b7 ] .
+
+_:nb9c3b93831f24793b257c2956783b984b15 a sh:PropertyShape ;
+    sh:minCount 1 ;
+    sh:path bot:hasSimple3DModel .
+
+_:nb9c3b93831f24793b257c2956783b984b17 a sh:PropertyShape ;
+    sh:class cto:Task ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:path cto:isSubjectOfTask .
+
+_:nb9c3b93831f24793b257c2956783b984b7 a sh:PropertyShape ;
+    sh:minCount 1 ;
+    sh:path bot:hostsElement .
+
+_:nb9c3b93831f24793b257c2956783b984b9 a sh:PropertyShape ;
+    sh:minCount 1 ;
+    sh:path bot:has3DModel .
+

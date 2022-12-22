@@ -1,0 +1,26 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#space_f9fa4621-9fe2-4ac7-a34e-dfa206388d7d> ;
+            sh:resultMessage "Less than 5 values on inst:space_f9fa4621-9fe2-4ac7-a34e-dfa206388d7d->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n22ba31867c4448ce904ebc9dda7af2f1b2 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#space_f9fa4621-9fe2-4ac7-a34e-dfa206388d60> ;
+            sh:resultMessage "Less than 5 values on inst:space_f9fa4621-9fe2-4ac7-a34e-dfa206388d60->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n22ba31867c4448ce904ebc9dda7af2f1b2 ] .
+
+_:n22ba31867c4448ce904ebc9dda7af2f1b2 a sh:PropertyShape ;
+    sh:maxCount 5 ;
+    sh:minCount 5 ;
+    sh:path bot:hasElement .
+

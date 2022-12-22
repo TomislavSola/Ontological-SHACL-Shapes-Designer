@@ -1,0 +1,196 @@
+@prefix :         <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index#> .
+@prefix IFC4-PSD: <https://www.linkedbuildingdata.net/IFC4-PSD#> .
+@prefix beo:      <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix bot:      <https://w3id.org/bot#> .
+@prefix ct:       <https://standards.iso.org/iso/21597/-1/ed-1/en/Container#> .
+@prefix cto:      <https://w3id.org/cto#> .
+@prefix els:      <https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset#> .
+@prefix exdc:     <https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument#> .
+@prefix furn:     <http://pi.pauwel.be/voc/furniture#> .
+@prefix geo:      <http://www.opengis.net/ont/geosparql#> .
+@prefix idx:      <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index#> .
+@prefix ifc:      <https://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#> .
+@prefix inst:     <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#> .
+@prefix lbd:      <https://linkebuildingdata.org/LBD#> .
+@prefix ls:       <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#> .
+@prefix lse:      <https://icdd.vm.rub.de/ontology/icdd/LinksetSparqlExtension#> .
+@prefix mep:      <http://pi.pauwel.be/voc/distributionelement#> .
+@prefix msproj:   <http://schemas.microsoft.com/project#> .
+@prefix ns0:      <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#> .
+@prefix ns1:      <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/cto/inst#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix props:    <https://w3id.org/props#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:       <http://www.w3.org/ns/shacl#> .
+@prefix smls:     <https://w3id.org/def/smls-owl#> .
+@prefix unit:     <http://qudt.org/vocab/unit/> .
+@prefix xml:      <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+[ rdf:type     sh:ValidationReport ;
+  sh:conforms  false ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-dfbed018-0dc1-4656-ba5b-e26506c05902 ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-37add029-fede-4405-a961-15bc3b74f4ff>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-37add029-fede-4405-a961-15bc3b74f4ff
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-34b13dbc-2631-4113-9088-fdb764c909fb ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-88269815-6db3-4176-9988-70b65ea29a66>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-88269815-6db3-4176-9988-70b65ea29a66
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-c6a58eff-90dc-46a1-879e-6dd9b3e3c706 ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-ec32cc5f-ad45-41cb-ae08-7d23db2e47fa>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-ec32cc5f-ad45-41cb-ae08-7d23db2e47fa
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-adaebee6-b714-4572-aac2-937963d7aebd ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-c79d90aa-a92f-4c82-906d-646b949686f6>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-c79d90aa-a92f-4c82-906d-646b949686f6
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-eefbcd9c-28a1-4f4a-a5a4-9b9359eb29b8 ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-7e9a4e9e-2971-4520-8e2b-119e992f0822>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-7e9a4e9e-2971-4520-8e2b-119e992f0822
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-6b8b2379-272b-4a8c-9f63-12fe4b0dea63 ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-3607fd98-b67c-4bed-a85e-0d199d627db0>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-3607fd98-b67c-4bed-a85e-0d199d627db0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-24eb102a-466f-49ba-b065-e1fb7f602c76 ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-6dcd3603-d257-43c3-996d-5f88023a102b>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-6dcd3603-d257-43c3-996d-5f88023a102b
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-ea1f8965-284c-4411-876b-cc2959463258 ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-289e60fa-7880-4093-aff4-3c86f1b98075>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-289e60fa-7880-4093-aff4-3c86f1b98075
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-3cad641b-1b77-41a1-9dd4-4b0070ba987d ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-22ec0200-7e13-4b1f-a30f-90addcc45793>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-22ec0200-7e13-4b1f-a30f-90addcc45793
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-c5b53659-cc80-42d0-8d3d-21ea1c809c41 ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-69e657bd-ce52-4369-86d0-32f3948f04ea>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-69e657bd-ce52-4369-86d0-32f3948f04ea
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-be5f106d-ea73-4a4d-9545-4f4179833da8 ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-d7337a93-a656-4148-a7d2-7bdadcda11ec>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-d7337a93-a656-4148-a7d2-7bdadcda11ec
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-a8222e78-0168-4243-9b88-1bfeb26c75a6 ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-37e1407b-b975-41ef-a4aa-6aeacbb36f26>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-37e1407b-b975-41ef-a4aa-6aeacbb36f26
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-aa01dcca-dc7e-43c7-858a-25c4f4947b00 ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-8f54bcda-5b14-49c0-a4d2-9725ac394397>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-8f54bcda-5b14-49c0-a4d2-9725ac394397
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-41304ca4-7e84-4da5-88cc-01d425dd94a4 ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-e46ecd7f-873d-4672-b137-55908a7d9da4>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-e46ecd7f-873d-4672-b137-55908a7d9da4
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-e3a65af1-8d44-4a57-8872-41a81f875723 ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-774e0990-5e62-4f3f-9c0b-d4322795846a>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-774e0990-5e62-4f3f-9c0b-d4322795846a
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-8705470d-5f0b-4d8c-88ea-58c92e813232 ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-4dfe940f-e40a-45c3-a841-efd401477a2e>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-4dfe940f-e40a-45c3-a841-efd401477a2e
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-3640d443-e887-446f-b528-5ebe58bd31bf ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-d67d63c8-11c1-4c56-a028-725fc60cd760>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-d67d63c8-11c1-4c56-a028-725fc60cd760
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  ns0:LinkElement-c5867e12-4c88-44e2-a527-ec508a5f0826 ;
+                 sh:resultMessage              "ClassConstraint[<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier>]: Expected class :<https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#Identifier> for <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#StringBasedIdentifier-9ee1c2f7-99f9-4f2a-b226-6d798dea91a5>" ;
+                 sh:resultPath                 ls:hasIdentifier ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:ClassConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      ns0:StringBasedIdentifier-9ee1c2f7-99f9-4f2a-b226-6d798dea91a5
+               ]
+] .

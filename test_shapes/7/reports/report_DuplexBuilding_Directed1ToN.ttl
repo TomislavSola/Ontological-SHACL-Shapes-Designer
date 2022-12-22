@@ -1,0 +1,2363 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix cto: <https://w3id.org/cto#> .
+@prefix inst: <https://icdd.vm.rub.de/convert/ifc/63606a85-8b86-4651-beda-9655081fb5cd#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7361 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7361->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: inst:storey_7b7032cc-b822-417b-9aea-6429f95f770e" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb1 ;
+            sh:value inst:storey_7b7032cc-b822-417b-9aea-6429f95f770e ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444e01 ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444e01->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5330 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5330->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d46ec ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d46ec->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d441c ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d441c->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e6533a28 ;
+            sh:resultMessage "Less than 1 values on inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e6533a28->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f31b ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f31b->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d574f ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d574f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d43b5 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d43b5->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2c391822-07f8-4a22-86a8-a1e57412d386 ;
+            sh:resultMessage "Less than 1 values on inst:wall_2c391822-07f8-4a22-86a8-a1e57412d386->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2da40d62-4698-436c-a2c3-95c49bb70c3c ;
+            sh:resultMessage "Less than 1 values on inst:wall_2da40d62-4698-436c-a2c3-95c49bb70c3c->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d7df1 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d7df1->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:roof_2da40d62-4698-436c-a2c3-95c49bb70eef ;
+            sh:resultMessage "Less than 1 values on inst:roof_2da40d62-4698-436c-a2c3-95c49bb70eef->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7a99 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7a99->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_64b7f7d3-8cfc-4277-ba33-8de2e6533fec ;
+            sh:resultMessage "Less than 1 values on inst:door_64b7f7d3-8cfc-4277-ba33-8de2e6533fec->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_27ece05c-f06c-4dd2-9ccd-945e52597fa3 ;
+            sh:resultMessage "Less than 1 values on inst:wall_27ece05c-f06c-4dd2-9ccd-945e52597fa3->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d54e7 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d54e7->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98516e ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98516e->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:footing_2e3c415a-d885-4964-a589-bb0941bdd16f ;
+            sh:resultMessage "Less than 1 values on inst:footing_2e3c415a-d885-4964-a589-bb0941bdd16f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444cb4 ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444cb4->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b70a9 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b70a9->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d4004 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d4004->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_64b7f7d3-8cfc-4277-ba33-8de2e6533fec ;
+            sh:resultMessage "Less than 1 values on inst:door_64b7f7d3-8cfc-4277-ba33-8de2e6533fec->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc858 ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc858->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f378 ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f378->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444fe8 ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444fe8->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5659 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5659->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b9655 ;
+            sh:resultMessage "Less than 1 values on inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b9655->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdcaa4 ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdcaa4->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7ef5 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7ef5->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_9808fd7f-dc48-478e-9217-628e833d410f ;
+            sh:resultMessage "Less than 1 values on inst:slab_9808fd7f-dc48-478e-9217-628e833d410f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d84448e3 ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d84448e3->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f31b ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f31b->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f37a ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f37a->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_6b61ce71-1a7a-473c-8f87-4262e0bdbd1e ;
+            sh:resultMessage "Less than 1 values on inst:slab_6b61ce71-1a7a-473c-8f87-4262e0bdbd1e->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_27ece05c-f06c-4dd2-9ccd-945e52597b0a ;
+            sh:resultMessage "Less than 1 values on inst:wall_27ece05c-f06c-4dd2-9ccd-945e52597b0a->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2c391822-07f8-4a22-86a8-a1e57412df9e ;
+            sh:resultMessage "Less than 1 values on inst:wall_2c391822-07f8-4a22-86a8-a1e57412df9e->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b72d9 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b72d9->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f378 ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f378->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2c391822-07f8-4a22-86a8-a1e57412d8c1 ;
+            sh:resultMessage "Less than 1 values on inst:wall_2c391822-07f8-4a22-86a8-a1e57412d8c1->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f220 ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f220->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"0001\")" ;
+            sh:resultPath <https://w3id.org/props#projectNumber_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb1 ;
+            sh:value "0001" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d7be7 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d7be7->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7b5b ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7b5b->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d795d ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d795d->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d44b8 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d44b8->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdb41a ;
+            sh:resultMessage "Less than 1 values on inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdb41a->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b96c4 ;
+            sh:resultMessage "Less than 1 values on inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b96c4->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:railing_3ab8ee1d-07ad-41b9-8f24-a55884e7e655 ;
+            sh:resultMessage "Less than 1 values on inst:railing_3ab8ee1d-07ad-41b9-8f24-a55884e7e655->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b97df ;
+            sh:resultMessage "Less than 1 values on inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b97df->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b70a9 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b70a9->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d55b5 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d55b5->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5659 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5659->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d4938 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d4938->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_27ece05c-f06c-4dd2-9ccd-945e52597b0a ;
+            sh:resultMessage "Less than 1 values on inst:wall_27ece05c-f06c-4dd2-9ccd-945e52597b0a->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e6533ae9 ;
+            sh:resultMessage "Less than 1 values on inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e6533ae9->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d40ce ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d40ce->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:footing_2e3c415a-d885-4964-a589-bb0941bdd177 ;
+            sh:resultMessage "Less than 1 values on inst:footing_2e3c415a-d885-4964-a589-bb0941bdd177->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc11a ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc11a->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4->bot:hasSimple3DModel does not contain a value in the set: ['inst:wall_9808fd7f-dc48-478e-9217-628e833d7938']" ;
+            sh:resultPath bot:hasSimple3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:HasValueConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985748 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985748->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:member_d776d4d4-ad53-498c-9675-a4d357bd81ef ;
+            sh:resultMessage "Less than 1 values on inst:member_d776d4d4-ad53-498c-9675-a4d357bd81ef->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444cb4 ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444cb4->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:stair_81be7c96-ce56-447e-9d93-021422f83127 ;
+            sh:resultMessage "Less than 1 values on inst:stair_81be7c96-ce56-447e-9d93-021422f83127->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:stairflight_06e324b6-962d-4317-b253-85e1df8c71f8 ;
+            sh:resultMessage "Less than 1 values on inst:stairflight_06e324b6-962d-4317-b253-85e1df8c71f8->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_4ec82fcb-9118-4408-a3ae-37969a372f02 ;
+            sh:resultMessage "Less than 1 values on inst:window_4ec82fcb-9118-4408-a3ae-37969a372f02->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc24f ;
+            sh:resultMessage "Less than 1 values on inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc24f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:railing_81be7c96-ce56-447e-9d93-021422f830c5 ;
+            sh:resultMessage "Less than 1 values on inst:railing_81be7c96-ce56-447e-9d93-021422f830c5->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_09a873b2-0e03-4eb2-b9f1-da270188dc92 ;
+            sh:resultMessage "Less than 1 values on inst:slab_09a873b2-0e03-4eb2-b9f1-da270188dc92->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb2de ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb2de->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Less than 10 values on inst:building_7b7032cc-b822-417b-9aea-642906a29bd4->bot:hasSimple3DModel" ;
+            sh:resultPath bot:hasSimple3DModel ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d84448e3 ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d84448e3->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_9808fd7f-dc48-478e-9217-628e833d410f ;
+            sh:resultMessage "Less than 1 values on inst:slab_9808fd7f-dc48-478e-9217-628e833d410f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: inst:storey_7b7032cc-b822-417b-9aea-6429f95d6693" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb1 ;
+            sh:value inst:storey_7b7032cc-b822-417b-9aea-6429f95d6693 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985170 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985170->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc223 ;
+            sh:resultMessage "Less than 1 values on inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc223->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2da40d62-4698-436c-a2c3-95c49bb70ca4 ;
+            sh:resultMessage "Less than 1 values on inst:wall_2da40d62-4698-436c-a2c3-95c49bb70ca4->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d46d1 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d46d1->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:stair_3ab8ee1d-07ad-41b9-8f24-a55884e7e601 ;
+            sh:resultMessage "Less than 1 values on inst:stair_3ab8ee1d-07ad-41b9-8f24-a55884e7e601->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5239 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5239->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d46d1 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d46d1->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"Issue Date\")" ;
+            sh:resultPath <https://w3id.org/props#projectIssueDate_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb1 ;
+            sh:value "Issue Date" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7a31 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7a31->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc11a ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc11a->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b9655 ;
+            sh:resultMessage "Less than 1 values on inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b9655->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98515e ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98515e->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f2f4 ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f2f4->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:stairflight_06e324b6-962d-4317-b253-85e1df8c71f8 ;
+            sh:resultMessage "Less than 1 values on inst:stairflight_06e324b6-962d-4317-b253-85e1df8c71f8->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_64b7f7d3-8cfc-4277-ba33-8de2e6533926 ;
+            sh:resultMessage "Less than 1 values on inst:door_64b7f7d3-8cfc-4277-ba33-8de2e6533926->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444a9a ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444a9a->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e6533ae9 ;
+            sh:resultMessage "Less than 1 values on inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e6533ae9->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7160 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7160->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444e01 ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444e01->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb6d5 ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb6d5->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d56c9 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d56c9->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e6533e77 ;
+            sh:resultMessage "Less than 1 values on inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e6533e77->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985031 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985031->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5393 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5393->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:railing_81be7c96-ce56-447e-9d93-021422f83119 ;
+            sh:resultMessage "Less than 1 values on inst:railing_81be7c96-ce56-447e-9d93-021422f83119->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc370 ;
+            sh:resultMessage "Less than 1 values on inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc370->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f37b ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f37b->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:footing_2e3c415a-d885-4964-a589-bb0941bdd08b ;
+            sh:resultMessage "Less than 1 values on inst:footing_2e3c415a-d885-4964-a589-bb0941bdd08b->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:stairflight_ca457005-aa0d-4679-92c1-5067d702c9f3 ;
+            sh:resultMessage "Less than 1 values on inst:stairflight_ca457005-aa0d-4679-92c1-5067d702c9f3->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:footing_2e3c415a-d885-4964-a589-bb0941bdd0a3 ;
+            sh:resultMessage "Less than 1 values on inst:footing_2e3c415a-d885-4964-a589-bb0941bdd0a3->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_9808fd7f-dc48-478e-9217-628e833d49bd ;
+            sh:resultMessage "Less than 1 values on inst:slab_9808fd7f-dc48-478e-9217-628e833d49bd->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb1c2 ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb1c2->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_4ec82fcb-9118-4408-a3ae-37969a37298d ;
+            sh:resultMessage "Less than 1 values on inst:window_4ec82fcb-9118-4408-a3ae-37969a37298d->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:railing_3ab8ee1d-07ad-41b9-8f24-a55884e7e655 ;
+            sh:resultMessage "Less than 1 values on inst:railing_3ab8ee1d-07ad-41b9-8f24-a55884e7e655->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985156 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985156->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444d36 ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444d36->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7b78 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7b78->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb7 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdcc4c ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdcc4c->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444fe8 ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444fe8->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: inst:storey_7b7032cc-b822-417b-9aea-6429f95f6ab3" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb1 ;
+            sh:value inst:storey_7b7032cc-b822-417b-9aea-6429f95f6ab3 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_6b61ce71-1a7a-473c-8f87-4262e0bdbd56 ;
+            sh:resultMessage "Less than 1 values on inst:slab_6b61ce71-1a7a-473c-8f87-4262e0bdbd56->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53ebc8 ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53ebc8->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e6533e77 ;
+            sh:resultMessage "Less than 1 values on inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e6533e77->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985156 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985156->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:footing_2e3c415a-d885-4964-a589-bb0941bdd08b ;
+            sh:resultMessage "Less than 1 values on inst:footing_2e3c415a-d885-4964-a589-bb0941bdd08b->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_7606d7eb-508f-40ce-a522-9b526ddc728b ;
+            sh:resultMessage "Less than 1 values on inst:door_7606d7eb-508f-40ce-a522-9b526ddc728b->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985031 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985031->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2c391822-07f8-4a22-86a8-a1e57412dcef ;
+            sh:resultMessage "Less than 1 values on inst:wall_2c391822-07f8-4a22-86a8-a1e57412dcef->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d4200 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d4200->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f379 ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f379->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_4ec82fcb-9118-4408-a3ae-37969a37298d ;
+            sh:resultMessage "Less than 1 values on inst:window_4ec82fcb-9118-4408-a3ae-37969a37298d->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d54e7 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d54e7->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5611 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5611->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_09a873b2-0e03-4eb2-b9f1-da270188dc92 ;
+            sh:resultMessage "Less than 1 values on inst:slab_09a873b2-0e03-4eb2-b9f1-da270188dc92->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d55b5 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d55b5->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5393 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5393->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b700f ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b700f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:stair_81be7c96-ce56-447e-9d93-021422f83127 ;
+            sh:resultMessage "Less than 1 values on inst:stair_81be7c96-ce56-447e-9d93-021422f83127->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444b93 ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444b93->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d4938 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d4938->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7300 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7300->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc223 ;
+            sh:resultMessage "Less than 1 values on inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc223->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d471d ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d471d->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7ca4 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7ca4->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdcaa4 ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdcaa4->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2c391822-07f8-4a22-86a8-a1e57412d8c1 ;
+            sh:resultMessage "Less than 1 values on inst:wall_2c391822-07f8-4a22-86a8-a1e57412d8c1->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5275 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5275->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d7d12 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d7d12->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d4200 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d4200->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d44b8 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d44b8->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d844491c ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d844491c->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_7606d7eb-508f-40ce-a522-9b526ddc728b ;
+            sh:resultMessage "Less than 1 values on inst:door_7606d7eb-508f-40ce-a522-9b526ddc728b->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b72d9 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b72d9->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d568d ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d568d->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7300 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7300->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b700f ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b700f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d4257 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d4257->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d574f ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d574f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:footing_2e3c415a-d885-4964-a589-bb0941bdd0a3 ;
+            sh:resultMessage "Less than 1 values on inst:footing_2e3c415a-d885-4964-a589-bb0941bdd0a3->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:member_d776d4d4-ad53-498c-9675-a4d357bd81ef ;
+            sh:resultMessage "Less than 1 values on inst:member_d776d4d4-ad53-498c-9675-a4d357bd81ef->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7361 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7361->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98516e ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98516e->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985166 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985166->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:member_aee7272c-8ef2-4af0-b3f4-1509a4c67b98 ;
+            sh:resultMessage "Less than 1 values on inst:member_aee7272c-8ef2-4af0-b3f4-1509a4c67b98->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7a31 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7a31->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:railing_3ab8ee1d-07ad-41b9-8f24-a55884e7e651 ;
+            sh:resultMessage "Less than 1 values on inst:railing_3ab8ee1d-07ad-41b9-8f24-a55884e7e651->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdcc4c ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdcc4c->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98501e ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98501e->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d4065 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d4065->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444cde ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444cde->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d795d ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d795d->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985166 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985166->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:railing_81be7c96-ce56-447e-9d93-021422f83119 ;
+            sh:resultMessage "Less than 1 values on inst:railing_81be7c96-ce56-447e-9d93-021422f83119->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7b78 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7b78->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Less than 10 values on inst:building_7b7032cc-b822-417b-9aea-642906a29bd4->bot:hasElement" ;
+            sh:resultPath bot:hasElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb7 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb57b ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb57b->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2c391822-07f8-4a22-86a8-a1e57412dcef ;
+            sh:resultMessage "Less than 1 values on inst:wall_2c391822-07f8-4a22-86a8-a1e57412dcef->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98515e ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98515e->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985003 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985003->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b96c4 ;
+            sh:resultMessage "Less than 1 values on inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b96c4->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:footing_2e3c415a-d885-4964-a589-bb0941bdd17f ;
+            sh:resultMessage "Less than 1 values on inst:footing_2e3c415a-d885-4964-a589-bb0941bdd17f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d7d42 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d7d42->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d7938 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d7938->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2c391822-07f8-4a22-86a8-a1e57412d365 ;
+            sh:resultMessage "Less than 1 values on inst:wall_2c391822-07f8-4a22-86a8-a1e57412d365->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98514e ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98514e->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"4\", datatype=xsd:integer)" ;
+            sh:resultPath <https://w3id.org/props#numberOfStoreys_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb1 ;
+            sh:value 4 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444a9a ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444a9a->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d7af9 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d7af9->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc24f ;
+            sh:resultMessage "Less than 1 values on inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc24f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:roof_2da40d62-4698-436c-a2c3-95c49bb70eef ;
+            sh:resultMessage "Less than 1 values on inst:roof_2da40d62-4698-436c-a2c3-95c49bb70eef->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_9808fd7f-dc48-478e-9217-628e833d49bd ;
+            sh:resultMessage "Less than 1 values on inst:slab_9808fd7f-dc48-478e-9217-628e833d49bd->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5246 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5246->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb57b ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb57b->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d56c9 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d56c9->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7a99 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7a99->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5330 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5330->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"Owner\")" ;
+            sh:resultPath <https://w3id.org/props#clientName_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb1 ;
+            sh:value "Owner" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d4065 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d4065->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e65338fa ;
+            sh:resultMessage "Less than 1 values on inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e65338fa->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc09f ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc09f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_7606d7eb-508f-40ce-a522-9b526ddc7201 ;
+            sh:resultMessage "Less than 1 values on inst:door_7606d7eb-508f-40ce-a522-9b526ddc7201->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985170 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985170->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98501e ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98501e->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:railing_3ab8ee1d-07ad-41b9-8f24-a55884e7e651 ;
+            sh:resultMessage "Less than 1 values on inst:railing_3ab8ee1d-07ad-41b9-8f24-a55884e7e651->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc09f ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc09f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:member_f26519b1-a697-4f79-9628-ca1443a95258 ;
+            sh:resultMessage "Less than 1 values on inst:member_f26519b1-a697-4f79-9628-ca1443a95258->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdcfa0 ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdcfa0->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"1xS3BCk291UvhgP2a6eflK\")" ;
+            sh:resultPath <https://w3id.org/props#globalIdIfcRoot_attribute_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb1 ;
+            sh:value "1xS3BCk291UvhgP2a6eflK" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7b5b ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7b5b->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985003 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985003->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2c391822-07f8-4a22-86a8-a1e57412df9e ;
+            sh:resultMessage "Less than 1 values on inst:wall_2c391822-07f8-4a22-86a8-a1e57412df9e->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f37a ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f37a->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d7be7 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d7be7->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2da40d62-4698-436c-a2c3-95c49bb70d41 ;
+            sh:resultMessage "Less than 1 values on inst:wall_2da40d62-4698-436c-a2c3-95c49bb70d41->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:member_5f1efada-bcd8-41b6-aff4-ad3fb24b7679 ;
+            sh:resultMessage "Less than 1 values on inst:member_5f1efada-bcd8-41b6-aff4-ad3fb24b7679->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5246 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5246->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5512 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5512->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d7d12 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d7d12->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:stair_3ab8ee1d-07ad-41b9-8f24-a55884e7e601 ;
+            sh:resultMessage "Less than 1 values on inst:stair_3ab8ee1d-07ad-41b9-8f24-a55884e7e601->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d43b5 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d43b5->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5239 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5239->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:member_aee7272c-8ef2-4af0-b3f4-1509a4c67b98 ;
+            sh:resultMessage "Less than 1 values on inst:member_aee7272c-8ef2-4af0-b3f4-1509a4c67b98->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d548e ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d548e->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:footing_2e3c415a-d885-4964-a589-bb0941bdd167 ;
+            sh:resultMessage "Less than 1 values on inst:footing_2e3c415a-d885-4964-a589-bb0941bdd167->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7236 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7236->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7ef5 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7ef5->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7ca4 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7ca4->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b8873 ;
+            sh:resultMessage "Less than 1 values on inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b8873->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d7df1 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d7df1->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985144 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985144->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98500b ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98500b->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:railing_81be7c96-ce56-447e-9d93-021422f830c5 ;
+            sh:resultMessage "Less than 1 values on inst:railing_81be7c96-ce56-447e-9d93-021422f830c5->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_6b61ce71-1a7a-473c-8f87-4262e0bdbd56 ;
+            sh:resultMessage "Less than 1 values on inst:slab_6b61ce71-1a7a-473c-8f87-4262e0bdbd56->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985748 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985748->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_7606d7eb-508f-40ce-a522-9b526ddc7201 ;
+            sh:resultMessage "Less than 1 values on inst:door_7606d7eb-508f-40ce-a522-9b526ddc7201->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444d36 ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444d36->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc3d4 ;
+            sh:resultMessage "Less than 1 values on inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc3d4->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb1c2 ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb1c2->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e65338fa ;
+            sh:resultMessage "Less than 1 values on inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e65338fa->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5275 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5275->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc056 ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc056->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdccc1 ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdccc1->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdb448 ;
+            sh:resultMessage "Less than 1 values on inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdb448->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444b93 ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444b93->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdcfa0 ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdcfa0->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2da40d62-4698-436c-a2c3-95c49bb70c3c ;
+            sh:resultMessage "Less than 1 values on inst:wall_2da40d62-4698-436c-a2c3-95c49bb70c3c->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5611 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5611->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2c391822-07f8-4a22-86a8-a1e57412d365 ;
+            sh:resultMessage "Less than 1 values on inst:wall_2c391822-07f8-4a22-86a8-a1e57412d365->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d441c ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d441c->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444cde ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444cde->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_64b7f7d3-8cfc-4277-ba33-8de2e6533926 ;
+            sh:resultMessage "Less than 1 values on inst:door_64b7f7d3-8cfc-4277-ba33-8de2e6533926->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc370 ;
+            sh:resultMessage "Less than 1 values on inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc370->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2c391822-07f8-4a22-86a8-a1e57412d386 ;
+            sh:resultMessage "Less than 1 values on inst:wall_2c391822-07f8-4a22-86a8-a1e57412d386->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d4385 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d4385->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98500b ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98500b->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc9850b2 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc9850b2->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_27ece05c-f06c-4dd2-9ccd-945e52597fa3 ;
+            sh:resultMessage "Less than 1 values on inst:wall_27ece05c-f06c-4dd2-9ccd-945e52597fa3->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7160 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7160->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b97df ;
+            sh:resultMessage "Less than 1 values on inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b97df->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb6d5 ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb6d5->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d471d ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d471d->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b720f ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b720f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:footing_2e3c415a-d885-4964-a589-bb0941bdd17f ;
+            sh:resultMessage "Less than 1 values on inst:footing_2e3c415a-d885-4964-a589-bb0941bdd17f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98514e ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc98514e->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f220 ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f220->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:member_f26519b1-a697-4f79-9628-ca1443a95258 ;
+            sh:resultMessage "Less than 1 values on inst:member_f26519b1-a697-4f79-9628-ca1443a95258->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d7af9 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d7af9->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:footing_2e3c415a-d885-4964-a589-bb0941bdd167 ;
+            sh:resultMessage "Less than 1 values on inst:footing_2e3c415a-d885-4964-a589-bb0941bdd167->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_6b61ce71-1a7a-473c-8f87-4262e0bdbd1e ;
+            sh:resultMessage "Less than 1 values on inst:slab_6b61ce71-1a7a-473c-8f87-4262e0bdbd1e->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7236 ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b7236->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f379 ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f379->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:footing_2e3c415a-d885-4964-a589-bb0941bdd177 ;
+            sh:resultMessage "Less than 1 values on inst:footing_2e3c415a-d885-4964-a589-bb0941bdd177->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f2f4 ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f2f4->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:stairflight_ca457005-aa0d-4679-92c1-5067d702c9f3 ;
+            sh:resultMessage "Less than 1 values on inst:stairflight_ca457005-aa0d-4679-92c1-5067d702c9f3->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:footing_2e3c415a-d885-4964-a589-bb0941bdd16f ;
+            sh:resultMessage "Less than 1 values on inst:footing_2e3c415a-d885-4964-a589-bb0941bdd16f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"Duplex Apartment\")" ;
+            sh:resultPath <https://w3id.org/props#projectName_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb1 ;
+            sh:value "Duplex Apartment" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc3d4 ;
+            sh:resultMessage "Less than 1 values on inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc3d4->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc858 ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc858->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2da40d62-4698-436c-a2c3-95c49bb70cfa ;
+            sh:resultMessage "Less than 1 values on inst:wall_2da40d62-4698-436c-a2c3-95c49bb70cfa->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2da40d62-4698-436c-a2c3-95c49bb70d41 ;
+            sh:resultMessage "Less than 1 values on inst:wall_2da40d62-4698-436c-a2c3-95c49bb70d41->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_4ec82fcb-9118-4408-a3ae-37969a372f02 ;
+            sh:resultMessage "Less than 1 values on inst:window_4ec82fcb-9118-4408-a3ae-37969a372f02->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d4004 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d4004->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d46ec ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d46ec->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d40ce ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d40ce->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444af9 ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444af9->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: bot:Building" ;
+            sh:resultPath rdf:type ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb1 ;
+            sh:value bot:Building ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b720f ;
+            sh:resultMessage "Less than 1 values on inst:slab_982f59b0-f2e1-485f-8ce1-c9f6117b720f->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d4385 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d4385->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"Enter address here\")" ;
+            sh:resultPath <https://w3id.org/props#projectAddress_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb1 ;
+            sh:value "Enter address here" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444af9 ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d8444af9->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e6533a28 ;
+            sh:resultMessage "Less than 1 values on inst:wall_64b7f7d3-8cfc-4277-ba33-8de2e6533a28->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53ebc8 ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53ebc8->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:footing_2e3c415a-d885-4964-a589-bb0941bdd097 ;
+            sh:resultMessage "Less than 1 values on inst:footing_2e3c415a-d885-4964-a589-bb0941bdd097->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc9850b2 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc9850b2->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"11-16 21 11\")" ;
+            sh:resultPath <https://w3id.org/props#categoryCode_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb1 ;
+            sh:value "11-16 21 11" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f37b ;
+            sh:resultMessage "Less than 1 values on inst:beam_98d604b7-4c6f-4ae8-b5f3-0187bb53f37b->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b8873 ;
+            sh:resultMessage "Less than 1 values on inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b8873->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:member_5f1efada-bcd8-41b6-aff4-ad3fb24b7679 ;
+            sh:resultMessage "Less than 1 values on inst:member_5f1efada-bcd8-41b6-aff4-ad3fb24b7679->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d7d42 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d7d42->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d548e ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d548e->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d7938 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d7938->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdccc1 ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdccc1->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6f010293-ddb7-4fe4-8ffd-c144d844491c ;
+            sh:resultMessage "Less than 1 values on inst:window_6f010293-ddb7-4fe4-8ffd-c144d844491c->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d4257 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d4257->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc056 ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdc056->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: Literal(\"Duplex\")" ;
+            sh:resultPath <https://w3id.org/props#categoryDescription_simple> ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb1 ;
+            sh:value "Duplex" ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:footing_2e3c415a-d885-4964-a589-bb0941bdd097 ;
+            sh:resultMessage "Less than 1 values on inst:footing_2e3c415a-d885-4964-a589-bb0941bdd097->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2da40d62-4698-436c-a2c3-95c49bb70ca4 ;
+            sh:resultMessage "Less than 1 values on inst:wall_2da40d62-4698-436c-a2c3-95c49bb70ca4->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_2da40d62-4698-436c-a2c3-95c49bb70cfa ;
+            sh:resultMessage "Less than 1 values on inst:wall_2da40d62-4698-436c-a2c3-95c49bb70cfa->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdb448 ;
+            sh:resultMessage "Less than 1 values on inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdb448->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdb41a ;
+            sh:resultMessage "Less than 1 values on inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdb41a->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d5512 ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d5512->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 ;
+            sh:resultMessage "Node inst:building_7b7032cc-b822-417b-9aea-642906a29bd4 is closed. It cannot have value: inst:storey_7b7032cc-b822-417b-9aea-6429f95d6512" ;
+            sh:resultPath bot:hasStorey ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb1 ;
+            sh:value inst:storey_7b7032cc-b822-417b-9aea-6429f95d6512 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb2de ;
+            sh:resultMessage "Less than 1 values on inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdb2de->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:wall_9808fd7f-dc48-478e-9217-628e833d568d ;
+            sh:resultMessage "Less than 1 values on inst:wall_9808fd7f-dc48-478e-9217-628e833d568d->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985144 ;
+            sh:resultMessage "Less than 1 values on inst:covering_e586c31c-dfb6-463e-aee7-a2dffc985144->bot:hostsElement" ;
+            sh:resultPath bot:hostsElement ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+            sh:sourceShape _:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 ] .
+
+_:N057709e8d1a443249cf9350267b0ecba rdf:first inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b8873 ;
+    rdf:rest ( inst:wall_9808fd7f-dc48-478e-9217-628e833d7d12 ) .
+
+_:N088856146e444af4b6c6f7654ac6e50e a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property [ a sh:PropertyShape ;
+            sh:minCount 1 ;
+            sh:path bot:hostsElement ] ;
+    sh:targetClass bot:Element .
+
+_:N09431fe514e34b87955f1fd918d5aed8 a sh:PropertyShape ;
+    sh:minCount 1 ;
+    sh:path bot:hostsElement .
+
+_:N10d0bf21ceed4647b1ceb1135965dced rdf:first [ a sh:NodeShape ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:property [ a sh:PropertyShape ;
+                    sh:minCount 1 ;
+                    sh:path bot:hostsElement ] ;
+            sh:targetClass bot:Element ] ;
+    rdf:rest ( [ a sh:PropertyShape ;
+                sh:class cto:InstallmentTask ;
+                sh:path cto:isSubjectOfTask ] ) .
+
+_:N10d5c40fc30943bfb094d5b602d56818 rdf:first [ a sh:PropertyShape ;
+            sh:minCount 1 ;
+            sh:path bot:hasSubElement ] ;
+    rdf:rest _:N10d0bf21ceed4647b1ceb1135965dced .
+
+_:N1ad5701585bc48ecbe39902ce15cd0ef a sh:PropertyShape ;
+    sh:minCount 1 ;
+    sh:path bot:hasSubElement .
+
+_:N1c3882bf8034431298cf245165263ebf rdf:first _:N1ad5701585bc48ecbe39902ce15cd0ef ;
+    rdf:rest ( [ a sh:NodeShape ;
+                sh:nodeKind sh:BlankNodeOrIRI ;
+                sh:property _:N09431fe514e34b87955f1fd918d5aed8 ;
+                sh:targetClass bot:Element ] [ a sh:PropertyShape ;
+                sh:class cto:InstallmentTask ;
+                sh:path cto:isSubjectOfTask ] ) .
+
+_:N2a0ac1ae4ca44d2987283e0ba29a3e0c a sh:PropertyShape ;
+    sh:datatype xsd:anyURI ;
+    sh:flags "i" ;
+    sh:languageIn ( "sq" "ar-BH" ) ;
+    sh:maxLength 100 ;
+    sh:minLength 50 ;
+    sh:path bot:hasSimple3DModel ;
+    sh:pattern "elem" ;
+    sh:uniqueLang true .
+
+_:N4dd7d2a891a34489b19ab285cec79c46 a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property _:N2a0ac1ae4ca44d2987283e0ba29a3e0c ;
+    sh:targetClass bot:Element .
+
+_:N5e52f15758034147a9eb4cfe7b08a6cc a sh:PropertyShape ;
+    sh:minCount 1 ;
+    sh:path bot:hostsElement .
+
+_:N655e28dbc35441a9afcc8b032f60ee65 a sh:PropertyShape ;
+    sh:datatype xsd:anyURI ;
+    sh:flags "i" ;
+    sh:languageIn ( "sq" "ar-BH" ) ;
+    sh:maxLength 100 ;
+    sh:minLength 50 ;
+    sh:path bot:hasSimple3DModel ;
+    sh:pattern "elem" ;
+    sh:uniqueLang true .
+
+_:N6f7cf507bc244b1198cfe5f596d1241b a sh:PropertyShape ;
+    sh:datatype xsd:long ;
+    sh:hasValue inst:wall_9808fd7f-dc48-478e-9217-628e833d7938 ;
+    sh:in ( inst:door_982f59b0-f2e1-485f-8ce1-c9f6117b8873 inst:wall_9808fd7f-dc48-478e-9217-628e833d7d12 ) ;
+    sh:maxCount 10 ;
+    sh:maxExclusive 1000 ;
+    sh:maxInclusive 1000 ;
+    sh:minCount 10 ;
+    sh:minExclusive 1000 ;
+    sh:minInclusive 1000 ;
+    sh:path bot:hasSimple3DModel .
+
+_:N769ca3d605f4478ba969f0c605b58445 a sh:PropertyShape ;
+    sh:class bot:Element ;
+    sh:disjoint bot:adjacentZone ;
+    sh:equals bot:containsZone ;
+    sh:lessThan bot:has3DModel ;
+    sh:lessThanOrEquals bot:hasBuilding ;
+    sh:maxCount 10 ;
+    sh:minCount 10 ;
+    sh:node [ a sh:NodeShape ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:property _:N5e52f15758034147a9eb4cfe7b08a6cc ;
+            sh:targetClass bot:Element ] ;
+    sh:or _:N10d5c40fc30943bfb094d5b602d56818 ;
+    sh:path bot:hasElement ;
+    sh:qualifiedMaxCount 4 ;
+    sh:qualifiedMinCount 4 ;
+    sh:qualifiedValueShape _:N4dd7d2a891a34489b19ab285cec79c46 ;
+    sh:qualifiedValueShapesDisjoint true .
+
+_:N87500dbc475245ce99bc2619fd0f676b a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property _:N655e28dbc35441a9afcc8b032f60ee65 ;
+    sh:targetClass bot:Element .
+
+_:Nd1cb21b163fd42b1919b02ba32f7bcdf rdf:first cto:isSubjectOfTask ;
+    rdf:rest () .
+
+_:Ne2c347aa47bb4f1c9dc4ce89323f73ce rdf:first bot:hasBuilding ;
+    rdf:rest _:Nd1cb21b163fd42b1919b02ba32f7bcdf .
+
+_:n2eaad90cd0c94e3abe6b5a8d33f49c7eb4 a sh:PropertyShape ;
+    sh:datatype xsd:long ;
+    sh:hasValue inst:wall_9808fd7f-dc48-478e-9217-628e833d7938 ;
+    sh:in _:N057709e8d1a443249cf9350267b0ecba ;
+    sh:maxCount 10 ;
+    sh:maxExclusive 1000 ;
+    sh:maxInclusive 1000 ;
+    sh:minCount 10 ;
+    sh:minExclusive 1000 ;
+    sh:minInclusive 1000 ;
+    sh:path bot:hasSimple3DModel .
+
+_:n2eaad90cd0c94e3abe6b5a8d33f49c7eb7 a sh:PropertyShape ;
+    sh:class bot:Element ;
+    sh:disjoint bot:adjacentZone ;
+    sh:equals bot:containsZone ;
+    sh:lessThan bot:has3DModel ;
+    sh:lessThanOrEquals bot:hasBuilding ;
+    sh:maxCount 10 ;
+    sh:minCount 10 ;
+    sh:node _:N088856146e444af4b6c6f7654ac6e50e ;
+    sh:or _:N1c3882bf8034431298cf245165263ebf ;
+    sh:path bot:hasElement ;
+    sh:qualifiedMaxCount 4 ;
+    sh:qualifiedMinCount 4 ;
+    sh:qualifiedValueShape _:N87500dbc475245ce99bc2619fd0f676b ;
+    sh:qualifiedValueShapesDisjoint true .
+
+_:n2eaad90cd0c94e3abe6b5a8d33f49c7eb1 a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties _:Ne2c347aa47bb4f1c9dc4ce89323f73ce ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property _:N6f7cf507bc244b1198cfe5f596d1241b,
+        _:N769ca3d605f4478ba969f0c605b58445 ;
+    sh:targetClass bot:Building .
+
+_:n2eaad90cd0c94e3abe6b5a8d33f49c7eb12 a sh:PropertyShape ;
+    sh:minCount 1 ;
+    sh:path bot:hostsElement .
+
+_:n2eaad90cd0c94e3abe6b5a8d33f49c7eb9 a sh:PropertyShape ;
+    sh:minCount 1 ;
+    sh:path bot:hostsElement .
+

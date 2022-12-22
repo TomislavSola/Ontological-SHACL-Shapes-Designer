@@ -1,0 +1,118 @@
+@prefix :         <https://icdd.vm.rub.de/data/2_ApartmentBuilding_Binary-202236424/index#> .
+@prefix IFC4-PSD: <https://www.linkedbuildingdata.net/IFC4-PSD#> .
+@prefix beo:      <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix bot:      <https://w3id.org/bot#> .
+@prefix ct:       <https://standards.iso.org/iso/21597/-1/ed-1/en/Container#> .
+@prefix cto:      <https://w3id.org/cto#> .
+@prefix els:      <https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset#> .
+@prefix exdc:     <https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument#> .
+@prefix furn:     <http://pi.pauwel.be/voc/furniture#> .
+@prefix geo:      <http://www.opengis.net/ont/geosparql#> .
+@prefix idx:      <https://icdd.vm.rub.de/data/2_ApartmentBuilding_Binary-202236424/index#> .
+@prefix ifc:      <https://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#> .
+@prefix inst:     <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#> .
+@prefix lbd:      <https://linkebuildingdata.org/LBD#> .
+@prefix ls:       <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#> .
+@prefix lse:      <https://icdd.vm.rub.de/ontology/icdd/LinksetSparqlExtension#> .
+@prefix mep:      <http://pi.pauwel.be/voc/distributionelement#> .
+@prefix msproj:   <http://schemas.microsoft.com/project#> .
+@prefix ns0:      <https://icdd.vm.rub.de/data/2_ApartmentBuilding_Binary-202236424/index/ls/linkset-20220603-115331#> .
+@prefix ns1:      <https://icdd.vm.rub.de/data/2_ApartmentBuilding_Binary-202236424/index/cto/inst#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix props:    <https://w3id.org/props#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:       <http://www.w3.org/ns/shacl#> .
+@prefix smls:     <https://w3id.org/def/smls-owl#> .
+@prefix unit:     <http://qudt.org/vocab/unit/> .
+@prefix xml:      <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+[ rdf:type     sh:ValidationReport ;
+  sh:conforms  false ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:building_810ac2c2-d772-48c9-864f-ab6080ca0e5b ;
+                 sh:resultMessage              "QualifiedValueShape[1,1,true]: Min = 1 but got 0 validations" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:QualifiedMinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:building_810ac2c2-d772-48c9-864f-ab6080ca0e5b ;
+                 sh:resultMessage              "Node[_:b0] at focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#storey_810ac2c2-d772-48c9-864f-ab607f34c6a1>" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      inst:storey_810ac2c2-d772-48c9-864f-ab607f34c6a1
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:storey_810ac2c2-d772-48c9-864f-ab607f359228 ;
+                 sh:resultMessage              "minCount[1]: Invalid cardinality: expected min 1: Got count = 0" ;
+                 sh:resultPath                 bot:hasSpace ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b1
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:building_810ac2c2-d772-48c9-864f-ab6080ca0e5b ;
+                 sh:resultMessage              "Node[_:b0] at focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#storey_810ac2c2-d772-48c9-864f-ab607f359168>" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      inst:storey_810ac2c2-d772-48c9-864f-ab607f359168
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:storey_810ac2c2-d772-48c9-864f-ab607f34c6a1 ;
+                 sh:resultMessage              "minCount[1]: Invalid cardinality: expected min 1: Got count = 0" ;
+                 sh:resultPath                 bot:hasSpace ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b1
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:building_810ac2c2-d772-48c9-864f-ab6080ca0e5b ;
+                 sh:resultMessage              "Node[_:b0] at focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#storey_810ac2c2-d772-48c9-864f-ab607f30474f>" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      inst:storey_810ac2c2-d772-48c9-864f-ab607f30474f
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:storey_810ac2c2-d772-48c9-864f-ab607f359168 ;
+                 sh:resultMessage              "maxCount[1]: Invalid cardinality: expected max 1: Got count = 2" ;
+                 sh:resultPath                 bot:hasSpace ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MaxCountConstraintComponent ;
+                 sh:sourceShape                _:b1
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:building_810ac2c2-d772-48c9-864f-ab6080ca0e5b ;
+                 sh:resultMessage              "Node[_:b0] at focusNode <https://icdd.vm.rub.de/convert/ifc/6c68c8bb-715d-4eaf-83dc-c222a86e627a#storey_810ac2c2-d772-48c9-864f-ab607f359228>" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:NodeConstraintComponent ;
+                 sh:sourceShape                _:b0 ;
+                 sh:value                      inst:storey_810ac2c2-d772-48c9-864f-ab607f359228
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:storey_810ac2c2-d772-48c9-864f-ab607f30474f ;
+                 sh:resultMessage              "minCount[1]: Invalid cardinality: expected min 1: Got count = 0" ;
+                 sh:resultPath                 bot:hasSpace ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b1
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:building_810ac2c2-d772-48c9-864f-ab6080ca0e5b ;
+                 sh:resultMessage              "maxCount[1]: Invalid cardinality: expected max 1: Got count = 4" ;
+                 sh:resultPath                 bot:hasStorey ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MaxCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ]
+] .

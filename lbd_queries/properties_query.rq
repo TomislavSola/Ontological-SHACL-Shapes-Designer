@@ -1,0 +1,10 @@
+ SELECT DISTINCT ?p
+WHERE {
+    { ?p rdfs:domain ?o . }
+    UNION
+    { ?p rdfs:range ?o . }
+    UNION
+    { ?p schema:domainIncludes ?o .}
+    UNION
+    { ?p schema1:rangeIncludes ?o .}
+}

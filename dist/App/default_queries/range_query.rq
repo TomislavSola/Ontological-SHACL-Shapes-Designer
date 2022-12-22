@@ -1,0 +1,8 @@
+SELECT DISTINCT ?range
+WHERE {
+        { ?property rdfs:range ?range }
+        UNION
+        { ?property rdfs:range ?superclass .
+          ?range rdfs:subClassOf+ ?superclass .
+        }
+}

@@ -1,0 +1,582 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix xml: <http://www.w3.org/XML/1998/namespace>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix ct: <https://standards.iso.org/iso/21597/-1/ed-1/en/Container#>.
+@prefix ls: <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#>.
+@prefix els: <https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset#>.
+@prefix exdc: <https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument#>.
+@prefix lse: <https://icdd.vm.rub.de/ontology/icdd/LinksetSparqlExtension#>.
+@prefix : <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index#>.
+@prefix idx: <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index#>.
+@prefix ns0: <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745#>.
+@prefix bot: <https://w3id.org/bot#>.
+@prefix ifc: <https://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#>.
+@prefix beo: <https://pi.pauwel.be/voc/buildingelement#>.
+@prefix lbd: <https://linkebuildingdata.org/LBD#>.
+@prefix props: <https://w3id.org/props#>.
+@prefix geo: <http://www.opengis.net/ont/geosparql#>.
+@prefix unit: <http://qudt.org/vocab/unit/>.
+@prefix IFC4-PSD: <https://www.linkedbuildingdata.net/IFC4-PSD#>.
+@prefix smls: <https://w3id.org/def/smls-owl#>.
+@prefix inst: <https://icdd.vm.rub.de/convert/ifc/51b2112b-5dbd-44c8-a643-0c2d7e658c59#>.
+@prefix mep: <http://pi.pauwel.be/voc/distributionelement#>.
+@prefix furn: <http://pi.pauwel.be/voc/furniture#>.
+@prefix msproj: <http://schemas.microsoft.com/project#>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix cto: <https://w3id.org/cto#>.
+@prefix ns1: <https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/cto/inst#>.
+
+inst:building_9d90071a-8d5a-46c0-9506-caf819245d02 a bot:Building;
+                                                   bot:hasStorey inst:storey_9d90071a-8d5a-46c0-9506-caf8e6dbc1dc,
+                                                                 inst:storey_9d90071a-8d5a-46c0-9506-caf8e6dbc231,
+                                                                 inst:storey_9d90071a-8d5a-46c0-9506-caf8e6dbc171;
+                                                   props:globalIdIfcRoot_attribute_simple "2Ta0SQZLf6m9K6olWP95q2";
+                                                   props:isLandmarked_simple <https://w3id.org/express#UNKNOWN>;
+                                                   props:numberOfStoreys_simple 3 .
+inst:site_9d90071a-8d5a-46c0-9506-caf819245d01 geo:hasGeometry <urn:bot:geom:pt:9d90071a-8d5a-46c0-9506-caf819245d01>;
+                                               a geo:Feature,
+                                                 bot:Site;
+                                               bot:hasBuilding inst:building_9d90071a-8d5a-46c0-9506-caf819245d02;
+                                               props:globalIdIfcRoot_attribute_simple "2Ta0SQZLf6m9K6olWP95q1";
+                                               props:nameIfcRoot_attribute_simple "Default";
+                                               props:refElevationIfcSite_attribute_simple "0."^^xsd:double.
+inst:slab_33cea67b-0280-42d4-823c-9bb379bc8014 a beo:Slab,
+                                                 bot:Element,
+                                                 beo:Slab-FLOOR;
+                                               props:batid_attribute_simple "2446261";
+                                               props:familieUndTyp_simple "Streifenfundament: STB 1500 x 1500 x 500";
+                                               props:globalIdIfcRoot_attribute_simple "0ppgPx0e12r88ycxDvl80K";
+                                               props:isExternal_simple false;
+                                               props:nameIfcRoot_attribute_simple "Streifenfundament:STB 1500 x 1500 x 500:2446261";
+                                               props:objectTypeIfcObject_attribute_simple "Streifenfundament:STB 1500 x 1500 x 500";
+                                               props:pitchAngle_simple "0."^^xsd:double;
+                                               props:reference_simple "STB 1500 x 1500 x 500";
+                                               props:taskID_simple "6."^^xsd:double.
+inst:slab_75e193fd-81b2-42ea-a574-86959bffac13 a beo:Slab,
+                                                 beo:Slab-BASESLAB,
+                                                 bot:Element;
+                                               props:batid_attribute_simple "2444714";
+                                               props:familieUndTyp_simple "Bodenplatte: STB 300";
+                                               props:globalIdIfcRoot_attribute_simple "1ruPFzWR92wgLqXfMR$wmJ";
+                                               props:isExternal_simple false;
+                                               props:loadBearing_simple true;
+                                               props:nameIfcRoot_attribute_simple "Bodenplatte:STB 300:2444714";
+                                               props:objectTypeIfcObject_attribute_simple "Bodenplatte:STB 300";
+                                               props:pitchAngle_simple "0."^^xsd:double;
+                                               props:reference_simple "STB 300";
+                                               props:taskID_simple "12."^^xsd:double;
+                                               props:thermalTransmittance_simple "3.48666666666667"^^xsd:double.
+inst:slab_75e193fd-81b2-42ea-a574-86959bffad8a a beo:Slab,
+                                                 beo:Slab-FLOOR,
+                                                 bot:Element;
+                                               props:batid_attribute_simple "2444339";
+                                               props:familieUndTyp_simple "Streifenfundament: STB 1500 x 1500 x 500";
+                                               props:globalIdIfcRoot_attribute_simple "1ruPFzWR92wgLqXfMR$wsA";
+                                               props:isExternal_simple false;
+                                               props:nameIfcRoot_attribute_simple "Streifenfundament:STB 1500 x 1500 x 500:2444339";
+                                               props:objectTypeIfcObject_attribute_simple "Streifenfundament:STB 1500 x 1500 x 500";
+                                               props:pitchAngle_simple "0."^^xsd:double;
+                                               props:reference_simple "STB 1500 x 1500 x 500";
+                                               props:taskID_simple "11."^^xsd:double.
+inst:slab_75e193fd-81b2-42ea-a574-86959bffada4 a beo:Slab-FLOOR,
+                                                 beo:Slab,
+                                                 bot:Element;
+                                               props:batid_attribute_simple "2444317";
+                                               props:familieUndTyp_simple "Streifenfundament: STB 1500 x 1500 x 500";
+                                               props:globalIdIfcRoot_attribute_simple "1ruPFzWR92wgLqXfMR$wsa";
+                                               props:isExternal_simple false;
+                                               props:nameIfcRoot_attribute_simple "Streifenfundament:STB 1500 x 1500 x 500:2444317";
+                                               props:objectTypeIfcObject_attribute_simple "Streifenfundament:STB 1500 x 1500 x 500";
+                                               props:pitchAngle_simple "0."^^xsd:double;
+                                               props:reference_simple "STB 1500 x 1500 x 500";
+                                               props:taskID_simple "6."^^xsd:double.
+inst:slab_75e193fd-81b2-42ea-a574-86959bffadff a bot:Element,
+                                                 beo:Slab-FLOOR,
+                                                 beo:Slab;
+                                               props:batid_attribute_simple "2444358";
+                                               props:familieUndTyp_simple "Streifenfundament: STB 1500 x 1500 x 500";
+                                               props:globalIdIfcRoot_attribute_simple "1ruPFzWR92wgLqXfMR$wt$";
+                                               props:isExternal_simple false;
+                                               props:nameIfcRoot_attribute_simple "Streifenfundament:STB 1500 x 1500 x 500:2444358";
+                                               props:objectTypeIfcObject_attribute_simple "Streifenfundament:STB 1500 x 1500 x 500";
+                                               props:pitchAngle_simple "0."^^xsd:double;
+                                               props:reference_simple "STB 1500 x 1500 x 500";
+                                               props:taskID_simple "11."^^xsd:double.
+inst:slab_a2bf5e3e-e854-48de-ae2a-4430db17405f a beo:Slab-FLOOR,
+                                                 bot:Element,
+                                                 beo:Slab;
+                                               props:batid_attribute_simple "2445749";
+                                               props:globalIdIfcRoot_attribute_simple "2Ylru_w5H8tgugH33R5q1V";
+                                               props:isExternal_simple false;
+                                               props:loadBearing_simple true;
+                                               props:nameIfcRoot_attribute_simple "Geschossdecke:STB 300:2445749";
+                                               props:objectTypeIfcObject_attribute_simple "Geschossdecke:STB 300";
+                                               props:pitchAngle_simple "0."^^xsd:double;
+                                               props:reference_simple "STB 300";
+                                               props:thermalTransmittance_simple "3.48666666666667"^^xsd:double.
+inst:storey_9d90071a-8d5a-46c0-9506-caf8e6dbc171 a bot:Storey;
+                                                 bot:containsElement inst:slab_a2bf5e3e-e854-48de-ae2a-4430db17405f;
+                                                 props:aboveGround_simple <https://w3id.org/express#UNKNOWN>;
+                                                 props:elevationIfcBuildingStorey_attribute_simple "3."^^xsd:double;
+                                                 props:globalIdIfcRoot_attribute_simple "2Ta0SQZLf6m9K6olZcsy5n";
+                                                 props:longNameIfcSpatialStructureElement_attribute_simple "Ebene 1";
+                                                 props:nameIfcRoot_attribute_simple "Ebene 1";
+                                                 props:name_simple "Ebene 1";
+                                                 props:objectTypeIfcObject_attribute_simple "Ebene:Ebene".
+inst:storey_9d90071a-8d5a-46c0-9506-caf8e6dbc1dc a bot:Storey;
+                                                 bot:containsElement inst:slab_75e193fd-81b2-42ea-a574-86959bffad8a,
+                                                                     inst:slab_33cea67b-0280-42d4-823c-9bb379bc8014,
+                                                                     inst:slab_75e193fd-81b2-42ea-a574-86959bffadff,
+                                                                     inst:slab_75e193fd-81b2-42ea-a574-86959bffada4;
+                                                 props:aboveGround_simple <https://w3id.org/express#UNKNOWN>;
+                                                 props:elevationIfcBuildingStorey_attribute_simple "-0.3"^^xsd:double;
+                                                 props:globalIdIfcRoot_attribute_simple "2Ta0SQZLf6m9K6olZcsy7S";
+                                                 props:longNameIfcSpatialStructureElement_attribute_simple "Ebene -1";
+                                                 props:nameIfcRoot_attribute_simple "Ebene -1";
+                                                 props:name_simple "Ebene -1";
+                                                 props:objectTypeIfcObject_attribute_simple "Ebene:Ebene".
+inst:storey_9d90071a-8d5a-46c0-9506-caf8e6dbc231 a bot:Storey;
+                                                 bot:containsElement inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175f33,
+                                                                     inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175eb7,
+                                                                     inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175e59,
+                                                                     inst:slab_75e193fd-81b2-42ea-a574-86959bffac13;
+                                                 props:aboveGround_simple <https://w3id.org/express#UNKNOWN>;
+                                                 props:elevationIfcBuildingStorey_attribute_simple "0."^^xsd:double;
+                                                 props:globalIdIfcRoot_attribute_simple "2Ta0SQZLf6m9K6olZcsy8n";
+                                                 props:longNameIfcSpatialStructureElement_attribute_simple "Ebene 0";
+                                                 props:nameIfcRoot_attribute_simple "Ebene 0";
+                                                 props:name_simple "Ebene 0";
+                                                 props:objectTypeIfcObject_attribute_simple "Ebene:Ebene".
+inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175e59 a beo:Wall,
+                                                 bot:Element;
+                                               props:batid_attribute_simple "2445235";
+                                               props:extendToStructure_simple true;
+                                               props:globalIdIfcRoot_attribute_simple "2Ylru_w5H8tgugH33R5rvP";
+                                               props:isExternal_simple true;
+                                               props:loadBearing_simple true;
+                                               props:nameIfcRoot_attribute_simple "Basiswand:LB 250:2445235";
+                                               props:objectTypeIfcObject_attribute_simple "Basiswand:LB 250";
+                                               props:reference_simple "LB 250";
+                                               props:thermalTransmittance_simple "5.188"^^xsd:double.
+inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175eb7 a bot:Element,
+                                                 beo:Wall;
+                                               props:batid_attribute_simple "2445149";
+                                               props:extendToStructure_simple true;
+                                               props:globalIdIfcRoot_attribute_simple "2Ylru_w5H8tgugH33R5rwt";
+                                               props:isExternal_simple true;
+                                               props:loadBearing_simple true;
+                                               props:nameIfcRoot_attribute_simple "Basiswand:LB 250:2445149";
+                                               props:objectTypeIfcObject_attribute_simple "Basiswand:LB 250";
+                                               props:reference_simple "LB 250";
+                                               props:thermalTransmittance_simple "5.188"^^xsd:double.
+inst:wall_a2bf5e3e-e854-48de-ae2a-4430db175f33 a beo:Wall,
+                                                 bot:Element;
+                                               props:batid_attribute_simple "2445017";
+                                               props:extendToStructure_simple true;
+                                               props:globalIdIfcRoot_attribute_simple "2Ylru_w5H8tgugH33R5ryp";
+                                               props:isExternal_simple true;
+                                               props:loadBearing_simple true;
+                                               props:nameIfcRoot_attribute_simple "Basiswand:LB 250:2445017";
+                                               props:objectTypeIfcObject_attribute_simple "Basiswand:LB 250";
+                                               props:reference_simple "LB 250";
+                                               props:thermalTransmittance_simple "5.188"^^xsd:double.
+<https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index> owl:imports <https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument.rdf>,
+                                                                          <https://standards.iso.org/iso/21597/-1/ed-1/en/Container.rdf>,
+                                                                          <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset.rdf>,
+                                                                          <https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset.rdf>.
+:ContainerDescription-22db6a24-0e78-4649-8568-3a20b73528c9 a ct:ContainerDescription;
+                                                           ct:conformanceIndicator "ICDD-Part1-Container";
+                                                           ct:containsDocument :InternalDocument-a1367461-d977-4ddc-b621-f95ba53018c3,
+                                                                               :InternalDocument-f7690688-819e-4722-a048-82b6b9d9746c,
+                                                                               :PayloadProxy-e15ddb70-e686-4eb5-af02-96ac367bb739,
+                                                                               :PayloadProxy-0b0259fe-8a6b-4b04-b702-921f427034b4;
+                                                           ct:containsLinkset :Linkset-5ad34499-f768-4493-b9ff-ce40d3c8beef;
+                                                           ct:createdBy :Person-bc13bfe8-e46e-4f0a-80fe-4539d4be4793;
+                                                           ct:creationDate "03.06.2022 09:22:38"^^xsd:dateTime;
+                                                           ct:description "Building: Garage / Links: Binary";
+                                                           ct:isModified "True"^^xsd:boolean;
+                                                           ct:modificationDate "10.06.2022 11:15:51"^^xsd:dateTime;
+                                                           ct:modifiedBy :Person-bc13bfe8-e46e-4f0a-80fe-4539d4be4793;
+                                                           ct:versionDescription "Initial Version";
+                                                           ct:versionId "1".
+:InternalDocument-a1367461-d977-4ddc-b621-f95ba53018c3 a ct:InternalDocument;
+                                                       ct:createdBy :Person-bc13bfe8-e46e-4f0a-80fe-4539d4be4793;
+                                                       ct:creationDate "03.06.2022 11:47:25"^^xsd:dateTime;
+                                                       ct:description "This document has been added using the ICDDToolkitLibrary.";
+                                                       ct:filename "schedule.xml";
+                                                       ct:filetype "xml";
+                                                       ct:format "text/xml";
+                                                       ct:name "schedule.xml";
+                                                       ct:versionDescription "This is the first version added using the ICDDToolkitLibrary.";
+                                                       ct:versionId "1".
+:InternalDocument-f7690688-819e-4722-a048-82b6b9d9746c a ct:InternalDocument;
+                                                       ct:createdBy :Person-bc13bfe8-e46e-4f0a-80fe-4539d4be4793;
+                                                       ct:creationDate "03.06.2022 11:47:35"^^xsd:dateTime;
+                                                       ct:description "This document has been added using the ICDDToolkitLibrary.";
+                                                       ct:filename "model.ifc";
+                                                       ct:filetype "ifc";
+                                                       ct:format "application/octet-stream";
+                                                       ct:name "model.ifc";
+                                                       ct:versionDescription "This is the first version added using the ICDDToolkitLibrary.";
+                                                       ct:versionId "1".
+:Linkset-5ad34499-f768-4493-b9ff-ce40d3c8beef a ct:Linkset;
+                                              ct:createdBy :Person-bc13bfe8-e46e-4f0a-80fe-4539d4be4793;
+                                              ct:creationDate "03.06.2022 11:48:10"^^xsd:dateTime;
+                                              ct:filename "linkset-20220603-114745.rdf";
+                                              ct:isModified "True"^^xsd:boolean;
+                                              ct:modificationDate "03.06.2022 11:48:10"^^xsd:dateTime.
+:PayloadProxy-0b0259fe-8a6b-4b04-b702-921f427034b4 a exdc:PayloadProxy;
+                                                   ct:creationDate "10.06.2022 11:15:51"^^xsd:dateTime;
+                                                   ct:description "This ExtPayloadProxy has been added for the payload triples file model.instances";
+                                                   ct:filetype "http";
+                                                   ct:format "rfc3986";
+                                                   ct:name "model.instances.ttl";
+                                                   ct:url "file:///C:/inetpub/wwwroot/data-dev/kFhSQwtMbEWaBZsSgkJzVw/1c66a5b5-c37e-4236-948a-a579e078c0a3/Payload%20triples/model.instances.ttl";
+                                                   ct:versionDescription "This is the first version added using the ICDDToolkitLibrary.";
+                                                   ct:versionId "1".
+:PayloadProxy-e15ddb70-e686-4eb5-af02-96ac367bb739 a exdc:PayloadProxy;
+                                                   ct:creationDate "10.06.2022 11:15:51"^^xsd:dateTime;
+                                                   ct:description "This ExtPayloadProxy has been added for the payload triples file schedule.instances";
+                                                   ct:filetype "http";
+                                                   ct:format "rfc3986";
+                                                   ct:name "schedule.instances.ttl";
+                                                   ct:url "https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/cto/inst";
+                                                   ct:versionDescription "This is the first version added using the ICDDToolkitLibrary.";
+                                                   ct:versionId "1".
+:Person-96a0e986-b334-42d5-aa2a-cfd3e19a012c a ct:Person;
+                                             ct:creationDate "09.06.2022 15:43:45"^^xsd:dateTime;
+                                             ct:description "description for philipphagedorn";
+                                             ct:name "philipphagedorn".
+:Person-bc13bfe8-e46e-4f0a-80fe-4539d4be4793 a ct:Person;
+                                             ct:creationDate "03.06.2022 09:22:38"^^xsd:dateTime;
+                                             ct:name "felixcleve".
+ns1:CONSTRUCTIONPROJECT a cto:TaskContext,
+                          msproj:Project.
+ns1:Task_0 msproj:UID "0";
+           a cto:Task,
+             msproj:Task;
+           prov:endedAtTime "2021-01-29T17:00:00.000000"^^xsd:dateTime;
+           prov:startedAtTime "2021-01-01T08:00:00.000000"^^xsd:dateTime;
+           cto:hasTaskContext ns1:CONSTRUCTIONPROJECT.
+ns1:Task_11_STREIFENFUNDAMENT2 msproj:UID "11";
+                               a cto:Task,
+                                 msproj:Task;
+                               prov:endedAtTime "2021-01-06T17:00:00.000000"^^xsd:dateTime;
+                               prov:startedAtTime "2021-01-05T08:00:00.000000"^^xsd:dateTime;
+                               cto:hasSimpleTaskMethodDescription "Streifenfundament 2";
+                               cto:hasTaskContext ns1:CONSTRUCTIONPROJECT.
+ns1:Task_12_BODENPLATTE msproj:UID "12";
+                        a cto:Task,
+                          msproj:Task;
+                        prov:endedAtTime "2021-01-11T17:00:00.000000"^^xsd:dateTime;
+                        prov:startedAtTime "2021-01-07T08:00:00.000000"^^xsd:dateTime;
+                        cto:afterFinishedTask ns1:Task_6_STREIFENFUNDAMENT1,
+                                              ns1:Task_11_STREIFENFUNDAMENT2;
+                        cto:hasSimpleTaskMethodDescription "Bodenplatte";
+                        cto:hasTaskContext ns1:CONSTRUCTIONPROJECT.
+ns1:Task_1_ROHBAU msproj:UID "1";
+                  a cto:Task,
+                    msproj:Task;
+                  prov:endedAtTime "2021-01-29T17:00:00.000000"^^xsd:dateTime;
+                  prov:startedAtTime "2021-01-12T08:00:00.000000"^^xsd:dateTime;
+                  cto:hasSimpleTaskMethodDescription "Rohbau";
+                  cto:hasTaskContext ns1:CONSTRUCTIONPROJECT.
+ns1:Task_35_WAENDE msproj:UID "35";
+                   a cto:Task,
+                     msproj:Task;
+                   prov:endedAtTime "2021-01-20T17:00:00.000000"^^xsd:dateTime;
+                   prov:startedAtTime "2021-01-12T08:00:00.000000"^^xsd:dateTime;
+                   cto:afterFinishedTask ns1:Task_41_FUNDAMENTE;
+                   cto:hasSimpleTaskMethodDescription "Wände";
+                   cto:hasTaskContext ns1:CONSTRUCTIONPROJECT.
+ns1:Task_40_DECKENPLATTE msproj:UID "40";
+                         a cto:Task,
+                           msproj:Task;
+                         prov:endedAtTime "2021-01-29T17:00:00.000000"^^xsd:dateTime;
+                         prov:startedAtTime "2021-01-21T08:00:00.000000"^^xsd:dateTime;
+                         cto:afterFinishedTask ns1:Task_35_WAENDE;
+                         cto:hasSimpleTaskMethodDescription "Deckenplatte";
+                         cto:hasTaskContext ns1:CONSTRUCTIONPROJECT.
+ns1:Task_41_FUNDAMENTE msproj:UID "41";
+                       a cto:Task,
+                         msproj:Task;
+                       prov:endedAtTime "2021-01-11T17:00:00.000000"^^xsd:dateTime;
+                       prov:startedAtTime "2021-01-01T08:00:00.000000"^^xsd:dateTime;
+                       cto:hasSimpleTaskMethodDescription "Fundamente";
+                       cto:hasTaskContext ns1:CONSTRUCTIONPROJECT.
+ns1:Task_6_STREIFENFUNDAMENT1 msproj:UID "6";
+                              a cto:Task,
+                                msproj:Task;
+                              prov:endedAtTime "2021-01-04T17:00:00.000000"^^xsd:dateTime;
+                              prov:startedAtTime "2021-01-01T08:00:00.000000"^^xsd:dateTime;
+                              cto:hasSimpleTaskMethodDescription "Streifenfundament 1";
+                              cto:hasTaskContext ns1:CONSTRUCTIONPROJECT.
+<https://icdd.vm.rub.de/data/1_Garage_Binary-202236976/index/ls/linkset-20220603-114745> owl:imports <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset.rdf>.
+ns0:BinaryLink-05384927-2769-413d-8a6b-77a8b69935da a ls:BinaryLink;
+                                                    ct:createdBy :Person-bc13bfe8-e46e-4f0a-80fe-4539d4be4793;
+                                                    ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                    ls:hasLinkElement ns0:LinkElement-34b13dbc-2631-4113-9088-fdb764c909fb,
+                                                                      ns0:LinkElement-3640d443-e887-446f-b528-5ebe58bd31bf.
+ns0:BinaryLink-31dbae8c-6f25-4d64-9463-5e296866a658 a ls:BinaryLink;
+                                                    ct:createdBy :Person-bc13bfe8-e46e-4f0a-80fe-4539d4be4793;
+                                                    ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                    ls:hasLinkElement ns0:LinkElement-8705470d-5f0b-4d8c-88ea-58c92e813232,
+                                                                      ns0:LinkElement-aa01dcca-dc7e-43c7-858a-25c4f4947b00.
+ns0:BinaryLink-341c9b92-f177-4c8f-884f-05b3aa08e03e a ls:BinaryLink;
+                                                    ct:createdBy :Person-bc13bfe8-e46e-4f0a-80fe-4539d4be4793;
+                                                    ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                    ls:hasLinkElement ns0:LinkElement-3cad641b-1b77-41a1-9dd4-4b0070ba987d,
+                                                                      ns0:LinkElement-ea1f8965-284c-4411-876b-cc2959463258.
+ns0:BinaryLink-372dc357-c167-4489-a57f-cca7a4c43b07 a ls:BinaryLink;
+                                                    ct:createdBy :Person-bc13bfe8-e46e-4f0a-80fe-4539d4be4793;
+                                                    ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                    ls:hasLinkElement ns0:LinkElement-dfbed018-0dc1-4656-ba5b-e26506c05902,
+                                                                      ns0:LinkElement-e3a65af1-8d44-4a57-8872-41a81f875723.
+ns0:BinaryLink-58422234-dcf8-4de4-8106-42664edb9df5 a ls:BinaryLink;
+                                                    ct:createdBy :Person-bc13bfe8-e46e-4f0a-80fe-4539d4be4793;
+                                                    ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                    ls:hasLinkElement ns0:LinkElement-be5f106d-ea73-4a4d-9545-4f4179833da8,
+                                                                      ns0:LinkElement-eefbcd9c-28a1-4f4a-a5a4-9b9359eb29b8.
+ns0:BinaryLink-8495e80a-0f5b-4f76-96bb-668e594f9558 a ls:BinaryLink;
+                                                    ct:createdBy :Person-bc13bfe8-e46e-4f0a-80fe-4539d4be4793;
+                                                    ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                    ls:hasLinkElement ns0:LinkElement-6b8b2379-272b-4a8c-9f63-12fe4b0dea63,
+                                                                      ns0:LinkElement-adaebee6-b714-4572-aac2-937963d7aebd.
+ns0:BinaryLink-8a6fdac2-fcba-457b-afe3-57dfd00171ce a ls:BinaryLink;
+                                                    ct:createdBy :Person-bc13bfe8-e46e-4f0a-80fe-4539d4be4793;
+                                                    ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                    ls:hasLinkElement ns0:LinkElement-24eb102a-466f-49ba-b065-e1fb7f602c76,
+                                                                      ns0:LinkElement-c5867e12-4c88-44e2-a527-ec508a5f0826.
+ns0:BinaryLink-9005578c-199d-47d2-8f8c-555c206143e8 a ls:BinaryLink;
+                                                    ct:createdBy :Person-bc13bfe8-e46e-4f0a-80fe-4539d4be4793;
+                                                    ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                    ls:hasLinkElement ns0:LinkElement-c5b53659-cc80-42d0-8d3d-21ea1c809c41,
+                                                                      ns0:LinkElement-c6a58eff-90dc-46a1-879e-6dd9b3e3c706.
+ns0:BinaryLink-b09a004d-02e3-4322-b057-c758f691fe81 a ls:BinaryLink;
+                                                    ct:createdBy :Person-bc13bfe8-e46e-4f0a-80fe-4539d4be4793;
+                                                    ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                    ls:hasLinkElement ns0:LinkElement-41304ca4-7e84-4da5-88cc-01d425dd94a4,
+                                                                      ns0:LinkElement-a8222e78-0168-4243-9b88-1bfeb26c75a6.
+ns0:LinkElement-24eb102a-466f-49ba-b065-e1fb7f602c76 a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-f7690688-819e-4722-a048-82b6b9d9746c;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-6dcd3603-d257-43c3-996d-5f88023a102b.
+ns0:LinkElement-34b13dbc-2631-4113-9088-fdb764c909fb a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-f7690688-819e-4722-a048-82b6b9d9746c;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-88269815-6db3-4176-9988-70b65ea29a66.
+ns0:LinkElement-3640d443-e887-446f-b528-5ebe58bd31bf a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-a1367461-d977-4ddc-b621-f95ba53018c3;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-d67d63c8-11c1-4c56-a028-725fc60cd760.
+ns0:LinkElement-3cad641b-1b77-41a1-9dd4-4b0070ba987d a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-a1367461-d977-4ddc-b621-f95ba53018c3;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-22ec0200-7e13-4b1f-a30f-90addcc45793.
+ns0:LinkElement-41304ca4-7e84-4da5-88cc-01d425dd94a4 a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-f7690688-819e-4722-a048-82b6b9d9746c;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-e46ecd7f-873d-4672-b137-55908a7d9da4.
+ns0:LinkElement-6b8b2379-272b-4a8c-9f63-12fe4b0dea63 a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-f7690688-819e-4722-a048-82b6b9d9746c;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-3607fd98-b67c-4bed-a85e-0d199d627db0.
+ns0:LinkElement-8705470d-5f0b-4d8c-88ea-58c92e813232 a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-a1367461-d977-4ddc-b621-f95ba53018c3;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-4dfe940f-e40a-45c3-a841-efd401477a2e.
+ns0:LinkElement-a8222e78-0168-4243-9b88-1bfeb26c75a6 a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-a1367461-d977-4ddc-b621-f95ba53018c3;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-37e1407b-b975-41ef-a4aa-6aeacbb36f26.
+ns0:LinkElement-aa01dcca-dc7e-43c7-858a-25c4f4947b00 a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-f7690688-819e-4722-a048-82b6b9d9746c;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-8f54bcda-5b14-49c0-a4d2-9725ac394397.
+ns0:LinkElement-adaebee6-b714-4572-aac2-937963d7aebd a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-a1367461-d977-4ddc-b621-f95ba53018c3;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-c79d90aa-a92f-4c82-906d-646b949686f6.
+ns0:LinkElement-be5f106d-ea73-4a4d-9545-4f4179833da8 a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-a1367461-d977-4ddc-b621-f95ba53018c3;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-d7337a93-a656-4148-a7d2-7bdadcda11ec.
+ns0:LinkElement-c5867e12-4c88-44e2-a527-ec508a5f0826 a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-a1367461-d977-4ddc-b621-f95ba53018c3;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-9ee1c2f7-99f9-4f2a-b226-6d798dea91a5.
+ns0:LinkElement-c5b53659-cc80-42d0-8d3d-21ea1c809c41 a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-f7690688-819e-4722-a048-82b6b9d9746c;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-69e657bd-ce52-4369-86d0-32f3948f04ea.
+ns0:LinkElement-c6a58eff-90dc-46a1-879e-6dd9b3e3c706 a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-a1367461-d977-4ddc-b621-f95ba53018c3;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-ec32cc5f-ad45-41cb-ae08-7d23db2e47fa.
+ns0:LinkElement-dfbed018-0dc1-4656-ba5b-e26506c05902 a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-f7690688-819e-4722-a048-82b6b9d9746c;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-37add029-fede-4405-a961-15bc3b74f4ff.
+ns0:LinkElement-e3a65af1-8d44-4a57-8872-41a81f875723 a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-a1367461-d977-4ddc-b621-f95ba53018c3;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-774e0990-5e62-4f3f-9c0b-d4322795846a.
+ns0:LinkElement-ea1f8965-284c-4411-876b-cc2959463258 a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-f7690688-819e-4722-a048-82b6b9d9746c;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-289e60fa-7880-4093-aff4-3c86f1b98075.
+ns0:LinkElement-eefbcd9c-28a1-4f4a-a5a4-9b9359eb29b8 a ls:LinkElement;
+                                                     ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ct:isModified "True"^^xsd:boolean;
+                                                     ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                     ls:hasDocument :InternalDocument-f7690688-819e-4722-a048-82b6b9d9746c;
+                                                     ls:hasIdentifier ns0:StringBasedIdentifier-7e9a4e9e-2971-4520-8e2b-119e992f0822.
+ns0:Ontology-ff4caef5-9c4a-4246-96bc-a5a495393489 a owl:Ontology;
+                                                  ct:creationDate "03.06.2022 11:48:10"^^xsd:dateTime;
+                                                  ct:isModified "True"^^xsd:boolean;
+                                                  ct:modificationDate "03.06.2022 11:48:10"^^xsd:dateTime.
+ns0:StringBasedIdentifier-22ec0200-7e13-4b1f-a30f-90addcc45793 a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "35";
+                                                               ls:identifierField "UID".
+ns0:StringBasedIdentifier-289e60fa-7880-4093-aff4-3c86f1b98075 a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "2Ylru_w5H8tgugH33R5rwt";
+                                                               ls:identifierField "globalId".
+ns0:StringBasedIdentifier-3607fd98-b67c-4bed-a85e-0d199d627db0 a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "1ruPFzWR92wgLqXfMR$wsA";
+                                                               ls:identifierField "globalId".
+ns0:StringBasedIdentifier-37add029-fede-4405-a961-15bc3b74f4ff a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "1ruPFzWR92wgLqXfMR$wt$";
+                                                               ls:identifierField "globalId".
+ns0:StringBasedIdentifier-37e1407b-b975-41ef-a4aa-6aeacbb36f26 a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "35";
+                                                               ls:identifierField "UID".
+ns0:StringBasedIdentifier-4dfe940f-e40a-45c3-a841-efd401477a2e a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "6";
+                                                               ls:identifierField "UID".
+ns0:StringBasedIdentifier-69e657bd-ce52-4369-86d0-32f3948f04ea a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "1ruPFzWR92wgLqXfMR$wmJ";
+                                                               ls:identifierField "globalId".
+ns0:StringBasedIdentifier-6dcd3603-d257-43c3-996d-5f88023a102b a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "1ruPFzWR92wgLqXfMR$wsa";
+                                                               ls:identifierField "globalId".
+ns0:StringBasedIdentifier-774e0990-5e62-4f3f-9c0b-d4322795846a a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "11";
+                                                               ls:identifierField "UID".
+ns0:StringBasedIdentifier-7e9a4e9e-2971-4520-8e2b-119e992f0822 a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "2Ylru_w5H8tgugH33R5ryp";
+                                                               ls:identifierField "globalId".
+ns0:StringBasedIdentifier-88269815-6db3-4176-9988-70b65ea29a66 a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "2Ylru_w5H8tgugH33R5q1V";
+                                                               ls:identifierField "globalId".
+ns0:StringBasedIdentifier-8f54bcda-5b14-49c0-a4d2-9725ac394397 a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "0ppgPx0e12r88ycxDvl80K";
+                                                               ls:identifierField "globalId".
+ns0:StringBasedIdentifier-9ee1c2f7-99f9-4f2a-b226-6d798dea91a5 a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "6";
+                                                               ls:identifierField "UID".
+ns0:StringBasedIdentifier-c79d90aa-a92f-4c82-906d-646b949686f6 a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "11";
+                                                               ls:identifierField "UID".
+ns0:StringBasedIdentifier-d67d63c8-11c1-4c56-a028-725fc60cd760 a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "40";
+                                                               ls:identifierField "UID".
+ns0:StringBasedIdentifier-d7337a93-a656-4148-a7d2-7bdadcda11ec a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "35";
+                                                               ls:identifierField "UID".
+ns0:StringBasedIdentifier-e46ecd7f-873d-4672-b137-55908a7d9da4 a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "2Ylru_w5H8tgugH33R5rvP";
+                                                               ls:identifierField "globalId".
+ns0:StringBasedIdentifier-ec32cc5f-ad45-41cb-ae08-7d23db2e47fa a ls:StringBasedIdentifier;
+                                                               ct:creationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ct:isModified "True"^^xsd:boolean;
+                                                               ct:modificationDate "03.06.2022 11:48:11"^^xsd:dateTime;
+                                                               ls:identifier "12";
+                                                               ls:identifierField "UID".
+<urn:bot:geom:pt:9d90071a-8d5a-46c0-9506-caf819245d01> geo:asWKT "POINT (11.3447783432 48.815359802)"^^geo:wktLiteral.

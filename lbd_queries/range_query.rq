@@ -1,0 +1,14 @@
+SELECT DISTINCT ?range
+WHERE {
+        { ?property rdfs:range ?range }
+        UNION
+        { ?property schema1:rangeIncludes ?range }
+        UNION
+        { ?property rdfs:range ?superclass .
+          ?range rdfs:subClassOf+ ?superclass .
+        }
+        UNION
+        { ?property schema1:rangeIncludes ?superclass .
+          ?range rdfs:subClassOf+ ?superclass .
+        }
+}

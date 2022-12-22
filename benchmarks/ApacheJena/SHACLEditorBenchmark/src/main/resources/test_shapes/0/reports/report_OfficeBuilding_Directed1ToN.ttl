@@ -1,0 +1,306 @@
+@prefix :         <https://icdd.vm.rub.de/data/43_OfficeBuilding_Directed1ToN-202236857/index#> .
+@prefix IFC4-PSD: <https://www.linkedbuildingdata.net/IFC4-PSD#> .
+@prefix beo:      <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix bot:      <https://w3id.org/bot#> .
+@prefix ct:       <https://standards.iso.org/iso/21597/-1/ed-1/en/Container#> .
+@prefix cto:      <https://w3id.org/cto#> .
+@prefix els:      <https://standards.iso.org/iso/21597/-2/ed-1/en/ExtendedLinkset#> .
+@prefix exdc:     <https://icdd.vm.rub.de/ontology/icdd/ExtendedDocument#> .
+@prefix furn:     <http://pi.pauwel.be/voc/furniture#> .
+@prefix geo:      <http://www.opengis.net/ont/geosparql#> .
+@prefix idx:      <https://icdd.vm.rub.de/data/43_OfficeBuilding_Directed1ToN-202236857/index#> .
+@prefix ifc:      <https://standards.buildingsmart.org/IFC/DEV/IFC2x3/TC1/OWL#> .
+@prefix inst:     <https://icdd.vm.rub.de/convert/ifc/81dcb92b-c7e5-4228-96ad-df3a79dafce2#> .
+@prefix lbd:      <https://linkebuildingdata.org/LBD#> .
+@prefix ls:       <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#> .
+@prefix lse:      <https://icdd.vm.rub.de/ontology/icdd/LinksetSparqlExtension#> .
+@prefix mep:      <http://pi.pauwel.be/voc/distributionelement#> .
+@prefix msproj:   <http://schemas.microsoft.com/project#> .
+@prefix ns0:      <https://icdd.vm.rub.de/data/43_OfficeBuilding_Directed1ToN-202236857/index/ls/linkset-20220610-103859#> .
+@prefix ns1:      <https://icdd.vm.rub.de/data/43_OfficeBuilding_Directed1ToN-202236857/index/cto/inst#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix props:    <https://w3id.org/props#> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:       <http://www.w3.org/ns/shacl#> .
+@prefix smls:     <https://w3id.org/def/smls-owl#> .
+@prefix unit:     <http://qudt.org/vocab/unit/> .
+@prefix xml:      <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+
+[ rdf:type     sh:ValidationReport ;
+  sh:conforms  false ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba92f ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba907 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba90d ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d36 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba8f3 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba8f9 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba8f0 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441b97f8 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba86f ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d02 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba8e2 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d3d ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_7dbced0e-75c5-49e5-96fe-c17e419a519e ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba912 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba842 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba8f6 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d09 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba859 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba8fc ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d18 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba90a ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba8ff ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba85c ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d1b ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba845 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d0c ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d30 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d27 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba85f ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba856 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d05 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d33 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_c9089c8f-7a55-4109-80bd-c449441ba853 ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ] ;
+  sh:result    [ rdf:type                      sh:ValidationResult ;
+                 sh:focusNode                  inst:space_a9636182-0fb7-45a8-849e-a2e5ac780d3a ;
+                 sh:resultMessage              "minCount[5]: Invalid cardinality: expected min 5: Got count = 0" ;
+                 sh:resultPath                 bot:hasElement ;
+                 sh:resultSeverity             sh:Violation ;
+                 sh:sourceConstraintComponent  sh:MinCountConstraintComponent ;
+                 sh:sourceShape                _:b0
+               ]
+] .

@@ -1,0 +1,26 @@
+@prefix ls: <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:NodeShape ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:property [ a sh:PropertyShape ;
+            sh:class ls:LinkElement ;
+            sh:maxCount 2 ;
+            sh:minCount 2 ;
+            sh:nodeKind sh:BlankNodeOrIRI ;
+            sh:path ls:hasFromLinkElement ;
+            sh:qualifiedMaxCount 2 ;
+            sh:qualifiedMinCount 2 ;
+            sh:qualifiedValueShape [ a sh:NodeShape ;
+                    sh:nodeKind sh:BlankNodeOrIRI ;
+                    sh:property [ a sh:PropertyShape ;
+                            sh:class ls:Identifier ;
+                            sh:maxCount 1 ;
+                            sh:minCount 1 ;
+                            sh:nodeKind sh:BlankNodeOrIRI ;
+                            sh:path ls:hasIdentifier ] ;
+                    sh:targetClass ls:LinkElement ] ;
+            sh:qualifiedValueShapesDisjoint true ] ;
+    sh:targetClass ls:Directed1toNLink .
+
